@@ -18,3 +18,8 @@ cat_function <- function(love=TRUE){
   }
 }
 
+#' On attach message
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage("Welcome to the Hakai Institute Juvenile Salmon Program R Package!")
+}
+

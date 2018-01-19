@@ -23,3 +23,11 @@ cat_function <- function(love=TRUE){
   packageStartupMessage("Welcome to the Hakai Institute Juvenile Salmon Program R Package!")
 }
 
+#' CPUE function
+#'
+#' This function allows you to
+#' @param love Do you love cats? Defaults to TRUE.
+#' @keywords cats
+#' @export
+#' @examples
+#' cat_function()

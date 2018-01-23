@@ -20,14 +20,7 @@ cat_function <- function(love=TRUE){
 
 #' On attach message
 .onAttach <- function(libname, pkgname) {
-  packageStartupMessage("Welcome to the Hakai Institute Juvenile Salmon Program R Package!")
+  packageStartupMessage("Welcome to the Hakai Institute Juvenile Salmon Program R Package! Type
+                        ?hakaisalmon for a brief introduction of how to work with this datapackage")
 }
 
-#' CPUE function
-#'
-#' This function allows you to
-#' @param love Do you love cats? Defaults to TRUE.
-#' @keywords cats
-#' @export
-#' @examples
-#' cat_function()

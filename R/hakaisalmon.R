@@ -7,12 +7,12 @@
 #'  with JSP data. All program data is loaded into memory upon calling
 #'  `library(hakaisalmon). You will not see datatables as objects in your
 #'  environment but to demonstrate that the data is loaded into memory begin to
-#'  type `survey` in your script you should see several JSP data tables pop up
-#'  in the tab completion window.
+#'  type `survey` in your script and you should see several JSP data tables pop
+#'  up in the tab completion window.
 #'
-#'  All the tables from the program database are available indvidually (not
-#'  joined) here. However, some of the more common joins have already be
-#'  completed here. The common joins available are:
+#'  All the tables from the program database are available indvidually.
+#'  However, some of the more common joins have already be
+#'  completed for convenience. The common joins available are:
 #'
 #'  \itemize{ \item `survey_seines` - Joins survey and seine data \item
 #'  `fish_data` - Joins fish_field_data with fish_lab_data \item
@@ -31,6 +31,7 @@
 #'  A full list of the tables in this datapackage and descriptions of their
 #'  variables can be found
 #'  \href{https://docs.google.com/spreadsheets/d/10UYCrwYDBDPTFauyy2GvckCCKBc3pGT1O4WcvuB48rs/edit#gid=1094153037}{here}.
+#'
 #'
 #'
 #'

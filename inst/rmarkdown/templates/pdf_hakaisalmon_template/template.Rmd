@@ -1,0 +1,27 @@
+---
+title: "Hakai Institute Juvenile Salmon Program Report"
+output:
+  rmarkdown::pdf_document:
+    
+    fig_caption: yes
+    includes:
+      in_header: figure_opts.tex
+    latex_engine: xelatex
+sansfont: Times New Roman
+fontsize: 12pt
+
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{sectsty} \sectionfont{\centering \emph}
+      
+---
+
+\begin{center}
+\large
+— Hakai Institute Juvenile Salmon Program —
+\end{center}
+
+```{r}
+library(hakaisalmon)
+library(tidyverse)
+```

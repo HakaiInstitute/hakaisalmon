@@ -21,7 +21,7 @@ header-includes:
 — Hakai Institute Juvenile Salmon Program —
 \end{center}
 
-```{r}
+```{r, include = FALSE}
 library(hakaisalmon)
 library(tidyverse)
 ```

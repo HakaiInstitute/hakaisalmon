@@ -22,6 +22,8 @@ header-includes:
 \end{center}
 
 ```{r, include = FALSE}
+knitr::opts_chunk$set(include = FALSE)
 library(hakaisalmon)
 library(tidyverse)
+options(scipen=999) # This removes scientific notation for inline output ie `r object` in the report text
 ```

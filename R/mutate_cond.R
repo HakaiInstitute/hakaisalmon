@@ -1,11 +1,11 @@
-#' A condition mutate function
+#' A conditional mutate function that allows you to mutate a variable based on another
 #'
-#' This function allows you to mutate one 
-#' @param .data Do you love cats? Defaults to TRUE.
+#' @param .data, variable to test for logical equality, variable you want to mutate
 #' @keywords conditional mutate
 #' @export
 #' @examples
-#' mutate_cond()
+#' df <- as.data.frame(x = c(1,2,3), y = c(a,b,c))
+#' mutate_cond(df, x == 1, y == "c" )
 
 mutate_cond <- function(.data, condition, ..., envir = parent.frame()) {
   condition <- eval(substitute(condition), .data, envir)

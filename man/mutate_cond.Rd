@@ -2,18 +2,19 @@
 % Please edit documentation in R/mutate_cond.R
 \name{mutate_cond}
 \alias{mutate_cond}
-\title{A condition mutate function}
+\title{A conditional mutate function that allows you to mutate a variable based on another}
 \usage{
 mutate_cond(.data, condition, ..., envir = parent.frame())
 }
 \arguments{
-\item{.data}{Do you love cats? Defaults to TRUE.}
+\item{.data, }{variable to test for logical equality, variable you want to mutate}
 }
 \description{
-This function allows you to mutate one
+A conditional mutate function that allows you to mutate a variable based on another
 }
 \examples{
-mutate_cond()
+df <- as.data.frame(x = c(1,2,3), y = c(a,b,c))
+mutate_cond(df, x == 1, y == "c" )
 }
 \keyword{conditional}
 \keyword{mutate}

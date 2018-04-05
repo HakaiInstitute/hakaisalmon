@@ -17,3 +17,4 @@ Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
+Url: https://github.com/HakaiInstitute/hakaisalmon

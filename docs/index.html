@@ -30,7 +30,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.0</span>
+        <span class="label label-danger" data-toggle="tooltip" data-placement="bottom" title="Unreleased package">0.1.0</span>
       </span>
     </div>
 
@@ -43,10 +43,10 @@
   </a>
 </li>
 <li>
-  <a href="articles/hakaisalmon.html">Get started</a>
+  <a href="reference/index.html">Reference</a>
 </li>
 <li>
-  <a href="reference/index.html">Reference</a>
+  <a href="news/index.html">Changelog</a>
 </li>
       </ul>
 <ul class="nav navbar-nav navbar-right"></ul>
@@ -63,12 +63,31 @@
     <div id="read-me" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#read-me" class="anchor"></a>READ ME</h1></div>
-<p>TL;DR</p>
-<p>This is an R package for the Hakai Institute Juvenile Salmon Program. It contains all program data, as well as several custom functions for calculating common parameters and summaries.</p>
-<p>To install:</p>
-<p>Go to <a href="https://github.com/settings/tokens" class="uri">https://github.com/settings/tokens</a> and check the <code>repo</code> box scroll down and hit generate token.</p>
+<p>This is an internal R package for the Hakai Institute Juvenile Salmon Program.</p>
+<p>The hakaisalmon package is primarily a data package that contains citable versions of the Hakai Institute Juvenile Salmon Program (JSP) data. The purpose of this package is to make it as easy as possible to load salmon program data, and facilitate collaborative development of custom functions for summarizing and analyzing program data. If you would like to suggest improvements, features, or bug fixes please do so at <a href="https://github.com/HakaiInstitute/hakaisalmon/issues" class="uri">https://github.com/HakaiInstitute/hakaisalmon/issues</a>. If you would like to modify any part of this package you are encourage to submit a <a href="https://help.github.com/articles/about-pull-requests/">pull request</a>.</p>
+<p>To install this package:</p>
+<p>First, a <a href="https://github.com/join">free GitHUB account</a> is required to be added as an external collaborator to the private package repository. Contact the package maintainer to request this.</p>
+<p>Once you have invited as an external collaborator, go to <a href="https://github.com/settings/tokens" class="uri">https://github.com/settings/tokens</a> and check the <code>repo</code> box scroll down and hit generate token.</p>
 <p>Copy the token.</p>
 <p>In the R-Studio console run the following two lines of code: <code>install.packages("devtools")</code> <code><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">devtools::install_github("HakaiInstitute/hakaisalmon", auth_token = "PASTE YOUR TOKEN HERE")</a></code></p>
+<div id="usage" class="section level2">
+<h2 class="hasAnchor">
+<a href="#usage" class="anchor"></a>Usage</h2>
+<p>All program data is loaded into memory upon calling <code>library(hakaisalmon)</code>. You will not see datatables as objects in your environment but to demonstrate that the data is loaded into memory begin to type <code>survey</code> in your script and you should see several JSP data tables pop up in the tab completion window.</p>
+<p>All the tables from the program database are available. See the reference file for a comlplete list of data tables available. Some of the more common joins have already be completed for convenience.</p>
+<p>The tables in this package follow a tidy relational database structure. If you wish to join other tables you can do so using the <code>dplyr::left_join function</code>. If this is something you have to do often, consider including your custom join in this package by <a href="https://github.com/HakaiInstitute/hakaisalmon/issues">submitting an issue</a>, or by submitting a pull request.</p>
+<p>The metadata associated with all the data in this package is currently stored in a spreadsheet and we are working to formalize the metadata of this dataset into a standardized format to share. Until then the spreadsheet is available <a href="%22LINK%20TO%20THE%20FILE%20STORED%20ON%20GITHUB%22">here</a></p>
+</div>
+<div id="permissions-and-updates" class="section level2">
+<h2 class="hasAnchor">
+<a href="#permissions-and-updates" class="anchor"></a>Permissions and Updates</h2>
+<p>This is a private package, and the user token you generated to install this package must not be shared. I enncourage you to check this website before starting or finalizing any analysis, to check for new or updated data.</p>
+</div>
+<div id="citing-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#citing-data" class="anchor"></a>Citing Data</h2>
+<p>Coming soon :)</p>
+</div>
 </div>
   </div>
 
@@ -89,7 +108,8 @@
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>Brett Johnson <br><small class="roles"> Author, maintainer </small>  </li>
+<li>
+<a href="https://www.brettjohnson.org">Brett Johnson</a> <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
@@ -98,7 +118,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Brett Johnson.</p>
+  <p>Developed by <a href="https://www.brettjohnson.org">Brett Johnson</a>.</p>
 </div>
 
 <div class="pkgdown">

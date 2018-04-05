@@ -1,0 +1,37 @@
+#' @title Site, date, and other metadata associated with a survey
+#'
+#' @description
+#'
+#' @format A data.frame with many variables
+#'
+#' \describe{
+#'
+#'     \item{ortho}{The orthographic word.}
+#'
+#'     \item{set}{Item set. Maps word pairs, contrasting in regularity, but
+#'     approximately matched for onset phoneme, word frequency, and
+#'     length.}
+#'
+#'     \item{wordfreq}{Word frequency.}
+#'
+#'     \item{samepron}{Number of other words with same orthographic word
+#'     body having the same pronunciation.}
+#'
+#'     \item{MFA}{Number of other words where the same orthographic word
+#'     body has the Most Frequent Alternative pronunciation.}
+#'
+#'     \item{LFA}{Number of other words where the same orthographic word
+#'     body has a Less Frequent Alternative pronunciation.}
+#'
+#'     \item{frequency}{Word frequency bin: H (high) or L (low).}
+#'
+#'     \item{regularity}{Spelling regularity bin: R (regular) or E
+#'     (exception).}
+#'
+#' }
+#'
+#' @source Taraban, R., & McClelland, J. L. (1987). Conspiracy effects
+#'     in word pronunciation. Journal of Memory and Language, 26(6), 608-631.
+#'     doi:Doi 10.1016/0749-596x(87)90105-7
+"survey_data"
+

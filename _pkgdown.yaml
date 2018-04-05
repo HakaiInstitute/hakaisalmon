@@ -1,0 +1,24 @@
+url: http://pkgdown.r-lib.org
+
+authors:
+  Brett Johnson:
+    href: https://www.brettjohnson.org
+
+template:
+  params:
+
+development:
+  mode: unreleased
+
+reference:
+  - title: Data
+    desc:  Data sets included in the hakaisalmon package
+    contents:
+    - survey_data
+
+  - title: Functions
+    desc: Custom functions for summarizing and analyzing
+    contents:
+    - onAttach
+    - mutate_cond
+

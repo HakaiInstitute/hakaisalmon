@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A conditional mutate function that allows you to mutate a variable based on another — mutate_cond • hakaisalmon</title>
+<title>Site, date, and other metadata associated with a survey — survey_data • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,9 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="A conditional mutate function that allows you to mutate a variable based on another — mutate_cond" />
+<meta property="og:title" content="Site, date, and other metadata associated with a survey — survey_data" />
 
-<meta property="og:description" content="A conditional mutate function that allows you to mutate a variable based on another" />
+<meta property="og:description" content="" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -91,38 +91,53 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>A conditional mutate function that allows you to mutate a variable based on another</h1>
+    <h1>Site, date, and other metadata associated with a survey</h1>
     
-    <div class="hidden name"><code>mutate_cond.Rd</code></div>
+    <div class="hidden name"><code>survey_data.Rd</code></div>
     </div>
 
     
-    <p>A conditional mutate function that allows you to mutate a variable based on another</p>
+    
     
 
-    <pre class="usage"><span class='fu'>mutate_cond</span>(<span class='no'>.data</span>, <span class='no'>condition</span>, <span class='no'>...</span>, <span class='kw'>envir</span> <span class='kw'>=</span> <span class='fu'>parent.frame</span>())</pre>
+    <pre class="usage"><span class='no'>survey_data</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data.frame with many variables</p>
+<dl class='dl-horizontal'>
+    <dt>ortho</dt><dd><p>The orthographic word.</p></dd>
+    <dt>set</dt><dd><p>Item set. Maps word pairs, contrasting in regularity, but
+    approximately matched for onset phoneme, word frequency, and
+    length.</p></dd>
+    <dt>wordfreq</dt><dd><p>Word frequency.</p></dd>
+    <dt>samepron</dt><dd><p>Number of other words with same orthographic word
+    body having the same pronunciation.</p></dd>
+    <dt>MFA</dt><dd><p>Number of other words where the same orthographic word
+    body has the Most Frequent Alternative pronunciation.</p></dd>
+    <dt>LFA</dt><dd><p>Number of other words where the same orthographic word
+    body has a Less Frequent Alternative pronunciation.</p></dd>
+    <dt>frequency</dt><dd><p>Word frequency bin: H (high) or L (low).</p></dd>
+    <dt>regularity</dt><dd><p>Spelling regularity bin: R (regular) or E
+    (exception).</p></dd>
+    </dl>
     
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>.data, </th>
-      <td><p>variable to test for logical equality, variable you want to mutate</p></td>
-    </tr>
-    </table>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Taraban, R., &amp; McClelland, J. L. (1987). Conspiracy effects
+    in word pronunciation. Journal of Memory and Language, 26(6), 608-631.
+    doi:Doi 10.1016/0749-596x(87)90105-7</p>
     
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>df</span> <span class='kw'>&lt;-</span> <span class='fu'>as.data.frame</span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='fu'>c</span>(<span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>), <span class='kw'>y</span> <span class='kw'>=</span> <span class='fu'>c</span>(<span class='no'>a</span>,<span class='no'>b</span>,<span class='no'>c</span>))
-<span class='fu'>mutate_cond</span>(<span class='no'>df</span>, <span class='no'>x</span> <span class='kw'>==</span> <span class='fl'>1</span>, <span class='no'>y</span> <span class='kw'>==</span> <span class='st'>"c"</span> )</div><div class='output co'>#&gt; <span class='error'>Error in eval(substitute(condition), .data, envir): object 'x' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
-            
-      <li><a href="#examples">Examples</a></li>
-    </ul>
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+          </ul>
 
   </div>
 </div>

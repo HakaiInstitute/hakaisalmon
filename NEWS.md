@@ -1,8 +1,26 @@
-# hakaisalmon v0.1.0.9000
+##hakaisalmon 0.1.1
 
-* This is the development version of this package.
+### Data updates
 
-NEW DATA
-NEW FUNCTIONS
-BUG FIXES
+* Updated dissection_protocol from ‘lice enumeration only’ to ‘irregular work-up’ for U2256-U2260
+* Added UFNs of 2017 fish that were field liced but not retained
+* Added new column to called ‘analysis_planned’ to denote whether a fish had been field loused only (and not retained for further analysis), were retained for Sam James’s UBC diet study, or were retained for standard SEMSP lab analysis
+* Updated dissection status of 2015 & 2016-caught sockeye to be current as of 2017-12-08 (completed dissections of of the core site subsamples for 2015/16)
+* Added column dissection_status to package_data
+* Added to package_data: packages of undissected 2015 non-core PI, CU, CO, and HE that were inventoried in -80 Freezer 1, shelf 2, on 2018-02-05/06 
+* Changed 2-character UFNs to have leading “0” before the number, e.g. “U1” -> “U01” in in fish_field_data, fish_lab_data, stock_id, and sealice_lab_motiles (and in sample ID inventory)
+* Updated rows in stock_id with proper sample_id and UFN associations (no change to results)
+* Updated sealice_lab_motiles with counts for UFNs processed by Lauren Portner in winter 2018
+* Re-assignment of genetic stock ID due to PBS 'off by 1' data entry error for:
 
+| UFN | UFN | UFN | UFN | UFN |
+| ---- |---- |---- |---- |---- |
+| U515 | U299 | U300 | U307 | U308 |
+| U317 | U318 | U319 | U328 | U331 |
+| U332 | U333 | U408 | U409 | U410 |
+| U466 | U467 | U468 | U470 | U491 |
+| U492 | U482 |
+
+## hakaisalmon 0.1.0
+
+* This was the first version of the data package and did not receive a hakaisalmon R package version number. The dataset, however, can be found at http://dx.doi.org/10.21966/1.566666 or in the commit history of this package.

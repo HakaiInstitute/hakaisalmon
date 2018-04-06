@@ -1,37 +1,41 @@
-#' @title Site, date, and other metadata associated with a survey
+#' Site, date, and other metadata associated with a survey
 #'
-#' @description
+#' A dataset containing variables collected from juvenile salmon program site surveys
 #'
-#' @format A data.frame with many variables
 #'
 #' \describe{
-#'
-#'     \item{ortho}{The orthographic word.}
-#'
-#'     \item{set}{Item set. Maps word pairs, contrasting in regularity, but
-#'     approximately matched for onset phoneme, word frequency, and
-#'     length.}
-#'
-#'     \item{wordfreq}{Word frequency.}
-#'
-#'     \item{samepron}{Number of other words with same orthographic word
-#'     body having the same pronunciation.}
-#'
-#'     \item{MFA}{Number of other words where the same orthographic word
-#'     body has the Most Frequent Alternative pronunciation.}
-#'
-#'     \item{LFA}{Number of other words where the same orthographic word
-#'     body has a Less Frequent Alternative pronunciation.}
-#'
-#'     \item{frequency}{Word frequency bin: H (high) or L (low).}
-#'
-#'     \item{regularity}{Spelling regularity bin: R (regular) or E
-#'     (exception).}
+#'   \item{ufn}{Universal Fish Number. For 2015 and 2016 fish, assigned to each specimen in the order they were processed in the lab. For 2017 fish, ufn was assigned in the order they were processed in the field.}
+#'   \item{survey_id}{Primary key to: seine_data, ysi, ctd, zoop_tows. A unique survey ID assigned to every survey}
+#'   \item{survey_date}{yyy-mm-dd. Date upon which a survey was conducted}
+#'   \item{site_id}{unique identifier given for the geographic location of a survey}
+#'   \item{region}{DI = Discovery Islands, JS = Johnstone Strait}
+#'   \item{zone}{Ctegorization of the generalized migration route taken by outmigrating juvenile salmon (West, Central, or East for Discovery Islands; N or S for Johnstone Strait).}
+#'   \item{site_name}{Chart name for the location of a survey site}
+#'   \item{crew}{Full names of crew members}
+#'   \item{precip}{Precipitation. none, light, moderate, or heavy. Subjective categorical representation of the amount of precipitation}
+#'   \item{cloud_cover}{0, 25, 50, 75, or 100	Visual approximation of the amount of cloud cover overhead}
+#'   \item{sea_state}{0, 1, 2, 3, 4, or 5. 0 = Sea-surface smooth and mirror like. 1 = Scaly ripples, no foam crests. 2 = Small wavelets, crests glassy, no breaking. 3 = Large wavelets, crests begin to break, scattered whitecaps. 4 = small waves 1–4 ft. becoming longer, numerous whiteaps. 5 = Moderate waves 4–8 ft. taking longer form, many whitecaps, some spray.}
+#'   \item{wind_speed}{knots. 0, 0.1-5, 5-10, 10-15, 15-20, or 20-30. Estimated wind speed range observed on site}
+#'   \item{wind_direction}{N, S, E, W, NE, NW, SE, or SW. Approximation of which way the wind is coming from}
+#'   \item{tide_state}{high slack, low slack, flood, or ebb tide. Tidal state at the start of the survey}
+#'   \item{survey_time_start}{hh:mm:ss 24-hour time of commencing visual survey for site activity}
+#'   \item{survey_time_end}{hh:mm:ss 24-hour time of end of visual survey for site activity}
+#'   \item{ctd_cast_id}{This is the primary key to join survey data to CTD data. It is an automatically-generated concatenation of Site Code, Date, and drop number}
+#'   \item{zoop_sample_id}{Zooplankton Sample ID. The unique ID that identifies a zooplankton sample that is stored in a 250 mL PET jar}
+#'   \item{secchi}{Metres. Secchi depth reading in metres (rounded to nearest 0.1 m)}
+#'   \item{net_sets}{number of times the seine was deployed in a survey}
+#'   \item{set_type}{This is a category for how or who the survey was conducted. Standard surveys can be used for the purpose of CPUE calculations, other categories should not be}
+#'   \item{survey_comments}{field notes specific to survey conditions}
+#'   \item{sampling_week}{A calculated value. Julian day (j) + 4 days for historical categorization purposes, integer divide by 7. (j + 4 / 7)}
 #'
 #' }
-#'
-#' @source Taraban, R., & McClelland, J. L. (1987). Conspiracy effects
-#'     in word pronunciation. Journal of Memory and Language, 26(6), 608-631.
-#'     doi:Doi 10.1016/0749-596x(87)90105-7
 "survey_data"
 
+#' DNA sample metadata
+#'
+#' An inventory of all DNA samlpes
+#'
+#' \describe{
+#'   \item{sample_container}{blah blah}
+#' }
+"dna_metadata"

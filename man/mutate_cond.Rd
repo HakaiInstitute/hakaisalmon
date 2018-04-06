@@ -7,13 +7,16 @@
 mutate_cond(.data, condition, ..., envir = parent.frame())
 }
 \arguments{
-\item{.data, }{variable to test for logical equality, variable you want to mutate}
+\item{.data, }{the data frame or tibble you want to mutate a column in}
+
+\item{x}{The column you want to test for a logical condition}
+
+\item{y}{The coloumn you want to mutate based on logic from column x}
 }
 \description{
 A conditional mutate function that allows you to mutate a variable based on another
 }
 \examples{
-df <- as.data.frame(x = c(1,2,3), y = c(a,b,c))
 mutate_cond(df, x == 1, y == "c" )
 }
 \keyword{conditional}

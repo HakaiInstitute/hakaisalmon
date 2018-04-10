@@ -8,7 +8,7 @@ template:
   params:
 
 development:
-  mode: devel
+  mode: unreleased
 
 reference:
   - title: Data Set

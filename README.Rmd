@@ -1,12 +1,5 @@
 # hakaisalmon
 
-```{r, echo = TRUE, out.width = '100%'}
-
-knitr::include_graphics("img.png")
-```
-
- ![Normalized face](img.png)
-
 ## Introduction 
 
 This is an internal R package for the Hakai Institute Juvenile Salmon Program. It is primarily a data package that contains citable versions of the Hakai Institute Juvenile Salmon Program (JSP) data. The purpose of this package is to:

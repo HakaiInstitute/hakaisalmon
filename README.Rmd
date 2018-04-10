@@ -6,7 +6,6 @@ knitr::include_graphics("img.png")
 
 ```
 
-![](img.png)
 
 ## Introduction 
 

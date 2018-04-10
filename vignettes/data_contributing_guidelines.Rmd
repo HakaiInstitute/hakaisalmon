@@ -1,5 +1,5 @@
 ---
-title: "Data Contributing Guidelines"
+title: "Hakai Institute Juvenile Salmon Program Data Contributing Guidelines"
 date: "April 9, 2018"
 output: html_document
 vignette: >
@@ -8,7 +8,6 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-# Hakai Institute Juvenile Salmon Program Data Sharing Guidelines
 ## Contributing Data
 This guideline is relevant to researchers and collaborators who have worked with the Hakai Institute Juvenile Salmon Program (JSP), or collaborators who would like to contribute data to this growing database. This data will be incorporated into this R package, the Hakai Ecological Information Management System (EIMS), and receive a digital object identifier (DOI). The goal of this guide is to provide a framework for collaborators to organize their raw data into a tidy data set to facilitate this process.
 

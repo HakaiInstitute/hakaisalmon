@@ -31,11 +31,11 @@
 #' }
 "survey_data"
 
-#' DNA sample metadata
+#' Example Title take dna_metadata for example
 #'
-#' An inventory of all DNA samlpes
+#' This is an example description
 #'
 #' \describe{
-#'   \item{sample_container}{blah blah}
+#'   \item{variable_name}{variable description}
 #' }
 "dna_metadata"

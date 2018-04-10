@@ -3,17 +3,17 @@
 \docType{data}
 \name{dna_metadata}
 \alias{dna_metadata}
-\title{DNA sample metadata}
+\title{Example Title take dna_metadata for example}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2580 rows and 12 columns.}
 \usage{
 dna_metadata
 }
 \description{
-An inventory of all DNA samlpes
+This is an example description
 }
 \details{
 \describe{
-  \item{sample_container}{blah blah}
+  \item{variable_name}{variable description}
 }
 }
 \keyword{datasets}

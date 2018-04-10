@@ -1,11 +1,11 @@
 # hakaisalmon
 
-```{r, echo = FALSE, out.width = '100%'}
+```{r, echo = TRUE, out.width = '100%'}
 
 knitr::include_graphics("img.png")
-
 ```
 
+ ![Normalized face](img.png)
 
 ## Introduction 
 

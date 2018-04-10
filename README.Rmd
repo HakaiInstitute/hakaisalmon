@@ -1,0 +1,57 @@
+# hakaisalmon
+
+```{r, echo = FALSE, out.width = '100%'}
+
+knitr::include_graphics("img.png")
+
+```
+
+
+## Introduction 
+
+This is an internal R package for the Hakai Institute Juvenile Salmon Program. It is primarily a data package that contains citable versions of the Hakai Institute Juvenile Salmon Program (JSP) data. The purpose of this package is to:
+
+* provide a common data resource for researchers to work from; 
+* make it as easy as possible to load salmon program data into R-Studio;
+* facilitate collaborative development of custom functions for summarizing and analyzing program data;
+* produce versioned sets of data and functions to ensure analytical reproducibility;
+* serve as a formal framework for open science data sharing, collaboration, and contribution
+
+For a full description of what is in this package, see the Reference section of this website. As new data are available, this package will be updated and new versions will be released. Check back to see if the package is updated before starting or finalizing an analysis. In the Changelog section of this website you can find release notes about changes to the package or underlying data.
+
+If you would like to suggest improvements, features, or bug fixes to this package please do so at https://github.com/HakaiInstitute/hakaisalmon/issues. If you would like to modify any part of this package you are encouraged to submit a [pull request](https://help.github.com/articles/about-pull-requests/). If neither of those previous statements make much sense to you then I'll point you to the [Hakai Institute R Stats Guide](https://goose.hakai.org/rguide/#) which outlines many of the collaborative data science workflows this R package is premised on.
+
+## Installation
+
+First , make sure you have a [free GitHUB account](https://github.com/join). If you are a Hakai employee, contact EIMS to be added to Hakai Institute GitHUB organization. Otherwise, you'll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request being added as an external colllaborator.
+
+Once you have access to the repository, go to https://github.com/settings/tokens. Check the `repo` box scroll down and hit generate token.
+
+Copy the token.
+
+In the R-Studio console run the following two lines of code:
+
+`install.packages("devtools")`
+`devtools::install_github("HakaiInstitute/hakaisalmon", auth_token = "PASTE YOUR TOKEN HERE")`
+
+## Usage
+
+All program data is loaded into memory upon calling `library(hakaisalmon)`. You will not see datatables as objects in your environment but to demonstrate that the data is loaded into memory begin to type `survey` in your script and you should see several JSP data tables pop up in the tab completion window.
+
+All the tables from the program database are available. See the reference file for a comlplete list of data tables available. Some of the more common joins have already be completed for convenience. 
+
+The tables in this package follow a tidy relational database structure. If you wish to join other tables you can do so using the `dplyr::left_join function`. If this is something you have to do often, consider including your custom join in this package by [submitting an issue](https://github.com/HakaiInstitute/hakaisalmon/issues), or by submitting a pull request.
+
+The metadata associated with each variable from every data table in this package can be found in the Reference section of this website.
+
+## Citing Data
+
+This can be done by requesting a portion of the data from the hakaisalmon package receive a DOI, or by simply citing this R package.
+
+You can cite this package like this:
+
+Hakai Institute. 2018. hakaisalmon: a Juvenile Salmon Progam R package. Version 0.1.1. http://www.github.com/HakaiInstitute/hakaisalmon/
+
+
+
+

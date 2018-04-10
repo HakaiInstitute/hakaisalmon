@@ -1,610 +1,610 @@
-ufn,sample_type,sample_id,container_id,container_cell,sample_location,comments_sample,sample_status,storage_medium,qc_flag,flag_reason,qc_log,ufn_sort
-U1721,extra muscle,SXM5104,BXM2,73,BXM2-73,NA,collected,Frozen -80,N,NA,NA,1721
-U1722,extra muscle,SXM5105,BXM2,81,BXM2-81,NA,collected,Frozen -80,N,NA,NA,1722
-U1723,extra muscle,SXM5106,BXM2,65,BXM2-65,NA,collected,Frozen -80,N,NA,NA,1723
-U1724,extra muscle,SXM5107,BXM2,63,BXM2-63,NA,collected,Frozen -80,N,NA,NA,1724
-U1725,extra muscle,SXM5108,BXM2,71,BXM2-71,NA,collected,Frozen -80,N,NA,NA,1725
-U1726,extra muscle,SXM5109,BXM2,85,BXM2-85,NA,collected,Frozen -80,N,NA,NA,1726
-U1727,extra muscle,SXM5110,BXM2,75,BXM2-75,NA,collected,Frozen -80,N,NA,NA,1727
-U1728,extra muscle,SXM5111,BXM2,67,BXM2-67,NA,collected,Frozen -80,N,NA,NA,1728
-U1729,extra muscle,SXM5112,BXM2,83,BXM2-83,NA,collected,Frozen -80,N,NA,NA,1729
-U1730,extra muscle,SXM5113,BXM2,77,BXM2-77,NA,collected,Frozen -80,N,NA,NA,1730
-U1751,extra muscle,SXM5114,BXM2,82,BXM2-82,NA,collected,Frozen -80,N,NA,NA,1751
-U1752,extra muscle,SXM5115,BXM2,76,BXM2-76,NA,collected,Frozen -80,N,NA,NA,1752
-U1753,extra muscle,SXM5116,BXM2,78,BXM2-78,NA,collected,Frozen -80,N,NA,NA,1753
-U1754,extra muscle,SXM5117,BXM2,79,BXM2-79,NA,collected,Frozen -80,N,NA,NA,1754
-U1755,extra muscle,SXM5118,BXM2,66,BXM2-66,NA,collected,Frozen -80,N,NA,NA,1755
-U1756,extra muscle,SXM5119,BXM2,68,BXM2-68,NA,collected,Frozen -80,N,NA,NA,1756
-U1757,extra muscle,SXM5120,BXM2,72,BXM2-72,NA,collected,Frozen -80,N,NA,NA,1757
-U1758,extra muscle,SXM5121,BXM2,74,BXM2-74,NA,collected,Frozen -80,N,NA,NA,1758
-U1759,extra muscle,SXM5122,BXM2,69,BXM2-69,NA,collected,Frozen -80,N,NA,NA,1759
-U1760,extra muscle,SXM5123,BXM2,64,BXM2-64,NA,collected,Frozen -80,N,NA,NA,1760
-U1791,extra muscle,SXM5124,BXM2,58,BXM2-58,NA,collected,Frozen -80,N,NA,NA,1791
-U1792,extra muscle,SXM5125,BXM2,53,BXM2-53,NA,collected,Frozen -80,N,NA,NA,1792
-U1793,extra muscle,SXM5126,BXM2,57,BXM2-57,NA,collected,Frozen -80,N,NA,NA,1793
-U1794,extra muscle,SXM5127,BXM2,52,BXM2-52,NA,collected,Frozen -80,N,NA,NA,1794
-U1795,extra muscle,SXM5128,BXM2,56,BXM2-56,NA,collected,Frozen -80,N,NA,NA,1795
-U1796,extra muscle,SXM5129,BXM2,61,BXM2-61,NA,collected,Frozen -80,N,NA,NA,1796
-U1797,extra muscle,SXM5130,BXM2,54,BXM2-54,NA,collected,Frozen -80,N,NA,NA,1797
-U1798,extra muscle,SXM5131,BXM2,55,BXM2-55,NA,collected,Frozen -80,N,NA,NA,1798
-U1799,extra muscle,SXM5132,BXM2,59,BXM2-59,NA,collected,Frozen -80,N,NA,NA,1799
-U1800,extra muscle,SXM5133,BXM2,172,BXM2-172,NA,collected,Frozen -80,N,NA,NA,1800
-U1871,extra muscle,SXM5134,BXM2,90,BXM2-90,NA,collected,Frozen -80,N,NA,NA,1871
-U1872,extra muscle,SXM5135,BXM2,70,BXM2-70,NA,collected,Frozen -80,N,NA,NA,1872
-U1873,extra muscle,SXM5136,BXM2,40,BXM2-40,NA,collected,Frozen -80,N,NA,NA,1873
-U1874,extra muscle,SXM5137,BXM1,96,BXM1-96,NA,collected,Frozen -80,N,NA,NA,1874
-U1875,extra muscle,SXM5138,BXM1,79,BXM1-79,NA,collected,Frozen -80,N,NA,NA,1875
-U1881,extra muscle,SXM5139,BXM2,50,BXM2-50,NA,collected,Frozen -80,N,NA,NA,1881
-U1882,extra muscle,SXM5140,BXM1,93,BXM1-93,NA,collected,Frozen -80,N,NA,NA,1882
-U1883,extra muscle,SXM5141,BXM1,99,BXM1-99,NA,collected,Frozen -80,N,NA,NA,1883
-U1884,extra muscle,SXM5142,BXM1,94,BXM1-94,NA,collected,Frozen -80,N,NA,NA,1884
-U1885,extra muscle,SXM5143,BXM2,88,BXM2-88,NA,collected,Frozen -80,N,NA,NA,1885
-U2191,extra muscle,SXM5144,BXM2,20,BXM2-20,NA,collected,Frozen -80,N,NA,NA,2191
-U2192,extra muscle,SXM5145,BXM1,92,BXM1-92,NA,collected,Frozen -80,N,NA,NA,2192
-U2193,extra muscle,SXM5146,BXM2,60,BXM2-60,NA,collected,Frozen -80,N,NA,NA,2193
-U2194,extra muscle,SXM5147,BXM2,30,BXM2-30,NA,collected,Frozen -80,N,NA,NA,2194
-U2195,extra muscle,SXM5148,BXM2,84,BXM2-84,NA,collected,Frozen -80,N,NA,NA,2195
-U2196,extra muscle,SXM5149,BXM2,89,BXM2-89,NA,collected,Frozen -80,N,NA,NA,2196
-U2197,extra muscle,SXM5150,BXM2,86,BXM2-86,NA,collected,Frozen -80,N,NA,NA,2197
-U2198,extra muscle,SXM5151,BXM1,95,BXM1-95,NA,collected,Frozen -80,N,NA,NA,2198
-U2199,extra muscle,SXM5152,BXM2,87,BXM2-87,NA,collected,Frozen -80,N,NA,NA,2199
-U2200,extra muscle,SXM5153,BXM1,97,BXM1-97,NA,collected,Frozen -80,N,NA,NA,2200
-U4386,extra muscle,SXM4786,BXM1,1,BXM1-1,Stored in -20 overnight,collected,Frozen -80,N,NA,NA,4386
-U4387,extra muscle,SXM4787,BXM1,2,BXM1-2,Stored at -20 overnight,collected,Frozen -80,N,NA,NA,4387
-U4388,extra muscle,SXM4788,BXM1,4,BXM1-4,NA,collected,Frozen -80,N,NA,NA,4388
-U4389,extra muscle,SXM4789,BXM1,6,BXM1-6,Stored at -20 overnight,collected,Frozen -80,N,NA,NA,4389
-U4391,extra muscle,SXM4791,BXM1,24,BXM1-24,NA,collected,Frozen -80,N,NA,NA,4391
-U4392,extra muscle,SXM4792,BXM1,32,BXM1-32,NA,collected,Frozen -80,N,NA,NA,4392
-U4484,extra muscle,SXM4884,BXM1,3,BXM1-3,Stored at -20 overnight,collected,Frozen -80,N,NA,NA,4484
-U4485,extra muscle,SXM4885,BXM1,5,BXM1-5,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4485
-U4486,extra muscle,SXM4886,BXM1,7,BXM1-7,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4486
-U4487,extra muscle,SXM4887,BXM1,8,BXM1-8,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4487
-U4488,extra muscle,SXM4888,BXM1,9,BXM1-9,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4488
-U4524,extra muscle,SXM4924,BXM1,22,BXM1-22,NA,collected,Frozen -80,N,NA,NA,4524
-U4525,extra muscle,SXM4925,BXM1,23,BXM1-23,NA,collected,Frozen -80,N,NA,NA,4525
-U4526,extra muscle,SXM4926,BXM1,29,BXM1-29,NA,collected,Frozen -80,N,NA,NA,4526
-U4527,extra muscle,SXM4927,BXM1,39,BXM1-39,NA,collected,Frozen -80,N,NA,NA,4527
-U4528,extra muscle,SXM4928,BXM1,41,BXM1-41,NA,collected,Frozen -80,N,NA,NA,4528
-U4529,extra muscle,SXM4929,BXM1,45,BXM1-45,NA,collected,Frozen -80,N,NA,NA,4529
-U4530,extra muscle,SXM4930,BXM1,47,BXM1-47,NA,collected,Frozen -80,N,NA,NA,4530
-U4531,extra muscle,SXM4931,BXM1,51,BXM1-51,NA,collected,Frozen -80,N,NA,NA,4531
-U4532,extra muscle,SXM4932,BXM1,52,BXM1-52,NA,collected,Frozen -80,N,NA,NA,4532
-U4533,extra muscle,SXM4933,BXM1,55,BXM1-55,NA,collected,Frozen -80,N,NA,NA,4533
-U4534,extra muscle,SXM4934,BXM1,57,BXM1-57,NA,collected,Frozen -80,N,NA,NA,4534
-U4535,extra muscle,SXM4935,BXM1,59,BXM1-59,NA,collected,Frozen -80,N,NA,NA,4535
-U4536,extra muscle,SXM4936,BXM1,62,BXM1-62,NA,collected,Frozen -80,N,NA,NA,4536
-U4554,extra muscle,SXM4954,BXM1,26,BXM1-26,NA,collected,Frozen -80,N,NA,NA,4554
-U4555,extra muscle,SXM4955,BXM1,33,BXM1-33,NA,collected,Frozen -80,N,NA,NA,4555
-U4556,extra muscle,SXM4956,BXM1,35,BXM1-35,NA,collected,Frozen -80,N,NA,NA,4556
-U4557,extra muscle,SXM4957,BXM1,43,BXM1-43,NA,collected,Frozen -80,N,NA,NA,4557
-U4558,extra muscle,SXM4958,BXM1,49,BXM1-49,NA,collected,Frozen -80,N,NA,NA,4558
-U4559,extra muscle,SXM4959,BXM1,54,BXM1-54,NA,collected,Frozen -80,N,NA,NA,4559
-U4560,extra muscle,SXM4960,BXM1,58,BXM1-58,NA,collected,Frozen -80,N,NA,NA,4560
-U4561,extra muscle,SXM4961,BXM1,63,BXM1-63,NA,collected,Frozen -80,N,NA,NA,4561
-U4562,extra muscle,SXM4962,BXM1,67,BXM1-67,NA,collected,Frozen -80,N,NA,NA,4562
-U4563,extra muscle,SXM4963,BXM1,75,BXM1-75,NA,collected,Frozen -80,N,NA,NA,4563
-U4564,extra muscle,SXM4964,BXM1,78,BXM1-78,NA,collected,Frozen -80,N,NA,NA,4564
-U4565,extra muscle,SXM4965,BXM1,88,BXM1-88,NA,collected,Frozen -80,N,NA,NA,4565
-U4566,extra muscle,SXM4966,BXM2,2,BXM2-2,NA,collected,Frozen -80,N,NA,NA,4566
-U4567,extra muscle,SXM4967,BXM2,7,BXM2-7,NA,collected,Frozen -80,N,NA,NA,4567
-U4568,extra muscle,SXM4968,BXM2,11,BXM2-11,NA,collected,Frozen -80,N,NA,NA,4568
-U4569,extra muscle,SXM4969,BXM2,15,BXM2-15,NA,collected,Frozen -80,N,NA,NA,4569
-U4570,extra muscle,SXM4970,BXM2,21,BXM2-21,NA,collected,Frozen -80,N,NA,NA,4570
-U4571,extra muscle,SXM4971,BXM2,26,BXM2-26,NA,collected,Frozen -80,N,NA,NA,4571
-U4572,extra muscle,SXM4972,BXM2,27,BXM2-27,NA,collected,Frozen -80,N,NA,NA,4572
-U4573,extra muscle,SXM4973,BXM2,29,BXM2-29,NA,collected,Frozen -80,N,NA,NA,4573
-U4574,extra muscle,SXM4974,BXM2,33,BXM2-33,NA,collected,Frozen -80,N,NA,NA,4574
-U4575,extra muscle,SXM4975,BXM2,36,BXM2-36,NA,collected,Frozen -80,N,NA,NA,4575
-U4576,extra muscle,SXM4976,BXM2,38,BXM2-38,NA,collected,Frozen -80,N,NA,NA,4576
-U4577,extra muscle,SXM4977,BXM2,39,BXM2-39,NA,collected,Frozen -80,N,NA,NA,4577
-U4578,extra muscle,SXM4978,BXM2,41,BXM2-41,NA,collected,Frozen -80,N,NA,NA,4578
-U4579,extra muscle,SXM4979,BXM2,42,BXM2-42,NA,collected,Frozen -80,N,NA,NA,4579
-U4580,extra muscle,SXM4980,BXM2,43,BXM2-43,NA,collected,Frozen -80,N,NA,NA,4580
-U4581,extra muscle,SXM4981,BXM2,44,BXM2-44,NA,collected,Frozen -80,N,NA,NA,4581
-U4582,extra muscle,SXM4982,BXM2,45,BXM2-45,NA,collected,Frozen -80,N,NA,NA,4582
-U4583,extra muscle,SXM4983,BXM2,46,BXM2-46,NA,collected,Frozen -80,N,NA,NA,4583
-U4584,extra muscle,SXM4984,BXM2,47,BXM2-47,NA,collected,Frozen -80,N,NA,NA,4584
-U4588,extra muscle,SXM4988,BXM1,16,BXM1-16,NA,collected,Frozen -80,N,NA,NA,4588
-U4589,extra muscle,SXM4989,BXM1,17,BXM1-17,NA,collected,Frozen -80,N,NA,NA,4589
-U4590,extra muscle,SXM4990,BXM1,18,BXM1-18,NA,collected,Frozen -80,N,NA,NA,4590
-U4591,extra muscle,SXM4991,BXM1,19,BXM1-19,NA,collected,Frozen -80,N,NA,NA,4591
-U4609,extra muscle,SXM5009,BXM1,11,BXM1-11,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4609
-U4610,extra muscle,SXM5010,BXM1,12,BXM1-12,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4610
-U4611,extra muscle,SXM5011,BXM1,13,BXM1-13,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4611
-U4612,extra muscle,SXM5012,BXM1,14,BXM1-14,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4612
-U4613,extra muscle,SXM5013,BXM1,15,BXM1-15,Extra muscle stored at -20 overnight,collected,Frozen -80,N,NA,NA,4613
-U4614,extra muscle,SXM5014,BXM1,21,BXM1-21,NA,collected,Frozen -80,N,NA,NA,4614
-U4615,extra muscle,SXM5015,BXM1,25,BXM1-25,NA,collected,Frozen -80,N,NA,NA,4615
-U4616,extra muscle,SXM5016,BXM1,31,BXM1-31,NA,collected,Frozen -80,N,NA,NA,4616
-U4617,extra muscle,SXM5017,BXM1,34,BXM1-34,NA,collected,Frozen -80,N,NA,NA,4617
-U4618,extra muscle,SXM5018,BXM1,37,BXM1-37,NA,collected,Frozen -80,N,NA,NA,4618
-U4619,extra muscle,SXM5019,BXM1,44,BXM1-44,NA,collected,Frozen -80,N,NA,NA,4619
-U4620,extra muscle,SXM5020,BXM1,46,BXM1-46,NA,collected,Frozen -80,N,NA,NA,4620
-U4621,extra muscle,SXM5021,BXM1,48,BXM1-48,NA,collected,Frozen -80,N,NA,NA,4621
-U4622,extra muscle,SXM5022,BXM1,53,BXM1-53,NA,collected,Frozen -80,N,NA,NA,4622
-U4623,extra muscle,SXM5023,BXM1,56,BXM1-56,NA,collected,Frozen -80,N,NA,NA,4623
-U4624,extra muscle,SXM5024,BXM1,61,BXM1-61,NA,collected,Frozen -80,N,NA,NA,4624
-U4625,extra muscle,SXM5025,BXM1,64,BXM1-64,NA,collected,Frozen -80,N,NA,NA,4625
-U4626,extra muscle,SXM5026,BXM1,65,BXM1-65,NA,collected,Frozen -80,N,NA,NA,4626
-U4627,extra muscle,SXM5027,BXM1,68,BXM1-68,NA,collected,Frozen -80,N,NA,NA,4627
-U4628,extra muscle,SXM5028,BXM1,76,BXM1-76,NA,collected,Frozen -80,N,NA,NA,4628
-U4629,extra muscle,SXM5029,BXM1,82,BXM1-82,NA,collected,Frozen -80,N,NA,NA,4629
-U4630,extra muscle,SXM5030,BXM1,85,BXM1-85,NA,collected,Frozen -80,N,NA,NA,4630
-U4631,extra muscle,SXM5031,BXM1,89,BXM1-89,NA,collected,Frozen -80,N,NA,NA,4631
-U4632,extra muscle,SXM5032,BXM2,3,BXM2-3,NA,collected,Frozen -80,N,NA,NA,4632
-U4633,extra muscle,SXM5033,BXM1,36,BXM1-36,NA,collected,Frozen -80,N,NA,NA,4633
-U4634,extra muscle,SXM5034,BXM1,42,BXM1-42,NA,collected,Frozen -80,N,NA,NA,4634
-U4635,extra muscle,SXM5035,BXM1,73,BXM1-73,NA,collected,Frozen -80,N,NA,NA,4635
-U4636,extra muscle,SXM5036,BXM1,77,BXM1-77,NA,collected,Frozen -80,N,NA,NA,4636
-U4637,extra muscle,SXM5037,BXM1,84,BXM1-84,NA,collected,Frozen -80,N,NA,NA,4637
-U4638,extra muscle,SXM5038,BXM1,91,BXM1-91,NA,collected,Frozen -80,N,NA,NA,4638
-U4639,extra muscle,SXM5039,BXM2,34,BXM2-34,NA,collected,Frozen -80,N,NA,NA,4639
-U4640,extra muscle,SXM5040,BXM2,37,BXM2-37,NA,collected,Frozen -80,N,NA,NA,4640
-U4649,extra muscle,SXM5049,BXM2,48,BXM2-48,NA,collected,Frozen -80,N,NA,NA,4649
-U4650,extra muscle,SXM5050,BXM2,49,BXM2-49,NA,collected,Frozen -80,N,NA,NA,4650
-U4651,extra muscle,SXM5051,BXM2,51,BXM2-51,NA,collected,Frozen -80,N,NA,NA,4651
-U4657,extra muscle,SXM5057,BXM1,66,BXM1-66,NA,collected,Frozen -80,N,NA,NA,4657
-U4658,extra muscle,SXM5058,BXM1,72,BXM1-72,NA,collected,Frozen -80,N,NA,NA,4658
-U4659,extra muscle,SXM5059,BXM1,74,BXM1-74,NA,collected,Frozen -80,N,NA,NA,4659
-U4660,extra muscle,SXM5060,BXM1,81,BXM1-81,NA,collected,Frozen -80,N,NA,NA,4660
-U4661,extra muscle,SXM5061,BXM1,83,BXM1-83,NA,collected,Frozen -80,N,NA,NA,4661
-U4662,extra muscle,SXM5062,BXM1,87,BXM1-87,NA,collected,Frozen -80,N,NA,NA,4662
-U4663,extra muscle,SXM5063,BXM2,1,BXM2-1,NA,collected,Frozen -80,N,NA,NA,4663
-U4664,extra muscle,SXM5064,BXM2,4,BXM2-4,NA,collected,Frozen -80,N,NA,NA,4664
-U4665,extra muscle,SXM5065,BXM2,6,BXM2-6,NA,collected,Frozen -80,N,NA,NA,4665
-U4666,extra muscle,SXM5066,BXM2,9,BXM2-9,NA,collected,Frozen -80,N,NA,NA,4666
-U4667,extra muscle,SXM5067,BXM2,13,BXM2-13,NA,collected,Frozen -80,N,NA,NA,4667
-U4668,extra muscle,SXM5068,BXM2,16,BXM2-16,NA,collected,Frozen -80,N,NA,NA,4668
-U4669,extra muscle,SXM5069,BXM2,18,BXM2-18,NA,collected,Frozen -80,N,NA,NA,4669
-U4670,extra muscle,SXM5070,BXM2,22,BXM2-22,NA,collected,Frozen -80,N,NA,NA,4670
-U4671,extra muscle,SXM5071,BXM2,24,BXM2-24,NA,collected,Frozen -80,N,NA,NA,4671
-U4672,extra muscle,SXM5072,BXM2,25,BXM2-25,NA,collected,Frozen -80,N,NA,NA,4672
-U4681,extra muscle,SXM5081,BXM2,5,BXM2-5,NA,collected,Frozen -80,N,NA,NA,4681
-U4682,extra muscle,SXM5082,BXM2,8,BXM2-8,NA,collected,Frozen -80,N,NA,NA,4682
-U4683,extra muscle,SXM5083,BXM2,12,BXM2-12,NA,collected,Frozen -80,N,NA,NA,4683
-U4684,extra muscle,SXM5084,BXM2,14,BXM2-14,NA,collected,Frozen -80,N,NA,NA,4684
-U4685,extra muscle,SXM5085,BXM2,17,BXM2-17,NA,collected,Frozen -80,N,NA,NA,4685
-U4686,extra muscle,SXM5086,BXM2,19,BXM2-19,NA,collected,Frozen -80,N,NA,NA,4686
-U4687,extra muscle,SXM5087,BXM2,23,BXM2-23,NA,collected,Frozen -80,N,NA,NA,4687
-U4688,extra muscle,SXM5088,BXM2,28,BXM2-28,NA,collected,Frozen -80,N,NA,NA,4688
-U4689,extra muscle,SXM5089,BXM2,31,BXM2-31,NA,collected,Frozen -80,N,NA,NA,4689
-U4690,extra muscle,SXM5090,BXM2,32,BXM2-32,NA,collected,Frozen -80,N,NA,NA,4690
-U4691,extra muscle,SXM5091,BXM2,35,BXM2-35,NA,collected,Frozen -80,N,NA,NA,4691
-U3731,extra muscle,SXM4131,BXM4,88,BXM4-88,NA,collected,Frozen -80,N,NA,NA,3731
-U3732,extra muscle,SXM4132,BXM4,90,BXM4-90,NA,collected,Frozen -80,N,NA,NA,3732
-U3733,extra muscle,SXM4133,BXM4,67,BXM4-67,NA,collected,Frozen -80,N,NA,NA,3733
-U3734,extra muscle,SXM4134,BXM4,69,BXM4-69,NA,collected,Frozen -80,N,NA,NA,3734
-U3735,extra muscle,SXM4135,BXM5,3,BXM5-3,NA,collected,Frozen -80,N,NA,NA,3735
-U3736,extra muscle,SXM4136,BXM5,1,BXM5-1,NA,collected,Frozen -80,N,NA,NA,3736
-U3737,extra muscle,SXM4137,BXM5,5,BXM5-5,NA,collected,Frozen -80,N,NA,NA,3737
-U3738,extra muscle,SXM4138,BXM5,7,BXM5-7,NA,collected,Frozen -80,N,NA,NA,3738
-U3739,extra muscle,SXM4139,BXM5,9,BXM5-9,NA,collected,Frozen -80,N,NA,NA,3739
-U3740,extra muscle,SXM4140,BXM5,11,BXM5-11,NA,collected,Frozen -80,N,NA,NA,3740
-U3741,extra muscle,SXM4141,BXM5,12,BXM5-12,NA,collected,Frozen -80,N,NA,NA,3741
-U3742,extra muscle,SXM4142,BXM5,13,BXM5-13,NA,collected,Frozen -80,N,NA,NA,3742
-U3743,extra muscle,SXM4143,BXM5,16,BXM5-16,Fish slid on to bench,collected,Frozen -80,N,NA,NA,3743
-U3744,extra muscle,SXM4144,BXM5,17,BXM5-17,Fish fell on bench,collected,Frozen -80,N,NA,NA,3744
-U3745,extra muscle,SXM4145,BXM5,91,BXM5-91,NA,collected,Frozen -80,N,NA,NA,3745
-U3746,extra muscle,SXM4146,BXM5,92,BXM5-92,NA,collected,Frozen -80,N,NA,NA,3746
-U3747,extra muscle,SXM4147,BXM5,93,BXM5-93,NA,collected,Frozen -80,N,NA,NA,3747
-U3748,extra muscle,SXM4148,BXM5,94,BXM5-94,NA,collected,Frozen -80,N,NA,NA,3748
-U3749,extra muscle,SXM4149,BXM5,81,BXM5-81,NA,collected,Frozen -80,N,NA,NA,3749
-U3750,extra muscle,SXM4150,BXM5,82,BXM5-82,NA,collected,Frozen -80,N,NA,NA,3750
-U3849,extra muscle,SXM4249,BXM4,74,BXM4-74,NA,collected,Frozen -80,N,NA,NA,3849
-U3850,extra muscle,SXM4250,BXM4,36,BXM4-36,NA,collected,Frozen -80,N,NA,NA,3850
-U3851,extra muscle,SXM4251,BXM4,33,BXM4-33,NA,collected,Frozen -80,N,NA,NA,3851
-U3892,extra muscle,SXM4292,BXM4,37,BXM4-37,NA,collected,Frozen -80,N,NA,NA,3892
-U3893,extra muscle,SXM4293,BXM4,38,BXM4-38,NA,collected,Frozen -80,N,NA,NA,3893
-U3894,extra muscle,SXM4294,BXM4,40,BXM4-40,NA,collected,Frozen -80,N,NA,NA,3894
-U3895,extra muscle,SXM4295,BXM4,42,BXM4-42,NA,collected,Frozen -80,N,NA,NA,3895
-U3896,extra muscle,SXM4296,BXM4,54,BXM4-54,NA,collected,Frozen -80,N,NA,Changed cell from 44 (incorrect location) 2018-01-16 JG,3896
-U3897,extra muscle,SXM4297,BXM4,51,BXM4-51,NA,collected,Frozen -80,N,NA,NA,3897
-U3898,extra muscle,SXM4298,BXM4,53,BXM4-53,NA,collected,Frozen -80,N,NA,NA,3898
-U3899,extra muscle,SXM4299,BXM4,57,BXM4-57,NA,collected,Frozen -80,N,NA,NA,3899
-U3900,extra muscle,SXM4300,BXM4,91,BXM4-91,NA,collected,Frozen -80,N,NA,NA,3900
-U3901,extra muscle,SXM4301,BXM4,92,BXM4-92,NA,collected,Frozen -80,N,NA,NA,3901
-U3902,extra muscle,SXM4302,BXM4,100,BXM4-100,NA,collected,Frozen -80,N,NA,NA,3902
-U3903,extra muscle,SXM4303,BXM4,73,BXM4-73,NA,collected,Frozen -80,N,NA,NA,3903
-U3904,extra muscle,SXM4304,BXM4,99,BXM4-99,NA,collected,Frozen -80,N,NA,NA,3904
-U3905,extra muscle,SXM4305,BXM4,76,BXM4-76,NA,collected,Frozen -80,N,NA,NA,3905
-U3906,extra muscle,SXM4306,BXM4,98,BXM4-98,NA,collected,Frozen -80,N,NA,NA,3906
-U3907,extra muscle,SXM4307,BXM4,93,BXM4-93,NA,collected,Frozen -80,N,NA,NA,3907
-U3908,extra muscle,SXM4308,BXM4,32,BXM4-32,NA,collected,Frozen -80,N,NA,NA,3908
-U3909,extra muscle,SXM4309,BXM4,34,BXM4-34,NA,collected,Frozen -80,N,NA,NA,3909
-U3910,extra muscle,SXM4310,BXM4,58,BXM4-58,NA,collected,Frozen -80,N,NA,NA,3910
-U3911,extra muscle,SXM4311,BXM4,59,BXM4-59,NA,collected,Frozen -80,N,NA,NA,3911
-U3912,extra muscle,SXM4312,BXM4,60,BXM4-60,NA,collected,Frozen -80,N,NA,NA,3912
-U3913,extra muscle,SXM4313,BXM4,71,BXM4-71,NA,collected,Frozen -80,N,NA,NA,3913
-U3963,extra muscle,SXM4363,BXM5,100,BXM5-100,NA,collected,Frozen -80,N,NA,NA,3963
-U3967,extra muscle,SXM4367,BXM5,19,BXM5-19,NA,collected,Frozen -80,N,NA,NA,3967
-U3968,extra muscle,SXM4368,BXM5,21,BXM5-21,NA,collected,Frozen -80,N,NA,NA,3968
-U3969,extra muscle,SXM4369,BXM5,23,BXM5-23,NA,collected,Frozen -80,N,NA,NA,3969
-U3994,extra muscle,SXM4394,BXM5,18,BXM5-18,NA,collected,Frozen -80,N,NA,NA,3994
-U4027,extra muscle,SXM4427,BXM4,94,BXM4-94,NA,collected,Frozen -80,N,NA,NA,4027
-U4028,extra muscle,SXM4428,BXM4,97,BXM4-97,NA,collected,Frozen -80,N,NA,NA,4028
-U4029,extra muscle,SXM4429,BXM4,82,BXM4-82,NA,collected,Frozen -80,N,NA,NA,4029
-U4030,extra muscle,SXM4430,BXM4,84,BXM4-84,NA,collected,Frozen -80,N,NA,NA,4030
-U4031,extra muscle,SXM4431,BXM4,68,BXM4-68,NA,collected,Frozen -80,N,NA,NA,4031
-U4032,extra muscle,SXM4432,BXM4,65,BXM4-65,NA,collected,Frozen -80,N,NA,NA,4032
-U4033,extra muscle,SXM4433,BXM5,4,BXM5-4,NA,collected,Frozen -80,N,NA,NA,4033
-U4034,extra muscle,SXM4434,BXM5,6,BXM5-6,NA,collected,Frozen -80,N,NA,NA,4034
-U4035,extra muscle,SXM4435,BXM5,8,BXM5-8,NA,collected,Frozen -80,N,NA,NA,4035
-U4036,extra muscle,SXM4436,BXM5,14,BXM5-14,NA,collected,Frozen -80,N,NA,NA,4036
-U4037,extra muscle,SXM4437,BXM4,87,BXM4-87,NA,collected,Frozen -80,N,NA,NA,4037
-U4038,extra muscle,SXM4438,BXM4,96,BXM4-96,NA,collected,Frozen -80,N,NA,NA,4038
-U4039,extra muscle,SXM4439,BXM4,50,BXM4-50,NA,collected,Frozen -80,N,NA,NA,4039
-U4040,extra muscle,SXM4440,BXM5,2,BXM5-2,NA,collected,Frozen -80,N,NA,NA,4040
-U4041,extra muscle,SXM4441,BXM5,15,BXM5-15,NA,collected,Frozen -80,N,NA,NA,4041
-U4042,extra muscle,SXM4442,BXM5,83,BXM5-83,NA,collected,Frozen -80,N,NA,NA,4042
-U4043,extra muscle,SXM4443,BXM5,84,BXM5-84,NA,collected,Frozen -80,N,NA,NA,4043
-U4044,extra muscle,SXM4444,BXM5,58,BXM5-58,NA,collected,Frozen -80,N,NA,NA,4044
-U4115,extra muscle,SXM4515,BXM6,1,BXM6-1,NA,collected,Frozen -80,N,NA,NA,4115
-U4124,extra muscle,SXM4524,BXM6,2,BXM6-2,NA,collected,Frozen -80,N,NA,NA,4124
-U4081,extra muscle,SXM4481,BXM6,3,BXM6-3,NA,collected,Frozen -80,N,NA,NA,4081
-U4116,extra muscle,SXM4516,BXM6,4,BXM6-4,NA,collected,Frozen -80,N,NA,NA,4116
-U4082,extra muscle,SXM4482,BXM6,6,BXM6-6,NA,collected,Frozen -80,N,NA,NA,4082
-U4125,extra muscle,SXM4525,BXM6,7,BXM6-7,NA,collected,Frozen -80,N,NA,NA,4125
-U4051,extra muscle,SXM4451,BXM5,29,BXM5-29,NA,collected,Frozen -80,N,NA,NA,4051
-U4052,extra muscle,SXM4452,BXM5,30,BXM5-30,NA,collected,Frozen -80,N,NA,NA,4052
-U4053,extra muscle,SXM4453,BXM5,32,BXM5-32,NA,collected,Frozen -80,N,NA,NA,4053
-U4054,extra muscle,SXM4454,BXM5,34,BXM5-34,NA,collected,Frozen -80,N,NA,NA,4054
-U4055,extra muscle,SXM4455,BXM5,37,BXM5-37,NA,collected,Frozen -80,N,NA,NA,4055
-U4056,extra muscle,SXM4456,BXM5,39,BXM5-39,NA,collected,Frozen -80,N,NA,NA,4056
-U4057,extra muscle,SXM4457,BXM5,41,BXM5-41,NA,collected,Frozen -80,N,NA,NA,4057
-U4058,extra muscle,SXM4458,BXM5,44,BXM5-44,NA,collected,Frozen -80,N,NA,NA,4058
-U4059,extra muscle,SXM4459,BXM5,46,BXM5-46,NA,collected,Frozen -80,N,NA,NA,4059
-U4060,extra muscle,SXM4460,BXM5,48,BXM5-48,NA,collected,Frozen -80,N,NA,NA,4060
-U4117,extra muscle,SXM4517,BXM6,8,BXM6-8,NA,collected,Frozen -80,N,NA,NA,4117
-U4083,extra muscle,SXM4483,BXM6,9,BXM6-9,NA,collected,Frozen -80,N,NA,NA,4083
-U4107,extra muscle,SXM4507,BXM6,10,BXM6-10,NA,collected,Frozen -80,N,NA,NA,4107
-U4118,extra muscle,SXM4518,BXM6,11,BXM6-11,NA,collected,Frozen -80,N,NA,NA,4118
-U4045,extra muscle,SXM4445,BXM6,12,BXM6-12,NA,collected,Frozen -80,N,NA,NA,4045
-U4066,extra muscle,SXM4466,BXM5,31,BXM5-31,NA,collected,Frozen -80,N,NA,NA,4066
-U4067,extra muscle,SXM4467,BXM5,33,BXM5-33,NA,collected,Frozen -80,N,NA,NA,4067
-U4068,extra muscle,SXM4468,BXM5,36,BXM5-36,NA,collected,Frozen -80,N,NA,NA,4068
-U4069,extra muscle,SXM4469,BXM5,38,BXM5-38,NA,collected,Frozen -80,N,NA,NA,4069
-U4070,extra muscle,SXM4470,BXM5,40,BXM5-40,NA,collected,Frozen -80,N,NA,NA,4070
-U4071,extra muscle,SXM4471,BXM5,42,BXM5-42,NA,collected,Frozen -80,N,NA,NA,4071
-U4072,extra muscle,SXM4472,BXM5,47,BXM5-47,NA,collected,Frozen -80,N,NA,NA,4072
-U4073,extra muscle,SXM4473,BXM5,49,BXM5-49,NA,collected,Frozen -80,N,NA,NA,4073
-U4074,extra muscle,SXM4474,BXM5,51,BXM5-51,NA,collected,Frozen -80,N,NA,NA,4074
-U4075,extra muscle,SXM4475,BXM5,53,BXM5-53,NA,collected,Frozen -80,N,NA,NA,4075
-U4076,extra muscle,SXM4476,BXM5,50,BXM5-50,NA,collected,Frozen -80,N,NA,NA,4076
-U4077,extra muscle,SXM4477,BXM5,52,BXM5-52,NA,collected,Frozen -80,N,NA,NA,4077
-U4078,extra muscle,SXM4478,BXM5,54,BXM5-54,NA,collected,Frozen -80,N,NA,NA,4078
-U4079,extra muscle,SXM4479,BXM5,56,BXM5-56,NA,collected,Frozen -80,N,NA,NA,4079
-U4080,extra muscle,SXM4480,BXM5,75,BXM5-75,NA,collected,Frozen -80,N,NA,NA,4080
-U4119,extra muscle,SXM4519,BXM6,13,BXM6-13,NA,collected,Frozen -80,N,NA,NA,4119
-U4084,extra muscle,SXM4484,BXM6,14,BXM6-14,NA,collected,Frozen -80,N,NA,NA,4084
-U4046,extra muscle,SXM4446,BXM6,16,BXM6-16,NA,collected,Frozen -80,N,NA,NA,4046
-U4120,extra muscle,SXM4520,BXM6,17,BXM6-17,NA,collected,Frozen -80,N,NA,NA,4120
-U4085,extra muscle,SXM4485,BXM5,57,BXM5-57,NA,collected,Frozen -80,N,NA,NA,4085
-U4086,extra muscle,SXM4486,BXM5,60,BXM5-60,NA,collected,Frozen -80,N,NA,NA,4086
-U4087,extra muscle,SXM4487,BXM5,61,BXM5-61,NA,collected,Frozen -80,N,NA,NA,4087
-U4088,extra muscle,SXM4488,BXM5,62,BXM5-62,NA,collected,Frozen -80,N,NA,NA,4088
-U4089,extra muscle,SXM4489,BXM5,63,BXM5-63,NA,collected,Frozen -80,N,NA,NA,4089
-U4090,extra muscle,SXM4490,BXM5,64,BXM5-64,NA,collected,Frozen -80,N,NA,NA,4090
-U4091,extra muscle,SXM4491,BXM5,66,BXM5-66,NA,collected,Frozen -80,N,NA,NA,4091
-U4092,extra muscle,SXM4492,BXM5,67,BXM5-67,NA,collected,Frozen -80,N,NA,NA,4092
-U4093,extra muscle,SXM4493,BXM5,68,BXM5-68,NA,collected,Frozen -80,N,NA,NA,4093
-U4094,extra muscle,SXM4494,BXM5,69,BXM5-69,NA,collected,Frozen -80,N,NA,NA,4094
-U4095,extra muscle,SXM4495,BXM5,70,BXM5-70,NA,collected,Frozen -80,N,NA,NA,4095
-U4105,extra muscle,SXM4505,BXM6,18,BXM6-18,NA,collected,Frozen -80,N,NA,NA,4105
-U4047,extra muscle,SXM4447,BXM6,19,BXM6-19,NA,collected,Frozen -80,N,NA,NA,4047
-U4106,extra muscle,SXM4506,BXM6,20,BXM6-20,NA,collected,Frozen -80,N,NA,NA,4106
-U4121,extra muscle,SXM4521,BXM6,21,BXM6-21,NA,collected,Frozen -80,N,NA,NA,4121
-U4048,extra muscle,SXM4448,BXM6,22,BXM6-22,NA,collected,Frozen -80,N,NA,NA,4048
-U4122,extra muscle,SXM4522,BXM6,23,BXM6-23,NA,collected,Frozen -80,N,NA,NA,4122
-U4108,extra muscle,SXM4508,BXM6,24,BXM6-24,NA,collected,Frozen -80,N,NA,NA,4108
-U4049,extra muscle,SXM4449,BXM6,26,BXM6-26,NA,collected,Frozen -80,N,NA,Changed from cell 15 (incorrect location) 2018-01-16 JG,4049
-U4123,extra muscle,SXM4523,BXM6,27,BXM6-27,NA,collected,Frozen -80,N,NA,NA,4123
-U4050,extra muscle,SXM4450,BXM6,28,BXM6-28,NA,collected,Frozen -80,N,NA,NA,4050
-U4061,extra muscle,SXM4461,UNKNOWN,UNKNOWN,UNKNOWN,NA,collected,Frozen -80,Y,NA,"Transcribed as being in BXM6-29, but location already occupied by another vial",4061
-U4109,extra muscle,SXM4509,BXM6,29,BXM6-29,NA,collected,Frozen -80,N,NA,NA,4109
-U4143,extra muscle,SXM4543,BXM6,30,BXM6-30,NA,collected,Frozen -80,N,NA,NA,4143
-U4134,extra muscle,SXM4534,BXM6,31,BXM6-31,NA,collected,Frozen -80,N,NA,NA,4134
-U4110,extra muscle,SXM4510,BXM5,86,BXM5-86,NA,collected,Frozen -80,N,NA,NA,4110
-U4111,extra muscle,SXM4511,BXM5,87,BXM5-87,NA,collected,Frozen -80,N,NA,NA,4111
-U4112,extra muscle,SXM4512,BXM5,88,BXM5-88,NA,collected,Frozen -80,N,NA,NA,4112
-U4113,extra muscle,SXM4513,BXM5,89,BXM5-89,NA,collected,Frozen -80,N,NA,NA,4113
-U4114,extra muscle,SXM4514,BXM5,90,BXM5-90,NA,collected,Frozen -80,N,NA,NA,4114
-U4144,extra muscle,SXM4544,BXM6,32,BXM6-32,NA,collected,Frozen -80,N,NA,NA,4144
-U4062,extra muscle,SXM4462,BXM6,33,BXM6-33,NA,collected,Frozen -80,N,NA,NA,4062
-U4145,extra muscle,SXM4545,BXM6,34,BXM6-34,NA,collected,Frozen -80,N,NA,NA,4145
-U4135,extra muscle,SXM4535,BXM6,36,BXM6-36,NA,collected,Frozen -80,N,NA,NA,4135
-U4063,extra muscle,SXM4463,BXM6,37,BXM6-37,NA,collected,Frozen -80,N,NA,NA,4063
-U4146,extra muscle,SXM4546,BXM6,38,BXM6-38,NA,collected,Frozen -80,N,NA,NA,4146
-U4136,extra muscle,SXM4536,BXM6,39,BXM6-39,NA,collected,Frozen -80,N,NA,NA,4136
-U4147,extra muscle,SXM4547,BXM6,40,BXM6-40,NA,collected,Frozen -80,N,NA,NA,4147
-U4137,extra muscle,SXM4537,BXM6,41,BXM6-41,NA,collected,Frozen -80,N,NA,NA,4137
-U4064,extra muscle,SXM4464,BXM6,42,BXM6-42,NA,collected,Frozen -80,N,NA,NA,4064
-U4148,extra muscle,SXM4548,BXM6,43,BXM6-43,NA,collected,Frozen -80,N,NA,NA,4148
-U4138,extra muscle,SXM4538,BXM6,44,BXM6-44,NA,collected,Frozen -80,N,NA,NA,4138
-U4149,extra muscle,SXM4549,BXM6,46,BXM6-46,NA,collected,Frozen -80,N,NA,NA,4149
-U4127,extra muscle,SXM4527,BXM6,47,BXM6-47,NA,collected,Frozen -80,N,NA,NA,4127
-U4126,extra muscle,SXM4526,BXM6,48,BXM6-48,NA,collected,Frozen -80,N,NA,NA,4126
-U4128,extra muscle,SXM4528,BXM6,49,BXM6-49,NA,collected,Frozen -80,N,NA,NA,4128
-U4130,extra muscle,SXM4530,BXM6,50,BXM6-50,NA,collected,Frozen -80,N,NA,NA,4130
-U4129,extra muscle,SXM4529,BXM6,51,BXM6-51,NA,collected,Frozen -80,N,NA,NA,4129
-U4131,extra muscle,SXM4531,BXM6,61,BXM6-61,NA,collected,Frozen -80,N,NA,NA,4131
-U4132,extra muscle,SXM4532,BXM6,62,BXM6-62,NA,collected,Frozen -80,N,NA,NA,4132
-U4133,extra muscle,SXM4533,BXM6,63,BXM6-63,NA,collected,Frozen -80,N,NA,NA,4133
-U4150,extra muscle,SXM4550,BXM6,64,BXM6-64,NA,collected,Frozen -80,N,NA,NA,4150
-U4151,extra muscle,SXM4551,BXM6,66,BXM6-66,NA,collected,Frozen -80,N,NA,NA,4151
-U4152,extra muscle,SXM4552,BXM6,67,BXM6-67,NA,collected,Frozen -80,N,NA,NA,4152
-U4153,extra muscle,SXM4553,BXM6,68,BXM6-68,NA,collected,Frozen -80,N,NA,NA,4153
-U4154,extra muscle,SXM4554,BXM6,69,BXM6-69,NA,collected,Frozen -80,N,NA,NA,4154
-U4960,extra muscle,SXM5499,BXM6,70,BXM6-70,NA,collected,Frozen -80,N,NA,NA,4960
-U4167,extra muscle,SXM4567,BXM6,73,BXM6-73,NA,collected,Frozen -80,N,NA,NA,4167
-U4168,extra muscle,SXM4568,BXM6,74,BXM6-74,NA,collected,Frozen -80,N,NA,NA,4168
-U4169,extra muscle,SXM4569,BXM6,76,BXM6-76,NA,collected,Frozen -80,N,NA,NA,4169
-U4155,extra muscle,SXM4555,BXM6,77,BXM6-77,NA,collected,Frozen -80,N,NA,NA,4155
-U4965,extra muscle,SXM5504,BXM6,78,BXM6-78,NA,collected,Frozen -80,N,NA,NA,4965
-U4104,extra muscle,SXM4504,BXM6,81,BXM6-81,NA,collected,Frozen -80,N,NA,NA,4104
-U4159,extra muscle,SXM4559,BXM6,82,BXM6-82,NA,collected,Frozen -80,N,NA,NA,4159
-U4160,extra muscle,SXM4560,BXM6,83,BXM6-83,NA,collected,Frozen -80,N,NA,NA,4160
-U4161,extra muscle,SXM4561,BXM6,84,BXM6-84,NA,collected,Frozen -80,N,NA,NA,4161
-U4162,extra muscle,SXM4562,BXM6,86,BXM6-86,NA,collected,Frozen -80,N,NA,NA,4162
-U4156,extra muscle,SXM4556,BXM7,1,BXM7-1,NA,collected,Frozen -80,N,NA,NA,4156
-U4157,extra muscle,SXM4557,BXM7,2,BXM7-2,NA,collected,Frozen -80,N,NA,NA,4157
-U4158,extra muscle,SXM4558,BXM7,3,BXM7-3,NA,collected,Frozen -80,N,NA,NA,4158
-U4163,extra muscle,SXM4563,BXM6,87,BXM6-87,NA,collected,Frozen -80,N,NA,NA,4163
-U4164,extra muscle,SXM4564,BXM6,88,BXM6-88,NA,collected,Frozen -80,N,NA,NA,4164
-U4165,extra muscle,SXM4565,BXM6,89,BXM6-89,NA,collected,Frozen -80,N,NA,NA,4165
-U4166,extra muscle,SXM4566,BXM6,90,BXM6-90,NA,collected,Frozen -80,N,NA,NA,4166
-U4103,extra muscle,SXM4503,BXM6,91,BXM6-91,NA,collected,Frozen -80,N,NA,NA,4103
-U4102,extra muscle,SXM4502,BXM6,92,BXM6-92,NA,collected,Frozen -80,N,NA,NA,4102
-U4101,extra muscle,SXM4501,BXM6,94,BXM6-94,NA,collected,Frozen -80,N,NA,NA,4101
-U4100,extra muscle,SXM4500,BXM6,95,BXM6-95,NA,collected,Frozen -80,N,NA,NA,4100
-U4099,extra muscle,SXM4499,BXM6,96,BXM6-96,NA,collected,Frozen -80,N,NA,NA,4099
-U4098,extra muscle,SXM4498,BXM6,97,BXM6-97,NA,collected,Frozen -80,N,NA,NA,4098
-U4097,extra muscle,SXM4497,BXM6,98,BXM6-98,NA,collected,Frozen -80,N,NA,NA,4097
-U4170,extra muscle,SXM4570,BXM7,77,BXM7-77,NA,collected,Frozen -80,N,NA,NA,4170
-U4171,extra muscle,SXM4571,BXM7,73,BXM7-73,NA,collected,Frozen -80,N,NA,NA,4171
-U4172,extra muscle,SXM4572,BXM7,74,BXM7-74,NA,collected,Frozen -80,N,NA,NA,4172
-U4173,extra muscle,SXM4573,BXM7,17,BXM7-17,NA,collected,Frozen -80,N,NA,NA,4173
-U4800,extra muscle,SXM5250,BXM3,1,BXM3-1,NA,collected,Frozen -80,N,NA,NA,4800
-U4801,extra muscle,SXM5251,BXM3,2,BXM3-2,NA,collected,Frozen -80,N,NA,NA,4801
-U4802,extra muscle,SXM5252,BXM3,3,BXM3-3,NA,collected,Frozen -80,N,NA,NA,4802
-U4776,extra muscle,SXM5226,BXM3,4,BXM3-4,NA,collected,Frozen -80,N,NA,NA,4776
-U4777,extra muscle,SXM5227,BXM3,5,BXM3-5,NA,collected,Frozen -80,N,NA,NA,4777
-U4778,extra muscle,SXM5228,BXM3,6,BXM3-6,NA,collected,Frozen -80,N,NA,NA,4778
-U4779,extra muscle,SXM5229,BXM3,7,BXM3-7,NA,collected,Frozen -80,N,NA,NA,4779
-U4780,extra muscle,SXM5230,BXM3,8,BXM3-8,NA,collected,Frozen -80,N,NA,NA,4780
-U4728,extra muscle,SXM5178,BXM3,9,BXM3-9,NA,collected,Frozen -80,N,NA,NA,4728
-U4781,extra muscle,SXM5231,BXM3,11,BXM3-11,NA,collected,Frozen -80,N,NA,NA,4781
-U4729,extra muscle,SXM5179,BXM3,12,BXM3-12,NA,collected,Frozen -80,N,NA,NA,4729
-U4782,extra muscle,SXM5232,BXM3,13,BXM3-13,NA,collected,Frozen -80,N,NA,NA,4782
-U4730,extra muscle,SXM5180,BXM3,14,BXM3-14,NA,collected,Frozen -80,N,NA,NA,4730
-U4783,extra muscle,SXM5233,BXM3,15,BXM3-15,NA,collected,Frozen -80,N,NA,NA,4783
-U4784,extra muscle,SXM5234,BXM3,16,BXM3-16,NA,collected,Frozen -80,N,NA,NA,4784
-U4731,extra muscle,SXM5181,BXM3,17,BXM3-17,NA,collected,Frozen -80,N,NA,NA,4731
-U4785,extra muscle,SXM5235,BXM3,18,BXM3-18,NA,collected,Frozen -80,N,NA,NA,4785
-U4803,extra muscle,SXM5253,BXM3,19,BXM3-19,NA,collected,Frozen -80,N,NA,NA,4803
-U4732,extra muscle,SXM5182,BXM3,21,BXM3-21,NA,collected,Frozen -80,N,NA,NA,4732
-U4786,extra muscle,SXM5236,BXM3,22,BXM3-22,NA,collected,Frozen -80,N,NA,NA,4786
-U4752,extra muscle,SXM5202,BXM3,23,BXM3-23,NA,collected,Frozen -80,N,NA,NA,4752
-U4804,extra muscle,SXM5254,BXM3,24,BXM3-24,NA,collected,Frozen -80,N,NA,NA,4804
-U4787,extra muscle,SXM5237,BXM3,25,BXM3-25,NA,collected,Frozen -80,N,NA,NA,4787
-U4733,extra muscle,SXM5183,BXM3,26,BXM3-26,NA,collected,Frozen -80,N,NA,NA,4733
-U4753,extra muscle,SXM5203,BXM3,27,BXM3-27,NA,collected,Frozen -80,N,NA,NA,4753
-U4788,extra muscle,SXM5238,BXM3,28,BXM3-28,NA,collected,Frozen -80,N,NA,NA,4788
-U4757,extra muscle,SXM5207,BXM4,28,BXM4-28,NA,collected,Frozen -80,N,NA,NA,4757
-U4758,extra muscle,SXM5208,BXM4,29,BXM4-29,NA,collected,Frozen -80,N,NA,NA,4758
-U4759,extra muscle,SXM5209,BXM4,30,BXM4-30,NA,collected,Frozen -80,N,NA,NA,4759
-U4760,extra muscle,SXM5210,BXM4,31,BXM4-31,NA,collected,Frozen -80,N,NA,NA,4760
-U4805,extra muscle,SXM5255,BXM3,29,BXM3-29,NA,collected,Frozen -80,N,NA,NA,4805
-U4734,extra muscle,SXM5184,BXM3,31,BXM3-31,NA,collected,Frozen -80,N,NA,NA,4734
-U4754,extra muscle,SXM5204,BXM3,32,BXM3-32,NA,collected,Frozen -80,N,NA,NA,4754
-U4789,extra muscle,SXM5239,BXM3,33,BXM3-33,NA,collected,Frozen -80,N,NA,NA,4789
-U4735,extra muscle,SXM5185,BXM3,34,BXM3-34,NA,collected,Frozen -80,N,NA,NA,4735
-U4806,extra muscle,SXM5256,BXM3,35,BXM3-35,NA,collected,Frozen -80,N,NA,NA,4806
-U4755,extra muscle,SXM5205,BXM3,36,BXM3-36,NA,collected,Frozen -80,N,NA,NA,4755
-U4790,extra muscle,SXM5240,BXM3,37,BXM3-37,NA,collected,Frozen -80,N,NA,NA,4790
-U4807,extra muscle,SXM5257,BXM3,38,BXM3-38,NA,collected,Frozen -80,N,NA,NA,4807
-U4736,extra muscle,SXM5186,BXM3,39,BXM3-39,NA,collected,Frozen -80,N,NA,NA,4736
-U4791,extra muscle,SXM5241,BXM3,41,BXM3-41,NA,collected,Frozen -80,N,NA,NA,4791
-U4808,extra muscle,SXM5258,BXM3,42,BXM3-42,NA,collected,Frozen -80,N,NA,NA,4808
-U4824,extra muscle,SXM5274,BXM3,43,BXM3-43,NA,collected,Frozen -80,N,NA,NA,4824
-U4792,extra muscle,SXM5242,BXM3,44,BXM3-44,NA,collected,Frozen -80,N,NA,NA,4792
-U4737,extra muscle,SXM5187,BXM3,46,BXM3-46,NA,collected,Frozen -80,N,NA,NA,4737
-U4793,extra muscle,SXM5243,BXM3,47,BXM3-47,NA,collected,Frozen -80,N,NA,NA,4793
-U4809,extra muscle,SXM5259,BXM3,48,BXM3-48,NA,collected,Frozen -80,N,NA,NA,4809
-U4825,extra muscle,SXM5275,BXM3,49,BXM3-49,NA,collected,Frozen -80,N,NA,NA,4825
-U4794,extra muscle,SXM5244,BXM4,21,BXM4-21,NA,collected,Frozen -80,N,NA,NA,4794
-U4795,extra muscle,SXM5245,BXM4,22,BXM4-22,NA,collected,Frozen -80,N,NA,NA,4795
-U4796,extra muscle,SXM5246,BXM4,23,BXM4-23,NA,collected,Frozen -80,N,NA,NA,4796
-U4797,extra muscle,SXM5247,BXM4,24,BXM4-24,NA,collected,Frozen -80,N,NA,NA,4797
-U4798,extra muscle,SXM5248,BXM4,26,BXM4-26,NA,collected,Frozen -80,N,NA,NA,4798
-U4799,extra muscle,SXM5249,BXM4,27,BXM4-27,NA,collected,Frozen -80,N,NA,NA,4799
-U4738,extra muscle,SXM5188,BXM3,51,BXM3-51,NA,collected,Frozen -80,N,NA,NA,4738
-U4810,extra muscle,SXM5260,BXM3,52,BXM3-52,NA,collected,Frozen -80,N,NA,NA,4810
-U4739,extra muscle,SXM5189,BXM3,53,BXM3-53,NA,collected,Frozen -80,N,NA,NA,4739
-U4811,extra muscle,SXM5261,BXM3,57,BXM3-57,NA,collected,Frozen -80,N,NA,Changed from cell 54 (incorrect location) 2018-01-16 JG,4811
-U4826,extra muscle,SXM5276,BXM3,54,BXM3-54,NA,collected,Frozen -80,N,NA,NA,4826
-U4740,extra muscle,SXM5190,BXM3,56,BXM3-56,NA,collected,Frozen -80,N,NA,NA,4740
-U4827,extra muscle,SXM5277,BXM3,58,BXM3-58,NA,collected,Frozen -80,N,NA,NA,4827
-U4812,extra muscle,SXM5262,BXM3,59,BXM3-59,NA,collected,Frozen -80,N,NA,NA,4812
-U4813,extra muscle,SXM5263,BXM3,61,BXM3-61,NA,collected,Frozen -80,N,NA,NA,4813
-U4814,extra muscle,SXM5264,BXM3,62,BXM3-62,NA,collected,Frozen -80,N,NA,NA,4814
-U4815,extra muscle,SXM5265,BXM3,63,BXM3-63,NA,collected,Frozen -80,N,NA,NA,4815
-U4816,extra muscle,SXM5266,BXM3,64,BXM3-64,NA,collected,Frozen -80,N,NA,NA,4816
-U4817,extra muscle,SXM5267,BXM3,66,BXM3-66,NA,collected,Frozen -80,N,NA,NA,4817
-U4818,extra muscle,SXM5268,BXM3,67,BXM3-67,NA,collected,Frozen -80,N,NA,NA,4818
-U4819,extra muscle,SXM5269,BXM3,68,BXM3-68,NA,collected,Frozen -80,N,NA,NA,4819
-U4741,extra muscle,SXM5191,BXM3,69,BXM3-69,NA,collected,Frozen -80,N,NA,NA,4741
-U4820,extra muscle,SXM5270,BXM3,71,BXM3-71,NA,collected,Frozen -80,N,NA,NA,4820
-U4742,extra muscle,SXM5192,BXM3,72,BXM3-72,NA,collected,Frozen -80,N,NA,NA,4742
-U4821,extra muscle,SXM5271,BXM3,73,BXM3-73,NA,collected,Frozen -80,N,NA,NA,4821
-U4743,extra muscle,SXM5193,BXM3,74,BXM3-74,NA,collected,Frozen -80,N,NA,NA,4743
-U4822,extra muscle,SXM5272,BXM3,76,BXM3-76,NA,collected,Frozen -80,N,NA,NA,4822
-U4744,extra muscle,SXM5194,BXM3,77,BXM3-77,NA,collected,Frozen -80,N,NA,NA,4744
-U4823,extra muscle,SXM5273,BXM3,78,BXM3-78,NA,collected,Frozen -80,N,NA,NA,4823
-U4745,extra muscle,SXM5195,BXM3,79,BXM3-79,NA,collected,Frozen -80,N,NA,NA,4745
-U4848,extra muscle,SXM5298,BXM3,81,BXM3-81,NA,collected,Frozen -80,N,NA,NA,4848
-U4849,extra muscle,SXM5299,BXM3,82,BXM3-82,NA,collected,Frozen -80,N,NA,NA,4849
-U4746,extra muscle,SXM5196,BXM3,83,BXM3-83,NA,collected,Frozen -80,N,NA,NA,4746
-U4850,extra muscle,SXM5300,BXM3,84,BXM3-84,NA,collected,Frozen -80,N,NA,NA,4850
-U4747,extra muscle,SXM5197,BXM3,86,BXM3-86,NA,collected,Frozen -80,N,NA,NA,4747
-U4851,extra muscle,SXM5301,BXM3,87,BXM3-87,NA,collected,Frozen -80,N,NA,NA,4851
-U4748,extra muscle,SXM5198,BXM3,88,BXM3-88,NA,collected,Frozen -80,N,NA,NA,4748
-U4852,extra muscle,SXM5302,BXM3,89,BXM3-89,NA,collected,Frozen -80,N,NA,NA,4852
-U4749,extra muscle,SXM5199,BXM3,100,BXM3-100,NA,collected,Frozen -80,N,NA,NA,4749
-U4853,extra muscle,SXM5303,BXM4,1,BXM4-1,NA,collected,Frozen -80,N,NA,NA,4853
-U4854,extra muscle,SXM5304,BXM4,2,BXM4-2,NA,collected,Frozen -80,N,NA,NA,4854
-U4855,extra muscle,SXM5305,BXM4,3,BXM4-3,NA,collected,Frozen -80,N,NA,NA,4855
-U4856,extra muscle,SXM5306,BXM4,4,BXM4-4,NA,collected,Frozen -80,N,NA,NA,4856
-U4857,extra muscle,SXM5307,BXM4,5,BXM4-5,NA,collected,Frozen -80,N,NA,NA,4857
-U4858,extra muscle,SXM5308,BXM4,7,BXM4-7,NA,collected,Frozen -80,N,NA,NA,4858
-U4859,extra muscle,SXM5309,BXM4,8,BXM4-8,NA,collected,Frozen -80,N,NA,NA,4859
-U4860,extra muscle,SXM5310,BXM4,9,BXM4-9,NA,collected,Frozen -80,N,NA,NA,4860
-U4861,extra muscle,SXM5311,BXM4,10,BXM4-10,NA,collected,Frozen -80,N,NA,NA,4861
-U4863,extra muscle,SXM5313,BXM4,11,BXM4-11,NA,collected,Frozen -80,N,NA,NA,4863
-U4864,extra muscle,SXM5314,BXM4,12,BXM4-12,NA,collected,Frozen -80,N,NA,NA,4864
-U4865,extra muscle,SXM5315,BXM4,13,BXM4-13,NA,collected,Frozen -80,N,NA,NA,4865
-U4866,extra muscle,SXM5316,BXM4,14,BXM4-14,NA,collected,Frozen -80,N,NA,NA,4866
-U4867,extra muscle,SXM5317,BXM4,16,BXM4-16,NA,collected,Frozen -80,N,NA,NA,4867
-U4868,extra muscle,SXM5318,BXM4,17,BXM4-17,NA,collected,Frozen -80,N,NA,NA,4868
-U4869,extra muscle,SXM5319,BXM4,18,BXM4-18,NA,collected,Frozen -80,N,NA,NA,4869
-U4870,extra muscle,SXM5320,BXM4,19,BXM4-19,NA,collected,Frozen -80,N,NA,NA,4870
-U4871,extra muscle,SXM5321,BXM4,20,BXM4-20,NA,collected,Frozen -80,N,NA,NA,4871
-U4901,extra muscle,SXM5401,BXM4,39,BXM4-39,NA,collected,Frozen -80,N,NA,NA,4901
-U4902,extra muscle,SXM5402,BXM4,41,BXM4-41,NA,collected,Frozen -80,N,NA,NA,4902
-U4903,extra muscle,SXM5403,BXM4,43,BXM4-43,NA,collected,Frozen -80,N,NA,NA,4903
-U4904,extra muscle,SXM5404,BXM4,44,BXM4-44,NA,collected,Frozen -80,N,NA,NA,4904
-U4905,extra muscle,SXM5405,BXM4,52,BXM4-52,NA,collected,Frozen -80,N,NA,NA,4905
-U4906,extra muscle,SXM5406,BXM4,56,BXM4-56,NA,collected,Frozen -80,N,NA,NA,4906
-U4908,extra muscle,SXM5408,BXM4,72,BXM4-72,NA,collected,Frozen -80,N,NA,NA,4908
-U4909,extra muscle,SXM5409,BXM4,77,BXM4-77,NA,collected,Frozen -80,N,NA,NA,4909
-U4910,extra muscle,SXM5410,BXM4,78,BXM4-78,NA,collected,Frozen -80,N,NA,NA,4910
-U4911,extra muscle,SXM5411,BXM4,79,BXM4-79,NA,collected,Frozen -80,N,NA,NA,4911
-U4912,extra muscle,SXM5412,BXM4,80,BXM4-80,NA,collected,Frozen -80,N,NA,NA,4912
-U4913,extra muscle,SXM5413,BXM4,81,BXM4-81,NA,collected,Frozen -80,N,NA,NA,4913
-U4914,extra muscle,SXM5414,BXM4,83,BXM4-83,NA,collected,Frozen -80,N,NA,NA,4914
-U4915,extra muscle,SXM5415,BXM4,86,BXM4-86,NA,collected,Frozen -80,N,NA,NA,4915
-U4916,extra muscle,SXM5416,BXM4,89,BXM4-89,NA,collected,Frozen -80,N,NA,NA,4916
-U4918,extra muscle,SXM5418,BXM7,78,BXM7-78,NA,collected,Frozen -80,N,NA,NA,4918
-U4919,extra muscle,SXM5419,BXM7,79,BXM7-79,NA,collected,Frozen -80,N,NA,NA,4919
-U4920,extra muscle,SXM5420,BXM7,80,BXM7-80,NA,collected,Frozen -80,N,NA,NA,4920
-U4921,extra muscle,SXM5421,BXM7,76,BXM7-76,NA,collected,Frozen -80,N,NA,NA,4921
-U4922,extra muscle,SXM5422,BXM8,1,BXM8-1,NA,collected,Frozen -80,N,NA,NA,4922
-U4923,extra muscle,SXM5423,BXM8,2,BXM8-2,NA,collected,Frozen -80,N,NA,NA,4923
-U4924,extra muscle,SXM5424,BXM8,4,BXM8-4,NA,collected,Frozen -80,N,NA,NA,4924
-U4925,extra muscle,SXM5425,BXM8,8,BXM8-8,NA,collected,Frozen -80,N,NA,NA,4925
-U4926,extra muscle,SXM5426,BXM8,10,BXM8-10,NA,collected,Frozen -80,N,NA,NA,4926
-U4927,extra muscle,SXM5427,BXM8,11,BXM8-11,NA,collected,Frozen -80,N,NA,NA,4927
-U4928,extra muscle,SXM5428,BXM8,3,BXM8-3,NA,collected,Frozen -80,N,NA,NA,4928
-U4929,extra muscle,SXM5429,BXM8,5,BXM8-5,NA,collected,Frozen -80,N,NA,NA,4929
-U4930,extra muscle,SXM5430,BXM8,18,BXM8-18,NA,collected,Frozen -80,N,NA,NA,4930
-U4931,extra muscle,SXM5431,BXM8,19,BXM8-19,NA,collected,Frozen -80,N,NA,NA,4931
-U4932,extra muscle,SXM5432,BXM8,21,BXM8-21,NA,collected,Frozen -80,N,NA,NA,4932
-U4933,extra muscle,SXM5433,BXM8,23,BXM8-23,NA,collected,Frozen -80,N,NA,NA,4933
-U4934,extra muscle,SXM5434,BXM8,27,BXM8-27,NA,collected,Frozen -80,N,NA,NA,4934
-U4935,extra muscle,SXM5435,BXM8,29,BXM8-29,NA,collected,Frozen -80,N,NA,NA,4935
-U4936,extra muscle,SXM5436,BXM8,31,BXM8-31,NA,collected,Frozen -80,N,NA,NA,4936
-U4937,extra muscle,SXM5437,BXM8,7,BXM8-7,NA,collected,Frozen -80,N,NA,NA,4937
-U4938,extra muscle,SXM5438,BXM5,99,BXM5-99,NA,collected,Frozen -80,N,NA,NA,4938
-U4939,extra muscle,SXM5439,BXM5,98,BXM5-98,NA,collected,Frozen -80,N,NA,NA,4939
-U4940,extra muscle,SXM5440,BXM5,97,BXM5-97,NA,collected,Frozen -80,N,NA,NA,4940
-U4941,extra muscle,SXM5441,BXM5,96,BXM5-96,NA,collected,Frozen -80,N,NA,NA,4941
-U4942,extra muscle,SXM5442,BXM5,26,BXM5-26,NA,collected,Frozen -80,N,NA,NA,4942
-U4943,extra muscle,SXM5443,BXM5,27,BXM5-27,NA,collected,Frozen -80,N,NA,NA,4943
-U4944,extra muscle,SXM5444,BXM7,18,BXM7-18,NA,collected,Frozen -80,N,NA,NA,4944
-U4945,extra muscle,SXM5445,BXM7,19,BXM7-19,NA,collected,Frozen -80,N,NA,NA,4945
-U4946,extra muscle,SXM5446,BXM7,20,BXM7-20,NA,collected,Frozen -80,N,NA,NA,4946
-U4947,extra muscle,SXM5447,BXM7,21,BXM7-21,NA,collected,Frozen -80,N,NA,NA,4947
-U4948,extra muscle,SXM5448,BXM7,22,BXM7-22,NA,collected,Frozen -80,N,NA,NA,4948
-U4949,extra muscle,SXM5449,BXM7,23,BXM7-23,NA,collected,Frozen -80,N,NA,NA,4949
-U4950,extra muscle,SXM5450,BXM5,22,BXM5-22,NA,collected,Frozen -80,N,NA,NA,4950
-U4951,extra muscle,SXM5451,BXM5,24,BXM5-24,NA,collected,Frozen -80,N,NA,NA,4951
-U4952,extra muscle,SXM5452,BXM5,28,BXM5-28,NA,collected,Frozen -80,N,NA,NA,4952
-U4953,extra muscle,SXM5453,BXM7,24,BXM7-24,NA,collected,Frozen -80,N,NA,NA,4953
-U4954,extra muscle,SXM5454,BXM7,26,BXM7-26,NA,collected,Frozen -80,N,NA,NA,4954
-U4955,extra muscle,SXM5455,BXM7,27,BXM7-27,NA,collected,Frozen -80,N,NA,NA,4955
-U4956,extra muscle,SXM5456,BXM7,28,BXM7-28,NA,collected,Frozen -80,N,NA,NA,4956
-U4957,extra muscle,SXM5457,BXM7,100,BXM7-100,NA,collected,Frozen -80,N,NA,NA,4957
-U4096,extra muscle,SXM4496,BXM6,99,BXM6-99,NA,collected,Frozen -80,N,NA,NA,4096
-U4065,extra muscle,SXM4465,BXM6,100,BXM6-100,NA,collected,Frozen -80,N,NA,NA,4065
-U4970,extra muscle,SXM5509,BXM7,4,BXM7-4,NA,collected,Frozen -80,N,NA,NA,4970
-U4971,extra muscle,SXM5510,BXM7,6,BXM7-6,NA,collected,Frozen -80,N,NA,NA,4971
-U4972,extra muscle,SXM5511,BXM7,7,BXM7-7,NA,collected,Frozen -80,N,NA,NA,4972
-U4973,extra muscle,SXM5512,BXM7,8,BXM7-8,NA,collected,Frozen -80,N,NA,NA,4973
-U4974,extra muscle,SXM5513,BXM7,9,BXM7-9,NA,collected,Frozen -80,N,NA,NA,4974
-U4975,extra muscle,SXM5514,BXM7,10,BXM7-10,NA,collected,Frozen -80,N,NA,NA,4975
-U4976,extra muscle,SXM5515,BXM7,11,BXM7-11,NA,collected,Frozen -80,N,NA,NA,4976
-U4977,extra muscle,SXM5516,BXM7,12,BXM7-12,NA,collected,Frozen -80,N,NA,NA,4977
-U4978,extra muscle,SXM5517,BXM7,13,BXM7-13,NA,collected,Frozen -80,N,NA,NA,4978
-U4979,extra muscle,SXM5518,BXM7,14,BXM7-14,NA,collected,Frozen -80,N,NA,NA,4979
-U4980,extra muscle,SXM5519,BXM7,16,BXM7-16,NA,collected,Frozen -80,N,NA,NA,4980
-U4998,extra muscle,SXM5537,BXM7,99,BXM7-99,NA,collected,Frozen -80,N,NA,NA,4998
-U4999,extra muscle,SXM5538,BXM7,98,BXM7-98,NA,collected,Frozen -80,N,NA,NA,4999
-U5000,extra muscle,SXM5539,BXM7,97,BXM7-97,NA,collected,Frozen -80,N,NA,NA,5000
-U5001,extra muscle,SXM5540,BXM7,96,BXM7-96,NA,collected,Frozen -80,N,NA,NA,5001
-U5002,extra muscle,SXM5541,BXM7,94,BXM7-94,NA,collected,Frozen -80,N,NA,NA,5002
-U5003,extra muscle,SXM5542,BXM7,93,BXM7-93,NA,collected,Frozen -80,N,NA,NA,5003
-U5004,extra muscle,SXM5543,BXM7,66,BXM7-66,NA,collected,Frozen -80,N,NA,NA,5004
-U5005,extra muscle,SXM5544,BXM7,67,BXM7-67,NA,collected,Frozen -80,N,NA,NA,5005
-U5006,extra muscle,SXM5545,BXM7,68,BXM7-68,NA,collected,Frozen -80,N,NA,NA,5006
-U5007,extra muscle,SXM5546,BXM7,69,BXM7-69,NA,collected,Frozen -80,N,NA,NA,5007
-U5008,extra muscle,SXM5547,BXM7,29,BXM7-29,NA,collected,Frozen -80,N,NA,NA,5008
-U5009,extra muscle,SXM5548,BXM7,30,BXM7-30,NA,collected,Frozen -80,N,NA,NA,5009
-U5010,extra muscle,SXM5549,BXM7,31,BXM7-31,NA,collected,Frozen -80,N,NA,NA,5010
-U5011,extra muscle,SXM5550,BXM7,32,BXM7-32,NA,collected,Frozen -80,N,NA,NA,5011
-U5012,extra muscle,SXM5551,BXM7,33,BXM7-33,NA,collected,Frozen -80,N,NA,NA,5012
-U5013,extra muscle,SXM5552,BXM7,34,BXM7-34,NA,collected,Frozen -80,N,NA,NA,5013
-U5014,extra muscle,SXM5553,BXM7,36,BXM7-36,NA,collected,Frozen -80,N,NA,NA,5014
-U5015,extra muscle,SXM5554,BXM7,37,BXM7-37,NA,collected,Frozen -80,N,NA,NA,5015
-U5016,extra muscle,SXM5555,BXM7,38,BXM7-38,NA,collected,Frozen -80,N,NA,NA,5016
-U5017,extra muscle,SXM5556,BXM7,39,BXM7-39,NA,collected,Frozen -80,N,NA,NA,5017
-U5018,extra muscle,SXM5557,BXM7,40,BXM7-40,NA,collected,Frozen -80,N,NA,NA,5018
-U5019,extra muscle,SXM5558,BXM7,51,BXM7-51,NA,collected,Frozen -80,N,NA,NA,5019
-U5020,extra muscle,SXM5559,BXM7,52,BXM7-52,NA,collected,Frozen -80,N,NA,NA,5020
-U5021,extra muscle,SXM5560,BXM7,53,BXM7-53,NA,collected,Frozen -80,N,NA,NA,5021
-U5022,extra muscle,SXM5561,BXM7,54,BXM7-54,NA,collected,Frozen -80,N,NA,NA,5022
-U5023,extra muscle,SXM5562,BXM7,56,BXM7-56,NA,collected,Frozen -80,N,NA,NA,5023
-U5024,extra muscle,SXM5563,BXM7,57,BXM7-57,NA,collected,Frozen -80,N,NA,NA,5024
-U5025,extra muscle,SXM5564,BXM7,58,BXM7-58,NA,collected,Frozen -80,N,NA,NA,5025
-U5026,extra muscle,SXM5565,BXM7,59,BXM7-59,NA,collected,Frozen -80,N,NA,NA,5026
-U5027,extra muscle,SXM5566,BXM7,60,BXM7-60,NA,collected,Frozen -80,N,NA,NA,5027
-U5028,extra muscle,SXM5567,BXM7,61,BXM7-61,NA,collected,Frozen -80,N,NA,NA,5028
-U5029,extra muscle,SXM5568,BXM7,62,BXM7-62,NA,collected,Frozen -80,N,NA,NA,5029
-U5030,extra muscle,SXM5569,BXM7,63,BXM7-63,NA,collected,Frozen -80,N,NA,NA,5030
-U5031,extra muscle,SXM5570,BXM7,64,BXM7-64,NA,collected,Frozen -80,N,NA,NA,5031
-U5032,extra muscle,SXM5571,BXM7,70,BXM7-70,NA,collected,Frozen -80,N,NA,NA,5032
-U5033,extra muscle,SXM5572,BXM7,71,BXM7-71,NA,collected,Frozen -80,N,NA,NA,5033
-U5034,extra muscle,SXM5573,BXM7,91,BXM7-91,NA,collected,Frozen -80,N,NA,NA,5034
-U5035,extra muscle,SXM5574,BXM7,89,BXM7-89,NA,collected,Frozen -80,N,NA,NA,5035
-U5036,extra muscle,SXM5575,BXM7,90,BXM7-90,NA,collected,Frozen -80,N,NA,Changed from cell 89 (incorrect location) 2018-01-16 JG,5036
-U5037,extra muscle,SXM5576,BXM7,87,BXM7-87,NA,collected,Frozen -80,N,NA,NA,5037
-U5038,extra muscle,SXM5577,BXM7,83,BXM7-83,NA,collected,Frozen -80,N,NA,NA,5038
-U5039,extra muscle,SXM5578,BXM7,82,BXM7-82,NA,collected,Frozen -80,N,NA,NA,5039
-U5040,extra muscle,SXM5579,BXM7,84,BXM7-84,NA,collected,Frozen -80,N,NA,NA,5040
-U5041,extra muscle,SXM5580,BXM7,86,BXM7-86,NA,collected,Frozen -80,N,NA,NA,5041
-U5042,extra muscle,SXM5581,BXM7,88,BXM7-88,NA,collected,Frozen -80,N,NA,NA,5042
-U5043,extra muscle,SXM5582,BXM7,92,BXM7-92,NA,collected,Frozen -80,N,NA,NA,5043
-U5045,extra muscle,SXM5584,BXM8,9,BXM8-9,NA,collected,Frozen -80,N,NA,NA,5045
-U5046,extra muscle,SXM5585,BXM8,12,BXM8-12,NA,collected,Frozen -80,N,NA,NA,5046
-U5047,extra muscle,SXM5586,BXM8,13,BXM8-13,NA,collected,Frozen -80,N,NA,NA,5047
-U5048,extra muscle,SXM5587,BXM8,14,BXM8-14,NA,collected,Frozen -80,N,NA,NA,5048
-U5049,extra muscle,SXM5588,BXM8,15,BXM8-15,NA,collected,Frozen -80,N,NA,NA,5049
-U5050,extra muscle,SXM5589,BXM8,17,BXM8-17,NA,collected,Frozen -80,N,NA,NA,5050
-U5051,extra muscle,SXM5590,BXM8,20,BXM8-20,NA,collected,Frozen -80,N,NA,NA,5051
-U5052,extra muscle,SXM5591,BXM8,22,BXM8-22,NA,collected,Frozen -80,N,NA,NA,5052
-U5053,extra muscle,SXM5592,BXM8,24,BXM8-24,NA,collected,Frozen -80,N,NA,NA,5053
-U5054,extra muscle,SXM5593,BXM8,25,BXM8-25,NA,collected,Frozen -80,N,NA,NA,5054
-U5055,extra muscle,SXM5594,BXM8,28,BXM8-28,NA,collected,Frozen -80,N,NA,NA,5055
-U5056,extra muscle,SXM5595,BXM8,30,BXM8-30,NA,collected,Frozen -80,N,NA,NA,5056
-U5057,extra muscle,SXM5596,BXM8,32,BXM8-32,NA,collected,Frozen -80,N,NA,NA,5057
-U5058,extra muscle,SXM5597,BXM8,34,BXM8-34,NA,collected,Frozen -80,N,NA,NA,5058
-U5059,extra muscle,SXM5598,BXM8,38,BXM8-38,NA,collected,Frozen -80,N,NA,NA,5059
-U5060,extra muscle,SXM5599,BXM8,33,BXM8-33,NA,collected,Frozen -80,N,NA,NA,5060
-U5061,extra muscle,SXM5600,BXM8,35,BXM8-35,NA,collected,Frozen -80,N,NA,NA,5061
-U5062,extra muscle,SXM5601,BXM8,37,BXM8-37,NA,collected,Frozen -80,N,NA,NA,5062
-U5063,extra muscle,SXM5602,BXM8,39,BXM8-39,NA,collected,Frozen -80,N,NA,NA,5063
-U5064,extra muscle,SXM5603,BXM8,41,BXM8-41,NA,collected,Frozen -80,N,NA,NA,5064
-U5065,extra muscle,SXM5604,BXM8,43,BXM8-43,NA,collected,Frozen -80,N,NA,NA,5065
-U5066,extra muscle,SXM5605,BXM8,45,BXM8-45,NA,collected,Frozen -80,N,NA,NA,5066
-U5067,extra muscle,SXM5606,BXM8,47,BXM8-47,NA,collected,Frozen -80,N,NA,NA,5067
-U5068,extra muscle,SXM5607,BXM8,40,BXM8-40,NA,collected,Frozen -80,N,NA,NA,5068
-U5069,extra muscle,SXM5608,BXM8,42,BXM8-42,NA,collected,Frozen -80,N,NA,NA,5069
-U5070,extra muscle,SXM5609,BXM8,44,BXM8-44,NA,collected,Frozen -80,N,NA,NA,5070
+ufn,sample_type,sample_id,container_id,container_cell,sample_location,comments_sample,sample_status,sample_qc_flag,sample_flag_reason,sample_qc_log,ufn_sort
+U1721,extra muscle,SXM5104,BXM2,73,BXM2-73,NA,collected,N,NA,NA,1721
+U1722,extra muscle,SXM5105,BXM2,81,BXM2-81,NA,collected,N,NA,NA,1722
+U1723,extra muscle,SXM5106,BXM2,65,BXM2-65,NA,collected,N,NA,NA,1723
+U1724,extra muscle,SXM5107,BXM2,63,BXM2-63,NA,collected,N,NA,NA,1724
+U1725,extra muscle,SXM5108,BXM2,71,BXM2-71,NA,collected,N,NA,NA,1725
+U1726,extra muscle,SXM5109,BXM2,85,BXM2-85,NA,collected,N,NA,NA,1726
+U1727,extra muscle,SXM5110,BXM2,75,BXM2-75,NA,collected,N,NA,NA,1727
+U1728,extra muscle,SXM5111,BXM2,67,BXM2-67,NA,collected,N,NA,NA,1728
+U1729,extra muscle,SXM5112,BXM2,83,BXM2-83,NA,collected,N,NA,NA,1729
+U1730,extra muscle,SXM5113,BXM2,77,BXM2-77,NA,collected,N,NA,NA,1730
+U1751,extra muscle,SXM5114,BXM2,82,BXM2-82,NA,collected,N,NA,NA,1751
+U1752,extra muscle,SXM5115,BXM2,76,BXM2-76,NA,collected,N,NA,NA,1752
+U1753,extra muscle,SXM5116,BXM2,78,BXM2-78,NA,collected,N,NA,NA,1753
+U1754,extra muscle,SXM5117,BXM2,79,BXM2-79,NA,collected,N,NA,NA,1754
+U1755,extra muscle,SXM5118,BXM2,66,BXM2-66,NA,collected,N,NA,NA,1755
+U1756,extra muscle,SXM5119,BXM2,68,BXM2-68,NA,collected,N,NA,NA,1756
+U1757,extra muscle,SXM5120,BXM2,72,BXM2-72,NA,collected,N,NA,NA,1757
+U1758,extra muscle,SXM5121,BXM2,74,BXM2-74,NA,collected,N,NA,NA,1758
+U1759,extra muscle,SXM5122,BXM2,69,BXM2-69,NA,collected,N,NA,NA,1759
+U1760,extra muscle,SXM5123,BXM2,64,BXM2-64,NA,collected,N,NA,NA,1760
+U1791,extra muscle,SXM5124,BXM2,58,BXM2-58,NA,collected,N,NA,NA,1791
+U1792,extra muscle,SXM5125,BXM2,53,BXM2-53,NA,collected,N,NA,NA,1792
+U1793,extra muscle,SXM5126,BXM2,57,BXM2-57,NA,collected,N,NA,NA,1793
+U1794,extra muscle,SXM5127,BXM2,52,BXM2-52,NA,collected,N,NA,NA,1794
+U1795,extra muscle,SXM5128,BXM2,56,BXM2-56,NA,collected,N,NA,NA,1795
+U1796,extra muscle,SXM5129,BXM2,61,BXM2-61,NA,collected,N,NA,NA,1796
+U1797,extra muscle,SXM5130,BXM2,54,BXM2-54,NA,collected,N,NA,NA,1797
+U1798,extra muscle,SXM5131,BXM2,55,BXM2-55,NA,collected,N,NA,NA,1798
+U1799,extra muscle,SXM5132,BXM2,59,BXM2-59,NA,collected,N,NA,NA,1799
+U1800,extra muscle,SXM5133,BXM2,172,BXM2-172,NA,collected,N,NA,NA,1800
+U1871,extra muscle,SXM5134,BXM2,90,BXM2-90,NA,collected,N,NA,NA,1871
+U1872,extra muscle,SXM5135,BXM2,70,BXM2-70,NA,collected,N,NA,NA,1872
+U1873,extra muscle,SXM5136,BXM2,40,BXM2-40,NA,collected,N,NA,NA,1873
+U1874,extra muscle,SXM5137,BXM1,96,BXM1-96,NA,collected,N,NA,NA,1874
+U1875,extra muscle,SXM5138,BXM1,79,BXM1-79,NA,collected,N,NA,NA,1875
+U1881,extra muscle,SXM5139,BXM2,50,BXM2-50,NA,collected,N,NA,NA,1881
+U1882,extra muscle,SXM5140,BXM1,93,BXM1-93,NA,collected,N,NA,NA,1882
+U1883,extra muscle,SXM5141,BXM1,99,BXM1-99,NA,collected,N,NA,NA,1883
+U1884,extra muscle,SXM5142,BXM1,94,BXM1-94,NA,collected,N,NA,NA,1884
+U1885,extra muscle,SXM5143,BXM2,88,BXM2-88,NA,collected,N,NA,NA,1885
+U2191,extra muscle,SXM5144,BXM2,20,BXM2-20,NA,collected,N,NA,NA,2191
+U2192,extra muscle,SXM5145,BXM1,92,BXM1-92,NA,collected,N,NA,NA,2192
+U2193,extra muscle,SXM5146,BXM2,60,BXM2-60,NA,collected,N,NA,NA,2193
+U2194,extra muscle,SXM5147,BXM2,30,BXM2-30,NA,collected,N,NA,NA,2194
+U2195,extra muscle,SXM5148,BXM2,84,BXM2-84,NA,collected,N,NA,NA,2195
+U2196,extra muscle,SXM5149,BXM2,89,BXM2-89,NA,collected,N,NA,NA,2196
+U2197,extra muscle,SXM5150,BXM2,86,BXM2-86,NA,collected,N,NA,NA,2197
+U2198,extra muscle,SXM5151,BXM1,95,BXM1-95,NA,collected,N,NA,NA,2198
+U2199,extra muscle,SXM5152,BXM2,87,BXM2-87,NA,collected,N,NA,NA,2199
+U2200,extra muscle,SXM5153,BXM1,97,BXM1-97,NA,collected,N,NA,NA,2200
+U4386,extra muscle,SXM4786,BXM1,1,BXM1-1,Stored in -20 overnight,collected,N,NA,NA,4386
+U4387,extra muscle,SXM4787,BXM1,2,BXM1-2,Stored at -20 overnight,collected,N,NA,NA,4387
+U4388,extra muscle,SXM4788,BXM1,4,BXM1-4,NA,collected,N,NA,NA,4388
+U4389,extra muscle,SXM4789,BXM1,6,BXM1-6,Stored at -20 overnight,collected,N,NA,NA,4389
+U4391,extra muscle,SXM4791,BXM1,24,BXM1-24,NA,collected,N,NA,NA,4391
+U4392,extra muscle,SXM4792,BXM1,32,BXM1-32,NA,collected,N,NA,NA,4392
+U4484,extra muscle,SXM4884,BXM1,3,BXM1-3,Stored at -20 overnight,collected,N,NA,NA,4484
+U4485,extra muscle,SXM4885,BXM1,5,BXM1-5,Extra muscle stored at -20 overnight,collected,N,NA,NA,4485
+U4486,extra muscle,SXM4886,BXM1,7,BXM1-7,Extra muscle stored at -20 overnight,collected,N,NA,NA,4486
+U4487,extra muscle,SXM4887,BXM1,8,BXM1-8,Extra muscle stored at -20 overnight,collected,N,NA,NA,4487
+U4488,extra muscle,SXM4888,BXM1,9,BXM1-9,Extra muscle stored at -20 overnight,collected,N,NA,NA,4488
+U4524,extra muscle,SXM4924,BXM1,22,BXM1-22,NA,collected,N,NA,NA,4524
+U4525,extra muscle,SXM4925,BXM1,23,BXM1-23,NA,collected,N,NA,NA,4525
+U4526,extra muscle,SXM4926,BXM1,29,BXM1-29,NA,collected,N,NA,NA,4526
+U4527,extra muscle,SXM4927,BXM1,39,BXM1-39,NA,collected,N,NA,NA,4527
+U4528,extra muscle,SXM4928,BXM1,41,BXM1-41,NA,collected,N,NA,NA,4528
+U4529,extra muscle,SXM4929,BXM1,45,BXM1-45,NA,collected,N,NA,NA,4529
+U4530,extra muscle,SXM4930,BXM1,47,BXM1-47,NA,collected,N,NA,NA,4530
+U4531,extra muscle,SXM4931,BXM1,51,BXM1-51,NA,collected,N,NA,NA,4531
+U4532,extra muscle,SXM4932,BXM1,52,BXM1-52,NA,collected,N,NA,NA,4532
+U4533,extra muscle,SXM4933,BXM1,55,BXM1-55,NA,collected,N,NA,NA,4533
+U4534,extra muscle,SXM4934,BXM1,57,BXM1-57,NA,collected,N,NA,NA,4534
+U4535,extra muscle,SXM4935,BXM1,59,BXM1-59,NA,collected,N,NA,NA,4535
+U4536,extra muscle,SXM4936,BXM1,62,BXM1-62,NA,collected,N,NA,NA,4536
+U4554,extra muscle,SXM4954,BXM1,26,BXM1-26,NA,collected,N,NA,NA,4554
+U4555,extra muscle,SXM4955,BXM1,33,BXM1-33,NA,collected,N,NA,NA,4555
+U4556,extra muscle,SXM4956,BXM1,35,BXM1-35,NA,collected,N,NA,NA,4556
+U4557,extra muscle,SXM4957,BXM1,43,BXM1-43,NA,collected,N,NA,NA,4557
+U4558,extra muscle,SXM4958,BXM1,49,BXM1-49,NA,collected,N,NA,NA,4558
+U4559,extra muscle,SXM4959,BXM1,54,BXM1-54,NA,collected,N,NA,NA,4559
+U4560,extra muscle,SXM4960,BXM1,58,BXM1-58,NA,collected,N,NA,NA,4560
+U4561,extra muscle,SXM4961,BXM1,63,BXM1-63,NA,collected,N,NA,NA,4561
+U4562,extra muscle,SXM4962,BXM1,67,BXM1-67,NA,collected,N,NA,NA,4562
+U4563,extra muscle,SXM4963,BXM1,75,BXM1-75,NA,collected,N,NA,NA,4563
+U4564,extra muscle,SXM4964,BXM1,78,BXM1-78,NA,collected,N,NA,NA,4564
+U4565,extra muscle,SXM4965,BXM1,88,BXM1-88,NA,collected,N,NA,NA,4565
+U4566,extra muscle,SXM4966,BXM2,2,BXM2-2,NA,collected,N,NA,NA,4566
+U4567,extra muscle,SXM4967,BXM2,7,BXM2-7,NA,collected,N,NA,NA,4567
+U4568,extra muscle,SXM4968,BXM2,11,BXM2-11,NA,collected,N,NA,NA,4568
+U4569,extra muscle,SXM4969,BXM2,15,BXM2-15,NA,collected,N,NA,NA,4569
+U4570,extra muscle,SXM4970,BXM2,21,BXM2-21,NA,collected,N,NA,NA,4570
+U4571,extra muscle,SXM4971,BXM2,26,BXM2-26,NA,collected,N,NA,NA,4571
+U4572,extra muscle,SXM4972,BXM2,27,BXM2-27,NA,collected,N,NA,NA,4572
+U4573,extra muscle,SXM4973,BXM2,29,BXM2-29,NA,collected,N,NA,NA,4573
+U4574,extra muscle,SXM4974,BXM2,33,BXM2-33,NA,collected,N,NA,NA,4574
+U4575,extra muscle,SXM4975,BXM2,36,BXM2-36,NA,collected,N,NA,NA,4575
+U4576,extra muscle,SXM4976,BXM2,38,BXM2-38,NA,collected,N,NA,NA,4576
+U4577,extra muscle,SXM4977,BXM2,39,BXM2-39,NA,collected,N,NA,NA,4577
+U4578,extra muscle,SXM4978,BXM2,41,BXM2-41,NA,collected,N,NA,NA,4578
+U4579,extra muscle,SXM4979,BXM2,42,BXM2-42,NA,collected,N,NA,NA,4579
+U4580,extra muscle,SXM4980,BXM2,43,BXM2-43,NA,collected,N,NA,NA,4580
+U4581,extra muscle,SXM4981,BXM2,44,BXM2-44,NA,collected,N,NA,NA,4581
+U4582,extra muscle,SXM4982,BXM2,45,BXM2-45,NA,collected,N,NA,NA,4582
+U4583,extra muscle,SXM4983,BXM2,46,BXM2-46,NA,collected,N,NA,NA,4583
+U4584,extra muscle,SXM4984,BXM2,47,BXM2-47,NA,collected,N,NA,NA,4584
+U4588,extra muscle,SXM4988,BXM1,16,BXM1-16,NA,collected,N,NA,NA,4588
+U4589,extra muscle,SXM4989,BXM1,17,BXM1-17,NA,collected,N,NA,NA,4589
+U4590,extra muscle,SXM4990,BXM1,18,BXM1-18,NA,collected,N,NA,NA,4590
+U4591,extra muscle,SXM4991,BXM1,19,BXM1-19,NA,collected,N,NA,NA,4591
+U4609,extra muscle,SXM5009,BXM1,11,BXM1-11,Extra muscle stored at -20 overnight,collected,N,NA,NA,4609
+U4610,extra muscle,SXM5010,BXM1,12,BXM1-12,Extra muscle stored at -20 overnight,collected,N,NA,NA,4610
+U4611,extra muscle,SXM5011,BXM1,13,BXM1-13,Extra muscle stored at -20 overnight,collected,N,NA,NA,4611
+U4612,extra muscle,SXM5012,BXM1,14,BXM1-14,Extra muscle stored at -20 overnight,collected,N,NA,NA,4612
+U4613,extra muscle,SXM5013,BXM1,15,BXM1-15,Extra muscle stored at -20 overnight,collected,N,NA,NA,4613
+U4614,extra muscle,SXM5014,BXM1,21,BXM1-21,NA,collected,N,NA,NA,4614
+U4615,extra muscle,SXM5015,BXM1,25,BXM1-25,NA,collected,N,NA,NA,4615
+U4616,extra muscle,SXM5016,BXM1,31,BXM1-31,NA,collected,N,NA,NA,4616
+U4617,extra muscle,SXM5017,BXM1,34,BXM1-34,NA,collected,N,NA,NA,4617
+U4618,extra muscle,SXM5018,BXM1,37,BXM1-37,NA,collected,N,NA,NA,4618
+U4619,extra muscle,SXM5019,BXM1,44,BXM1-44,NA,collected,N,NA,NA,4619
+U4620,extra muscle,SXM5020,BXM1,46,BXM1-46,NA,collected,N,NA,NA,4620
+U4621,extra muscle,SXM5021,BXM1,48,BXM1-48,NA,collected,N,NA,NA,4621
+U4622,extra muscle,SXM5022,BXM1,53,BXM1-53,NA,collected,N,NA,NA,4622
+U4623,extra muscle,SXM5023,BXM1,56,BXM1-56,NA,collected,N,NA,NA,4623
+U4624,extra muscle,SXM5024,BXM1,61,BXM1-61,NA,collected,N,NA,NA,4624
+U4625,extra muscle,SXM5025,BXM1,64,BXM1-64,NA,collected,N,NA,NA,4625
+U4626,extra muscle,SXM5026,BXM1,65,BXM1-65,NA,collected,N,NA,NA,4626
+U4627,extra muscle,SXM5027,BXM1,68,BXM1-68,NA,collected,N,NA,NA,4627
+U4628,extra muscle,SXM5028,BXM1,76,BXM1-76,NA,collected,N,NA,NA,4628
+U4629,extra muscle,SXM5029,BXM1,82,BXM1-82,NA,collected,N,NA,NA,4629
+U4630,extra muscle,SXM5030,BXM1,85,BXM1-85,NA,collected,N,NA,NA,4630
+U4631,extra muscle,SXM5031,BXM1,89,BXM1-89,NA,collected,N,NA,NA,4631
+U4632,extra muscle,SXM5032,BXM2,3,BXM2-3,NA,collected,N,NA,NA,4632
+U4633,extra muscle,SXM5033,BXM1,36,BXM1-36,NA,collected,N,NA,NA,4633
+U4634,extra muscle,SXM5034,BXM1,42,BXM1-42,NA,collected,N,NA,NA,4634
+U4635,extra muscle,SXM5035,BXM1,73,BXM1-73,NA,collected,N,NA,NA,4635
+U4636,extra muscle,SXM5036,BXM1,77,BXM1-77,NA,collected,N,NA,NA,4636
+U4637,extra muscle,SXM5037,BXM1,84,BXM1-84,NA,collected,N,NA,NA,4637
+U4638,extra muscle,SXM5038,BXM1,91,BXM1-91,NA,collected,N,NA,NA,4638
+U4639,extra muscle,SXM5039,BXM2,34,BXM2-34,NA,collected,N,NA,NA,4639
+U4640,extra muscle,SXM5040,BXM2,37,BXM2-37,NA,collected,N,NA,NA,4640
+U4649,extra muscle,SXM5049,BXM2,48,BXM2-48,NA,collected,N,NA,NA,4649
+U4650,extra muscle,SXM5050,BXM2,49,BXM2-49,NA,collected,N,NA,NA,4650
+U4651,extra muscle,SXM5051,BXM2,51,BXM2-51,NA,collected,N,NA,NA,4651
+U4657,extra muscle,SXM5057,BXM1,66,BXM1-66,NA,collected,N,NA,NA,4657
+U4658,extra muscle,SXM5058,BXM1,72,BXM1-72,NA,collected,N,NA,NA,4658
+U4659,extra muscle,SXM5059,BXM1,74,BXM1-74,NA,collected,N,NA,NA,4659
+U4660,extra muscle,SXM5060,BXM1,81,BXM1-81,NA,collected,N,NA,NA,4660
+U4661,extra muscle,SXM5061,BXM1,83,BXM1-83,NA,collected,N,NA,NA,4661
+U4662,extra muscle,SXM5062,BXM1,87,BXM1-87,NA,collected,N,NA,NA,4662
+U4663,extra muscle,SXM5063,BXM2,1,BXM2-1,NA,collected,N,NA,NA,4663
+U4664,extra muscle,SXM5064,BXM2,4,BXM2-4,NA,collected,N,NA,NA,4664
+U4665,extra muscle,SXM5065,BXM2,6,BXM2-6,NA,collected,N,NA,NA,4665
+U4666,extra muscle,SXM5066,BXM2,9,BXM2-9,NA,collected,N,NA,NA,4666
+U4667,extra muscle,SXM5067,BXM2,13,BXM2-13,NA,collected,N,NA,NA,4667
+U4668,extra muscle,SXM5068,BXM2,16,BXM2-16,NA,collected,N,NA,NA,4668
+U4669,extra muscle,SXM5069,BXM2,18,BXM2-18,NA,collected,N,NA,NA,4669
+U4670,extra muscle,SXM5070,BXM2,22,BXM2-22,NA,collected,N,NA,NA,4670
+U4671,extra muscle,SXM5071,BXM2,24,BXM2-24,NA,collected,N,NA,NA,4671
+U4672,extra muscle,SXM5072,BXM2,25,BXM2-25,NA,collected,N,NA,NA,4672
+U4681,extra muscle,SXM5081,BXM2,5,BXM2-5,NA,collected,N,NA,NA,4681
+U4682,extra muscle,SXM5082,BXM2,8,BXM2-8,NA,collected,N,NA,NA,4682
+U4683,extra muscle,SXM5083,BXM2,12,BXM2-12,NA,collected,N,NA,NA,4683
+U4684,extra muscle,SXM5084,BXM2,14,BXM2-14,NA,collected,N,NA,NA,4684
+U4685,extra muscle,SXM5085,BXM2,17,BXM2-17,NA,collected,N,NA,NA,4685
+U4686,extra muscle,SXM5086,BXM2,19,BXM2-19,NA,collected,N,NA,NA,4686
+U4687,extra muscle,SXM5087,BXM2,23,BXM2-23,NA,collected,N,NA,NA,4687
+U4688,extra muscle,SXM5088,BXM2,28,BXM2-28,NA,collected,N,NA,NA,4688
+U4689,extra muscle,SXM5089,BXM2,31,BXM2-31,NA,collected,N,NA,NA,4689
+U4690,extra muscle,SXM5090,BXM2,32,BXM2-32,NA,collected,N,NA,NA,4690
+U4691,extra muscle,SXM5091,BXM2,35,BXM2-35,NA,collected,N,NA,NA,4691
+U3731,extra muscle,SXM4131,BXM4,88,BXM4-88,NA,collected,N,NA,NA,3731
+U3732,extra muscle,SXM4132,BXM4,90,BXM4-90,NA,collected,N,NA,NA,3732
+U3733,extra muscle,SXM4133,BXM4,67,BXM4-67,NA,collected,N,NA,NA,3733
+U3734,extra muscle,SXM4134,BXM4,69,BXM4-69,NA,collected,N,NA,NA,3734
+U3735,extra muscle,SXM4135,BXM5,3,BXM5-3,NA,collected,N,NA,NA,3735
+U3736,extra muscle,SXM4136,BXM5,1,BXM5-1,NA,collected,N,NA,NA,3736
+U3737,extra muscle,SXM4137,BXM5,5,BXM5-5,NA,collected,N,NA,NA,3737
+U3738,extra muscle,SXM4138,BXM5,7,BXM5-7,NA,collected,N,NA,NA,3738
+U3739,extra muscle,SXM4139,BXM5,9,BXM5-9,NA,collected,N,NA,NA,3739
+U3740,extra muscle,SXM4140,BXM5,11,BXM5-11,NA,collected,N,NA,NA,3740
+U3741,extra muscle,SXM4141,BXM5,12,BXM5-12,NA,collected,N,NA,NA,3741
+U3742,extra muscle,SXM4142,BXM5,13,BXM5-13,NA,collected,N,NA,NA,3742
+U3743,extra muscle,SXM4143,BXM5,16,BXM5-16,Fish slid on to bench,collected,N,NA,NA,3743
+U3744,extra muscle,SXM4144,BXM5,17,BXM5-17,Fish fell on bench,collected,N,NA,NA,3744
+U3745,extra muscle,SXM4145,BXM5,91,BXM5-91,NA,collected,N,NA,NA,3745
+U3746,extra muscle,SXM4146,BXM5,92,BXM5-92,NA,collected,N,NA,NA,3746
+U3747,extra muscle,SXM4147,BXM5,93,BXM5-93,NA,collected,N,NA,NA,3747
+U3748,extra muscle,SXM4148,BXM5,94,BXM5-94,NA,collected,N,NA,NA,3748
+U3749,extra muscle,SXM4149,BXM5,81,BXM5-81,NA,collected,N,NA,NA,3749
+U3750,extra muscle,SXM4150,BXM5,82,BXM5-82,NA,collected,N,NA,NA,3750
+U3849,extra muscle,SXM4249,BXM4,74,BXM4-74,NA,collected,N,NA,NA,3849
+U3850,extra muscle,SXM4250,BXM4,36,BXM4-36,NA,collected,N,NA,NA,3850
+U3851,extra muscle,SXM4251,BXM4,33,BXM4-33,NA,collected,N,NA,NA,3851
+U3892,extra muscle,SXM4292,BXM4,37,BXM4-37,NA,collected,N,NA,NA,3892
+U3893,extra muscle,SXM4293,BXM4,38,BXM4-38,NA,collected,N,NA,NA,3893
+U3894,extra muscle,SXM4294,BXM4,40,BXM4-40,NA,collected,N,NA,NA,3894
+U3895,extra muscle,SXM4295,BXM4,42,BXM4-42,NA,collected,N,NA,NA,3895
+U3896,extra muscle,SXM4296,BXM4,54,BXM4-54,NA,collected,N,NA,Changed cell from 44 (incorrect location) 2018-01-16 JG,3896
+U3897,extra muscle,SXM4297,BXM4,51,BXM4-51,NA,collected,N,NA,NA,3897
+U3898,extra muscle,SXM4298,BXM4,53,BXM4-53,NA,collected,N,NA,NA,3898
+U3899,extra muscle,SXM4299,BXM4,57,BXM4-57,NA,collected,N,NA,NA,3899
+U3900,extra muscle,SXM4300,BXM4,91,BXM4-91,NA,collected,N,NA,NA,3900
+U3901,extra muscle,SXM4301,BXM4,92,BXM4-92,NA,collected,N,NA,NA,3901
+U3902,extra muscle,SXM4302,BXM4,100,BXM4-100,NA,collected,N,NA,NA,3902
+U3903,extra muscle,SXM4303,BXM4,73,BXM4-73,NA,collected,N,NA,NA,3903
+U3904,extra muscle,SXM4304,BXM4,99,BXM4-99,NA,collected,N,NA,NA,3904
+U3905,extra muscle,SXM4305,BXM4,76,BXM4-76,NA,collected,N,NA,NA,3905
+U3906,extra muscle,SXM4306,BXM4,98,BXM4-98,NA,collected,N,NA,NA,3906
+U3907,extra muscle,SXM4307,BXM4,93,BXM4-93,NA,collected,N,NA,NA,3907
+U3908,extra muscle,SXM4308,BXM4,32,BXM4-32,NA,collected,N,NA,NA,3908
+U3909,extra muscle,SXM4309,BXM4,34,BXM4-34,NA,collected,N,NA,NA,3909
+U3910,extra muscle,SXM4310,BXM4,58,BXM4-58,NA,collected,N,NA,NA,3910
+U3911,extra muscle,SXM4311,BXM4,59,BXM4-59,NA,collected,N,NA,NA,3911
+U3912,extra muscle,SXM4312,BXM4,60,BXM4-60,NA,collected,N,NA,NA,3912
+U3913,extra muscle,SXM4313,BXM4,71,BXM4-71,NA,collected,N,NA,NA,3913
+U3963,extra muscle,SXM4363,BXM5,100,BXM5-100,NA,collected,N,NA,NA,3963
+U3967,extra muscle,SXM4367,BXM5,19,BXM5-19,NA,collected,N,NA,NA,3967
+U3968,extra muscle,SXM4368,BXM5,21,BXM5-21,NA,collected,N,NA,NA,3968
+U3969,extra muscle,SXM4369,BXM5,23,BXM5-23,NA,collected,N,NA,NA,3969
+U3994,extra muscle,SXM4394,BXM5,18,BXM5-18,NA,collected,N,NA,NA,3994
+U4027,extra muscle,SXM4427,BXM4,94,BXM4-94,NA,collected,N,NA,NA,4027
+U4028,extra muscle,SXM4428,BXM4,97,BXM4-97,NA,collected,N,NA,NA,4028
+U4029,extra muscle,SXM4429,BXM4,82,BXM4-82,NA,collected,N,NA,NA,4029
+U4030,extra muscle,SXM4430,BXM4,84,BXM4-84,NA,collected,N,NA,NA,4030
+U4031,extra muscle,SXM4431,BXM4,68,BXM4-68,NA,collected,N,NA,NA,4031
+U4032,extra muscle,SXM4432,BXM4,65,BXM4-65,NA,collected,N,NA,NA,4032
+U4033,extra muscle,SXM4433,BXM5,4,BXM5-4,NA,collected,N,NA,NA,4033
+U4034,extra muscle,SXM4434,BXM5,6,BXM5-6,NA,collected,N,NA,NA,4034
+U4035,extra muscle,SXM4435,BXM5,8,BXM5-8,NA,collected,N,NA,NA,4035
+U4036,extra muscle,SXM4436,BXM5,14,BXM5-14,NA,collected,N,NA,NA,4036
+U4037,extra muscle,SXM4437,BXM4,87,BXM4-87,NA,collected,N,NA,NA,4037
+U4038,extra muscle,SXM4438,BXM4,96,BXM4-96,NA,collected,N,NA,NA,4038
+U4039,extra muscle,SXM4439,BXM4,50,BXM4-50,NA,collected,N,NA,NA,4039
+U4040,extra muscle,SXM4440,BXM5,2,BXM5-2,NA,collected,N,NA,NA,4040
+U4041,extra muscle,SXM4441,BXM5,15,BXM5-15,NA,collected,N,NA,NA,4041
+U4042,extra muscle,SXM4442,BXM5,83,BXM5-83,NA,collected,N,NA,NA,4042
+U4043,extra muscle,SXM4443,BXM5,84,BXM5-84,NA,collected,N,NA,NA,4043
+U4044,extra muscle,SXM4444,BXM5,58,BXM5-58,NA,collected,N,NA,NA,4044
+U4115,extra muscle,SXM4515,BXM6,1,BXM6-1,NA,collected,N,NA,NA,4115
+U4124,extra muscle,SXM4524,BXM6,2,BXM6-2,NA,collected,N,NA,NA,4124
+U4081,extra muscle,SXM4481,BXM6,3,BXM6-3,NA,collected,N,NA,NA,4081
+U4116,extra muscle,SXM4516,BXM6,4,BXM6-4,NA,collected,N,NA,NA,4116
+U4082,extra muscle,SXM4482,BXM6,6,BXM6-6,NA,collected,N,NA,NA,4082
+U4125,extra muscle,SXM4525,BXM6,7,BXM6-7,NA,collected,N,NA,NA,4125
+U4051,extra muscle,SXM4451,BXM5,29,BXM5-29,NA,collected,N,NA,NA,4051
+U4052,extra muscle,SXM4452,BXM5,30,BXM5-30,NA,collected,N,NA,NA,4052
+U4053,extra muscle,SXM4453,BXM5,32,BXM5-32,NA,collected,N,NA,NA,4053
+U4054,extra muscle,SXM4454,BXM5,34,BXM5-34,NA,collected,N,NA,NA,4054
+U4055,extra muscle,SXM4455,BXM5,37,BXM5-37,NA,collected,N,NA,NA,4055
+U4056,extra muscle,SXM4456,BXM5,39,BXM5-39,NA,collected,N,NA,NA,4056
+U4057,extra muscle,SXM4457,BXM5,41,BXM5-41,NA,collected,N,NA,NA,4057
+U4058,extra muscle,SXM4458,BXM5,44,BXM5-44,NA,collected,N,NA,NA,4058
+U4059,extra muscle,SXM4459,BXM5,46,BXM5-46,NA,collected,N,NA,NA,4059
+U4060,extra muscle,SXM4460,BXM5,48,BXM5-48,NA,collected,N,NA,NA,4060
+U4117,extra muscle,SXM4517,BXM6,8,BXM6-8,NA,collected,N,NA,NA,4117
+U4083,extra muscle,SXM4483,BXM6,9,BXM6-9,NA,collected,N,NA,NA,4083
+U4107,extra muscle,SXM4507,BXM6,10,BXM6-10,NA,collected,N,NA,NA,4107
+U4118,extra muscle,SXM4518,BXM6,11,BXM6-11,NA,collected,N,NA,NA,4118
+U4045,extra muscle,SXM4445,BXM6,12,BXM6-12,NA,collected,N,NA,NA,4045
+U4066,extra muscle,SXM4466,BXM5,31,BXM5-31,NA,collected,N,NA,NA,4066
+U4067,extra muscle,SXM4467,BXM5,33,BXM5-33,NA,collected,N,NA,NA,4067
+U4068,extra muscle,SXM4468,BXM5,36,BXM5-36,NA,collected,N,NA,NA,4068
+U4069,extra muscle,SXM4469,BXM5,38,BXM5-38,NA,collected,N,NA,NA,4069
+U4070,extra muscle,SXM4470,BXM5,40,BXM5-40,NA,collected,N,NA,NA,4070
+U4071,extra muscle,SXM4471,BXM5,42,BXM5-42,NA,collected,N,NA,NA,4071
+U4072,extra muscle,SXM4472,BXM5,47,BXM5-47,NA,collected,N,NA,NA,4072
+U4073,extra muscle,SXM4473,BXM5,49,BXM5-49,NA,collected,N,NA,NA,4073
+U4074,extra muscle,SXM4474,BXM5,51,BXM5-51,NA,collected,N,NA,NA,4074
+U4075,extra muscle,SXM4475,BXM5,53,BXM5-53,NA,collected,N,NA,NA,4075
+U4076,extra muscle,SXM4476,BXM5,50,BXM5-50,NA,collected,N,NA,NA,4076
+U4077,extra muscle,SXM4477,BXM5,52,BXM5-52,NA,collected,N,NA,NA,4077
+U4078,extra muscle,SXM4478,BXM5,54,BXM5-54,NA,collected,N,NA,NA,4078
+U4079,extra muscle,SXM4479,BXM5,56,BXM5-56,NA,collected,N,NA,NA,4079
+U4080,extra muscle,SXM4480,BXM5,75,BXM5-75,NA,collected,N,NA,NA,4080
+U4119,extra muscle,SXM4519,BXM6,13,BXM6-13,NA,collected,N,NA,NA,4119
+U4084,extra muscle,SXM4484,BXM6,14,BXM6-14,NA,collected,N,NA,NA,4084
+U4046,extra muscle,SXM4446,BXM6,16,BXM6-16,NA,collected,N,NA,NA,4046
+U4120,extra muscle,SXM4520,BXM6,17,BXM6-17,NA,collected,N,NA,NA,4120
+U4085,extra muscle,SXM4485,BXM5,57,BXM5-57,NA,collected,N,NA,NA,4085
+U4086,extra muscle,SXM4486,BXM5,60,BXM5-60,NA,collected,N,NA,NA,4086
+U4087,extra muscle,SXM4487,BXM5,61,BXM5-61,NA,collected,N,NA,NA,4087
+U4088,extra muscle,SXM4488,BXM5,62,BXM5-62,NA,collected,N,NA,NA,4088
+U4089,extra muscle,SXM4489,BXM5,63,BXM5-63,NA,collected,N,NA,NA,4089
+U4090,extra muscle,SXM4490,BXM5,64,BXM5-64,NA,collected,N,NA,NA,4090
+U4091,extra muscle,SXM4491,BXM5,66,BXM5-66,NA,collected,N,NA,NA,4091
+U4092,extra muscle,SXM4492,BXM5,67,BXM5-67,NA,collected,N,NA,NA,4092
+U4093,extra muscle,SXM4493,BXM5,68,BXM5-68,NA,collected,N,NA,NA,4093
+U4094,extra muscle,SXM4494,BXM5,69,BXM5-69,NA,collected,N,NA,NA,4094
+U4095,extra muscle,SXM4495,BXM5,70,BXM5-70,NA,collected,N,NA,NA,4095
+U4105,extra muscle,SXM4505,BXM6,18,BXM6-18,NA,collected,N,NA,NA,4105
+U4047,extra muscle,SXM4447,BXM6,19,BXM6-19,NA,collected,N,NA,NA,4047
+U4106,extra muscle,SXM4506,BXM6,20,BXM6-20,NA,collected,N,NA,NA,4106
+U4121,extra muscle,SXM4521,BXM6,21,BXM6-21,NA,collected,N,NA,NA,4121
+U4048,extra muscle,SXM4448,BXM6,22,BXM6-22,NA,collected,N,NA,NA,4048
+U4122,extra muscle,SXM4522,BXM6,23,BXM6-23,NA,collected,N,NA,NA,4122
+U4108,extra muscle,SXM4508,BXM6,24,BXM6-24,NA,collected,N,NA,NA,4108
+U4049,extra muscle,SXM4449,BXM6,26,BXM6-26,NA,collected,N,NA,Changed from cell 15 (incorrect location) 2018-01-16 JG,4049
+U4123,extra muscle,SXM4523,BXM6,27,BXM6-27,NA,collected,N,NA,NA,4123
+U4050,extra muscle,SXM4450,BXM6,28,BXM6-28,NA,collected,N,NA,NA,4050
+U4061,extra muscle,SXM4461,UNKNOWN,UNKNOWN,UNKNOWN,NA,collected,Y,NA,"Transcribed as being in BXM6-29, but location already occupied by another vial",4061
+U4109,extra muscle,SXM4509,BXM6,29,BXM6-29,NA,collected,N,NA,NA,4109
+U4143,extra muscle,SXM4543,BXM6,30,BXM6-30,NA,collected,N,NA,NA,4143
+U4134,extra muscle,SXM4534,BXM6,31,BXM6-31,NA,collected,N,NA,NA,4134
+U4110,extra muscle,SXM4510,BXM5,86,BXM5-86,NA,collected,N,NA,NA,4110
+U4111,extra muscle,SXM4511,BXM5,87,BXM5-87,NA,collected,N,NA,NA,4111
+U4112,extra muscle,SXM4512,BXM5,88,BXM5-88,NA,collected,N,NA,NA,4112
+U4113,extra muscle,SXM4513,BXM5,89,BXM5-89,NA,collected,N,NA,NA,4113
+U4114,extra muscle,SXM4514,BXM5,90,BXM5-90,NA,collected,N,NA,NA,4114
+U4144,extra muscle,SXM4544,BXM6,32,BXM6-32,NA,collected,N,NA,NA,4144
+U4062,extra muscle,SXM4462,BXM6,33,BXM6-33,NA,collected,N,NA,NA,4062
+U4145,extra muscle,SXM4545,BXM6,34,BXM6-34,NA,collected,N,NA,NA,4145
+U4135,extra muscle,SXM4535,BXM6,36,BXM6-36,NA,collected,N,NA,NA,4135
+U4063,extra muscle,SXM4463,BXM6,37,BXM6-37,NA,collected,N,NA,NA,4063
+U4146,extra muscle,SXM4546,BXM6,38,BXM6-38,NA,collected,N,NA,NA,4146
+U4136,extra muscle,SXM4536,BXM6,39,BXM6-39,NA,collected,N,NA,NA,4136
+U4147,extra muscle,SXM4547,BXM6,40,BXM6-40,NA,collected,N,NA,NA,4147
+U4137,extra muscle,SXM4537,BXM6,41,BXM6-41,NA,collected,N,NA,NA,4137
+U4064,extra muscle,SXM4464,BXM6,42,BXM6-42,NA,collected,N,NA,NA,4064
+U4148,extra muscle,SXM4548,BXM6,43,BXM6-43,NA,collected,N,NA,NA,4148
+U4138,extra muscle,SXM4538,BXM6,44,BXM6-44,NA,collected,N,NA,NA,4138
+U4149,extra muscle,SXM4549,BXM6,46,BXM6-46,NA,collected,N,NA,NA,4149
+U4127,extra muscle,SXM4527,BXM6,47,BXM6-47,NA,collected,N,NA,NA,4127
+U4126,extra muscle,SXM4526,BXM6,48,BXM6-48,NA,collected,N,NA,NA,4126
+U4128,extra muscle,SXM4528,BXM6,49,BXM6-49,NA,collected,N,NA,NA,4128
+U4130,extra muscle,SXM4530,BXM6,50,BXM6-50,NA,collected,N,NA,NA,4130
+U4129,extra muscle,SXM4529,BXM6,51,BXM6-51,NA,collected,N,NA,NA,4129
+U4131,extra muscle,SXM4531,BXM6,61,BXM6-61,NA,collected,N,NA,NA,4131
+U4132,extra muscle,SXM4532,BXM6,62,BXM6-62,NA,collected,N,NA,NA,4132
+U4133,extra muscle,SXM4533,BXM6,63,BXM6-63,NA,collected,N,NA,NA,4133
+U4150,extra muscle,SXM4550,BXM6,64,BXM6-64,NA,collected,N,NA,NA,4150
+U4151,extra muscle,SXM4551,BXM6,66,BXM6-66,NA,collected,N,NA,NA,4151
+U4152,extra muscle,SXM4552,BXM6,67,BXM6-67,NA,collected,N,NA,NA,4152
+U4153,extra muscle,SXM4553,BXM6,68,BXM6-68,NA,collected,N,NA,NA,4153
+U4154,extra muscle,SXM4554,BXM6,69,BXM6-69,NA,collected,N,NA,NA,4154
+U4960,extra muscle,SXM5499,BXM6,70,BXM6-70,NA,collected,N,NA,NA,4960
+U4167,extra muscle,SXM4567,BXM6,73,BXM6-73,NA,collected,N,NA,NA,4167
+U4168,extra muscle,SXM4568,BXM6,74,BXM6-74,NA,collected,N,NA,NA,4168
+U4169,extra muscle,SXM4569,BXM6,76,BXM6-76,NA,collected,N,NA,NA,4169
+U4155,extra muscle,SXM4555,BXM6,77,BXM6-77,NA,collected,N,NA,NA,4155
+U4965,extra muscle,SXM5504,BXM6,78,BXM6-78,NA,collected,N,NA,NA,4965
+U4104,extra muscle,SXM4504,BXM6,81,BXM6-81,NA,collected,N,NA,NA,4104
+U4159,extra muscle,SXM4559,BXM6,82,BXM6-82,NA,collected,N,NA,NA,4159
+U4160,extra muscle,SXM4560,BXM6,83,BXM6-83,NA,collected,N,NA,NA,4160
+U4161,extra muscle,SXM4561,BXM6,84,BXM6-84,NA,collected,N,NA,NA,4161
+U4162,extra muscle,SXM4562,BXM6,86,BXM6-86,NA,collected,N,NA,NA,4162
+U4156,extra muscle,SXM4556,BXM7,1,BXM7-1,NA,collected,N,NA,NA,4156
+U4157,extra muscle,SXM4557,BXM7,2,BXM7-2,NA,collected,N,NA,NA,4157
+U4158,extra muscle,SXM4558,BXM7,3,BXM7-3,NA,collected,N,NA,NA,4158
+U4163,extra muscle,SXM4563,BXM6,87,BXM6-87,NA,collected,N,NA,NA,4163
+U4164,extra muscle,SXM4564,BXM6,88,BXM6-88,NA,collected,N,NA,NA,4164
+U4165,extra muscle,SXM4565,BXM6,89,BXM6-89,NA,collected,N,NA,NA,4165
+U4166,extra muscle,SXM4566,BXM6,90,BXM6-90,NA,collected,N,NA,NA,4166
+U4103,extra muscle,SXM4503,BXM6,91,BXM6-91,NA,collected,N,NA,NA,4103
+U4102,extra muscle,SXM4502,BXM6,92,BXM6-92,NA,collected,N,NA,NA,4102
+U4101,extra muscle,SXM4501,BXM6,94,BXM6-94,NA,collected,N,NA,NA,4101
+U4100,extra muscle,SXM4500,BXM6,95,BXM6-95,NA,collected,N,NA,NA,4100
+U4099,extra muscle,SXM4499,BXM6,96,BXM6-96,NA,collected,N,NA,NA,4099
+U4098,extra muscle,SXM4498,BXM6,97,BXM6-97,NA,collected,N,NA,NA,4098
+U4097,extra muscle,SXM4497,BXM6,98,BXM6-98,NA,collected,N,NA,NA,4097
+U4170,extra muscle,SXM4570,BXM7,77,BXM7-77,NA,collected,N,NA,NA,4170
+U4171,extra muscle,SXM4571,BXM7,73,BXM7-73,NA,collected,N,NA,NA,4171
+U4172,extra muscle,SXM4572,BXM7,74,BXM7-74,NA,collected,N,NA,NA,4172
+U4173,extra muscle,SXM4573,BXM7,17,BXM7-17,NA,collected,N,NA,NA,4173
+U4800,extra muscle,SXM5250,BXM3,1,BXM3-1,NA,collected,N,NA,NA,4800
+U4801,extra muscle,SXM5251,BXM3,2,BXM3-2,NA,collected,N,NA,NA,4801
+U4802,extra muscle,SXM5252,BXM3,3,BXM3-3,NA,collected,N,NA,NA,4802
+U4776,extra muscle,SXM5226,BXM3,4,BXM3-4,NA,collected,N,NA,NA,4776
+U4777,extra muscle,SXM5227,BXM3,5,BXM3-5,NA,collected,N,NA,NA,4777
+U4778,extra muscle,SXM5228,BXM3,6,BXM3-6,NA,collected,N,NA,NA,4778
+U4779,extra muscle,SXM5229,BXM3,7,BXM3-7,NA,collected,N,NA,NA,4779
+U4780,extra muscle,SXM5230,BXM3,8,BXM3-8,NA,collected,N,NA,NA,4780
+U4728,extra muscle,SXM5178,BXM3,9,BXM3-9,NA,collected,N,NA,NA,4728
+U4781,extra muscle,SXM5231,BXM3,11,BXM3-11,NA,collected,N,NA,NA,4781
+U4729,extra muscle,SXM5179,BXM3,12,BXM3-12,NA,collected,N,NA,NA,4729
+U4782,extra muscle,SXM5232,BXM3,13,BXM3-13,NA,collected,N,NA,NA,4782
+U4730,extra muscle,SXM5180,BXM3,14,BXM3-14,NA,collected,N,NA,NA,4730
+U4783,extra muscle,SXM5233,BXM3,15,BXM3-15,NA,collected,N,NA,NA,4783
+U4784,extra muscle,SXM5234,BXM3,16,BXM3-16,NA,collected,N,NA,NA,4784
+U4731,extra muscle,SXM5181,BXM3,17,BXM3-17,NA,collected,N,NA,NA,4731
+U4785,extra muscle,SXM5235,BXM3,18,BXM3-18,NA,collected,N,NA,NA,4785
+U4803,extra muscle,SXM5253,BXM3,19,BXM3-19,NA,collected,N,NA,NA,4803
+U4732,extra muscle,SXM5182,BXM3,21,BXM3-21,NA,collected,N,NA,NA,4732
+U4786,extra muscle,SXM5236,BXM3,22,BXM3-22,NA,collected,N,NA,NA,4786
+U4752,extra muscle,SXM5202,BXM3,23,BXM3-23,NA,collected,N,NA,NA,4752
+U4804,extra muscle,SXM5254,BXM3,24,BXM3-24,NA,collected,N,NA,NA,4804
+U4787,extra muscle,SXM5237,BXM3,25,BXM3-25,NA,collected,N,NA,NA,4787
+U4733,extra muscle,SXM5183,BXM3,26,BXM3-26,NA,collected,N,NA,NA,4733
+U4753,extra muscle,SXM5203,BXM3,27,BXM3-27,NA,collected,N,NA,NA,4753
+U4788,extra muscle,SXM5238,BXM3,28,BXM3-28,NA,collected,N,NA,NA,4788
+U4757,extra muscle,SXM5207,BXM4,28,BXM4-28,NA,collected,N,NA,NA,4757
+U4758,extra muscle,SXM5208,BXM4,29,BXM4-29,NA,collected,N,NA,NA,4758
+U4759,extra muscle,SXM5209,BXM4,30,BXM4-30,NA,collected,N,NA,NA,4759
+U4760,extra muscle,SXM5210,BXM4,31,BXM4-31,NA,collected,N,NA,NA,4760
+U4805,extra muscle,SXM5255,BXM3,29,BXM3-29,NA,collected,N,NA,NA,4805
+U4734,extra muscle,SXM5184,BXM3,31,BXM3-31,NA,collected,N,NA,NA,4734
+U4754,extra muscle,SXM5204,BXM3,32,BXM3-32,NA,collected,N,NA,NA,4754
+U4789,extra muscle,SXM5239,BXM3,33,BXM3-33,NA,collected,N,NA,NA,4789
+U4735,extra muscle,SXM5185,BXM3,34,BXM3-34,NA,collected,N,NA,NA,4735
+U4806,extra muscle,SXM5256,BXM3,35,BXM3-35,NA,collected,N,NA,NA,4806
+U4755,extra muscle,SXM5205,BXM3,36,BXM3-36,NA,collected,N,NA,NA,4755
+U4790,extra muscle,SXM5240,BXM3,37,BXM3-37,NA,collected,N,NA,NA,4790
+U4807,extra muscle,SXM5257,BXM3,38,BXM3-38,NA,collected,N,NA,NA,4807
+U4736,extra muscle,SXM5186,BXM3,39,BXM3-39,NA,collected,N,NA,NA,4736
+U4791,extra muscle,SXM5241,BXM3,41,BXM3-41,NA,collected,N,NA,NA,4791
+U4808,extra muscle,SXM5258,BXM3,42,BXM3-42,NA,collected,N,NA,NA,4808
+U4824,extra muscle,SXM5274,BXM3,43,BXM3-43,NA,collected,N,NA,NA,4824
+U4792,extra muscle,SXM5242,BXM3,44,BXM3-44,NA,collected,N,NA,NA,4792
+U4737,extra muscle,SXM5187,BXM3,46,BXM3-46,NA,collected,N,NA,NA,4737
+U4793,extra muscle,SXM5243,BXM3,47,BXM3-47,NA,collected,N,NA,NA,4793
+U4809,extra muscle,SXM5259,BXM3,48,BXM3-48,NA,collected,N,NA,NA,4809
+U4825,extra muscle,SXM5275,BXM3,49,BXM3-49,NA,collected,N,NA,NA,4825
+U4794,extra muscle,SXM5244,BXM4,21,BXM4-21,NA,collected,N,NA,NA,4794
+U4795,extra muscle,SXM5245,BXM4,22,BXM4-22,NA,collected,N,NA,NA,4795
+U4796,extra muscle,SXM5246,BXM4,23,BXM4-23,NA,collected,N,NA,NA,4796
+U4797,extra muscle,SXM5247,BXM4,24,BXM4-24,NA,collected,N,NA,NA,4797
+U4798,extra muscle,SXM5248,BXM4,26,BXM4-26,NA,collected,N,NA,NA,4798
+U4799,extra muscle,SXM5249,BXM4,27,BXM4-27,NA,collected,N,NA,NA,4799
+U4738,extra muscle,SXM5188,BXM3,51,BXM3-51,NA,collected,N,NA,NA,4738
+U4810,extra muscle,SXM5260,BXM3,52,BXM3-52,NA,collected,N,NA,NA,4810
+U4739,extra muscle,SXM5189,BXM3,53,BXM3-53,NA,collected,N,NA,NA,4739
+U4811,extra muscle,SXM5261,BXM3,57,BXM3-57,NA,collected,N,NA,Changed from cell 54 (incorrect location) 2018-01-16 JG,4811
+U4826,extra muscle,SXM5276,BXM3,54,BXM3-54,NA,collected,N,NA,NA,4826
+U4740,extra muscle,SXM5190,BXM3,56,BXM3-56,NA,collected,N,NA,NA,4740
+U4827,extra muscle,SXM5277,BXM3,58,BXM3-58,NA,collected,N,NA,NA,4827
+U4812,extra muscle,SXM5262,BXM3,59,BXM3-59,NA,collected,N,NA,NA,4812
+U4813,extra muscle,SXM5263,BXM3,61,BXM3-61,NA,collected,N,NA,NA,4813
+U4814,extra muscle,SXM5264,BXM3,62,BXM3-62,NA,collected,N,NA,NA,4814
+U4815,extra muscle,SXM5265,BXM3,63,BXM3-63,NA,collected,N,NA,NA,4815
+U4816,extra muscle,SXM5266,BXM3,64,BXM3-64,NA,collected,N,NA,NA,4816
+U4817,extra muscle,SXM5267,BXM3,66,BXM3-66,NA,collected,N,NA,NA,4817
+U4818,extra muscle,SXM5268,BXM3,67,BXM3-67,NA,collected,N,NA,NA,4818
+U4819,extra muscle,SXM5269,BXM3,68,BXM3-68,NA,collected,N,NA,NA,4819
+U4741,extra muscle,SXM5191,BXM3,69,BXM3-69,NA,collected,N,NA,NA,4741
+U4820,extra muscle,SXM5270,BXM3,71,BXM3-71,NA,collected,N,NA,NA,4820
+U4742,extra muscle,SXM5192,BXM3,72,BXM3-72,NA,collected,N,NA,NA,4742
+U4821,extra muscle,SXM5271,BXM3,73,BXM3-73,NA,collected,N,NA,NA,4821
+U4743,extra muscle,SXM5193,BXM3,74,BXM3-74,NA,collected,N,NA,NA,4743
+U4822,extra muscle,SXM5272,BXM3,76,BXM3-76,NA,collected,N,NA,NA,4822
+U4744,extra muscle,SXM5194,BXM3,77,BXM3-77,NA,collected,N,NA,NA,4744
+U4823,extra muscle,SXM5273,BXM3,78,BXM3-78,NA,collected,N,NA,NA,4823
+U4745,extra muscle,SXM5195,BXM3,79,BXM3-79,NA,collected,N,NA,NA,4745
+U4848,extra muscle,SXM5298,BXM3,81,BXM3-81,NA,collected,N,NA,NA,4848
+U4849,extra muscle,SXM5299,BXM3,82,BXM3-82,NA,collected,N,NA,NA,4849
+U4746,extra muscle,SXM5196,BXM3,83,BXM3-83,NA,collected,N,NA,NA,4746
+U4850,extra muscle,SXM5300,BXM3,84,BXM3-84,NA,collected,N,NA,NA,4850
+U4747,extra muscle,SXM5197,BXM3,86,BXM3-86,NA,collected,N,NA,NA,4747
+U4851,extra muscle,SXM5301,BXM3,87,BXM3-87,NA,collected,N,NA,NA,4851
+U4748,extra muscle,SXM5198,BXM3,88,BXM3-88,NA,collected,N,NA,NA,4748
+U4852,extra muscle,SXM5302,BXM3,89,BXM3-89,NA,collected,N,NA,NA,4852
+U4749,extra muscle,SXM5199,BXM3,100,BXM3-100,NA,collected,N,NA,NA,4749
+U4853,extra muscle,SXM5303,BXM4,1,BXM4-1,NA,collected,N,NA,NA,4853
+U4854,extra muscle,SXM5304,BXM4,2,BXM4-2,NA,collected,N,NA,NA,4854
+U4855,extra muscle,SXM5305,BXM4,3,BXM4-3,NA,collected,N,NA,NA,4855
+U4856,extra muscle,SXM5306,BXM4,4,BXM4-4,NA,collected,N,NA,NA,4856
+U4857,extra muscle,SXM5307,BXM4,5,BXM4-5,NA,collected,N,NA,NA,4857
+U4858,extra muscle,SXM5308,BXM4,7,BXM4-7,NA,collected,N,NA,NA,4858
+U4859,extra muscle,SXM5309,BXM4,8,BXM4-8,NA,collected,N,NA,NA,4859
+U4860,extra muscle,SXM5310,BXM4,9,BXM4-9,NA,collected,N,NA,NA,4860
+U4861,extra muscle,SXM5311,BXM4,10,BXM4-10,NA,collected,N,NA,NA,4861
+U4863,extra muscle,SXM5313,BXM4,11,BXM4-11,NA,collected,N,NA,NA,4863
+U4864,extra muscle,SXM5314,BXM4,12,BXM4-12,NA,collected,N,NA,NA,4864
+U4865,extra muscle,SXM5315,BXM4,13,BXM4-13,NA,collected,N,NA,NA,4865
+U4866,extra muscle,SXM5316,BXM4,14,BXM4-14,NA,collected,N,NA,NA,4866
+U4867,extra muscle,SXM5317,BXM4,16,BXM4-16,NA,collected,N,NA,NA,4867
+U4868,extra muscle,SXM5318,BXM4,17,BXM4-17,NA,collected,N,NA,NA,4868
+U4869,extra muscle,SXM5319,BXM4,18,BXM4-18,NA,collected,N,NA,NA,4869
+U4870,extra muscle,SXM5320,BXM4,19,BXM4-19,NA,collected,N,NA,NA,4870
+U4871,extra muscle,SXM5321,BXM4,20,BXM4-20,NA,collected,N,NA,NA,4871
+U4901,extra muscle,SXM5401,BXM4,39,BXM4-39,NA,collected,N,NA,NA,4901
+U4902,extra muscle,SXM5402,BXM4,41,BXM4-41,NA,collected,N,NA,NA,4902
+U4903,extra muscle,SXM5403,BXM4,43,BXM4-43,NA,collected,N,NA,NA,4903
+U4904,extra muscle,SXM5404,BXM4,44,BXM4-44,NA,collected,N,NA,NA,4904
+U4905,extra muscle,SXM5405,BXM4,52,BXM4-52,NA,collected,N,NA,NA,4905
+U4906,extra muscle,SXM5406,BXM4,56,BXM4-56,NA,collected,N,NA,NA,4906
+U4908,extra muscle,SXM5408,BXM4,72,BXM4-72,NA,collected,N,NA,NA,4908
+U4909,extra muscle,SXM5409,BXM4,77,BXM4-77,NA,collected,N,NA,NA,4909
+U4910,extra muscle,SXM5410,BXM4,78,BXM4-78,NA,collected,N,NA,NA,4910
+U4911,extra muscle,SXM5411,BXM4,79,BXM4-79,NA,collected,N,NA,NA,4911
+U4912,extra muscle,SXM5412,BXM4,80,BXM4-80,NA,collected,N,NA,NA,4912
+U4913,extra muscle,SXM5413,BXM4,81,BXM4-81,NA,collected,N,NA,NA,4913
+U4914,extra muscle,SXM5414,BXM4,83,BXM4-83,NA,collected,N,NA,NA,4914
+U4915,extra muscle,SXM5415,BXM4,86,BXM4-86,NA,collected,N,NA,NA,4915
+U4916,extra muscle,SXM5416,BXM4,89,BXM4-89,NA,collected,N,NA,NA,4916
+U4918,extra muscle,SXM5418,BXM7,78,BXM7-78,NA,collected,N,NA,NA,4918
+U4919,extra muscle,SXM5419,BXM7,79,BXM7-79,NA,collected,N,NA,NA,4919
+U4920,extra muscle,SXM5420,BXM7,80,BXM7-80,NA,collected,N,NA,NA,4920
+U4921,extra muscle,SXM5421,BXM7,76,BXM7-76,NA,collected,N,NA,NA,4921
+U4922,extra muscle,SXM5422,BXM8,1,BXM8-1,NA,collected,N,NA,NA,4922
+U4923,extra muscle,SXM5423,BXM8,2,BXM8-2,NA,collected,N,NA,NA,4923
+U4924,extra muscle,SXM5424,BXM8,4,BXM8-4,NA,collected,N,NA,NA,4924
+U4925,extra muscle,SXM5425,BXM8,8,BXM8-8,NA,collected,N,NA,NA,4925
+U4926,extra muscle,SXM5426,BXM8,10,BXM8-10,NA,collected,N,NA,NA,4926
+U4927,extra muscle,SXM5427,BXM8,11,BXM8-11,NA,collected,N,NA,NA,4927
+U4928,extra muscle,SXM5428,BXM8,3,BXM8-3,NA,collected,N,NA,NA,4928
+U4929,extra muscle,SXM5429,BXM8,5,BXM8-5,NA,collected,N,NA,NA,4929
+U4930,extra muscle,SXM5430,BXM8,18,BXM8-18,NA,collected,N,NA,NA,4930
+U4931,extra muscle,SXM5431,BXM8,19,BXM8-19,NA,collected,N,NA,NA,4931
+U4932,extra muscle,SXM5432,BXM8,21,BXM8-21,NA,collected,N,NA,NA,4932
+U4933,extra muscle,SXM5433,BXM8,23,BXM8-23,NA,collected,N,NA,NA,4933
+U4934,extra muscle,SXM5434,BXM8,27,BXM8-27,NA,collected,N,NA,NA,4934
+U4935,extra muscle,SXM5435,BXM8,29,BXM8-29,NA,collected,N,NA,NA,4935
+U4936,extra muscle,SXM5436,BXM8,31,BXM8-31,NA,collected,N,NA,NA,4936
+U4937,extra muscle,SXM5437,BXM8,7,BXM8-7,NA,collected,N,NA,NA,4937
+U4938,extra muscle,SXM5438,BXM5,99,BXM5-99,NA,collected,N,NA,NA,4938
+U4939,extra muscle,SXM5439,BXM5,98,BXM5-98,NA,collected,N,NA,NA,4939
+U4940,extra muscle,SXM5440,BXM5,97,BXM5-97,NA,collected,N,NA,NA,4940
+U4941,extra muscle,SXM5441,BXM5,96,BXM5-96,NA,collected,N,NA,NA,4941
+U4942,extra muscle,SXM5442,BXM5,26,BXM5-26,NA,collected,N,NA,NA,4942
+U4943,extra muscle,SXM5443,BXM5,27,BXM5-27,NA,collected,N,NA,NA,4943
+U4944,extra muscle,SXM5444,BXM7,18,BXM7-18,NA,collected,N,NA,NA,4944
+U4945,extra muscle,SXM5445,BXM7,19,BXM7-19,NA,collected,N,NA,NA,4945
+U4946,extra muscle,SXM5446,BXM7,20,BXM7-20,NA,collected,N,NA,NA,4946
+U4947,extra muscle,SXM5447,BXM7,21,BXM7-21,NA,collected,N,NA,NA,4947
+U4948,extra muscle,SXM5448,BXM7,22,BXM7-22,NA,collected,N,NA,NA,4948
+U4949,extra muscle,SXM5449,BXM7,23,BXM7-23,NA,collected,N,NA,NA,4949
+U4950,extra muscle,SXM5450,BXM5,22,BXM5-22,NA,collected,N,NA,NA,4950
+U4951,extra muscle,SXM5451,BXM5,24,BXM5-24,NA,collected,N,NA,NA,4951
+U4952,extra muscle,SXM5452,BXM5,28,BXM5-28,NA,collected,N,NA,NA,4952
+U4953,extra muscle,SXM5453,BXM7,24,BXM7-24,NA,collected,N,NA,NA,4953
+U4954,extra muscle,SXM5454,BXM7,26,BXM7-26,NA,collected,N,NA,NA,4954
+U4955,extra muscle,SXM5455,BXM7,27,BXM7-27,NA,collected,N,NA,NA,4955
+U4956,extra muscle,SXM5456,BXM7,28,BXM7-28,NA,collected,N,NA,NA,4956
+U4957,extra muscle,SXM5457,BXM7,100,BXM7-100,NA,collected,N,NA,NA,4957
+U4096,extra muscle,SXM4496,BXM6,99,BXM6-99,NA,collected,N,NA,NA,4096
+U4065,extra muscle,SXM4465,BXM6,100,BXM6-100,NA,collected,N,NA,NA,4065
+U4970,extra muscle,SXM5509,BXM7,4,BXM7-4,NA,collected,N,NA,NA,4970
+U4971,extra muscle,SXM5510,BXM7,6,BXM7-6,NA,collected,N,NA,NA,4971
+U4972,extra muscle,SXM5511,BXM7,7,BXM7-7,NA,collected,N,NA,NA,4972
+U4973,extra muscle,SXM5512,BXM7,8,BXM7-8,NA,collected,N,NA,NA,4973
+U4974,extra muscle,SXM5513,BXM7,9,BXM7-9,NA,collected,N,NA,NA,4974
+U4975,extra muscle,SXM5514,BXM7,10,BXM7-10,NA,collected,N,NA,NA,4975
+U4976,extra muscle,SXM5515,BXM7,11,BXM7-11,NA,collected,N,NA,NA,4976
+U4977,extra muscle,SXM5516,BXM7,12,BXM7-12,NA,collected,N,NA,NA,4977
+U4978,extra muscle,SXM5517,BXM7,13,BXM7-13,NA,collected,N,NA,NA,4978
+U4979,extra muscle,SXM5518,BXM7,14,BXM7-14,NA,collected,N,NA,NA,4979
+U4980,extra muscle,SXM5519,BXM7,16,BXM7-16,NA,collected,N,NA,NA,4980
+U4998,extra muscle,SXM5537,BXM7,99,BXM7-99,NA,collected,N,NA,NA,4998
+U4999,extra muscle,SXM5538,BXM7,98,BXM7-98,NA,collected,N,NA,NA,4999
+U5000,extra muscle,SXM5539,BXM7,97,BXM7-97,NA,collected,N,NA,NA,5000
+U5001,extra muscle,SXM5540,BXM7,96,BXM7-96,NA,collected,N,NA,NA,5001
+U5002,extra muscle,SXM5541,BXM7,94,BXM7-94,NA,collected,N,NA,NA,5002
+U5003,extra muscle,SXM5542,BXM7,93,BXM7-93,NA,collected,N,NA,NA,5003
+U5004,extra muscle,SXM5543,BXM7,66,BXM7-66,NA,collected,N,NA,NA,5004
+U5005,extra muscle,SXM5544,BXM7,67,BXM7-67,NA,collected,N,NA,NA,5005
+U5006,extra muscle,SXM5545,BXM7,68,BXM7-68,NA,collected,N,NA,NA,5006
+U5007,extra muscle,SXM5546,BXM7,69,BXM7-69,NA,collected,N,NA,NA,5007
+U5008,extra muscle,SXM5547,BXM7,29,BXM7-29,NA,collected,N,NA,NA,5008
+U5009,extra muscle,SXM5548,BXM7,30,BXM7-30,NA,collected,N,NA,NA,5009
+U5010,extra muscle,SXM5549,BXM7,31,BXM7-31,NA,collected,N,NA,NA,5010
+U5011,extra muscle,SXM5550,BXM7,32,BXM7-32,NA,collected,N,NA,NA,5011
+U5012,extra muscle,SXM5551,BXM7,33,BXM7-33,NA,collected,N,NA,NA,5012
+U5013,extra muscle,SXM5552,BXM7,34,BXM7-34,NA,collected,N,NA,NA,5013
+U5014,extra muscle,SXM5553,BXM7,36,BXM7-36,NA,collected,N,NA,NA,5014
+U5015,extra muscle,SXM5554,BXM7,37,BXM7-37,NA,collected,N,NA,NA,5015
+U5016,extra muscle,SXM5555,BXM7,38,BXM7-38,NA,collected,N,NA,NA,5016
+U5017,extra muscle,SXM5556,BXM7,39,BXM7-39,NA,collected,N,NA,NA,5017
+U5018,extra muscle,SXM5557,BXM7,40,BXM7-40,NA,collected,N,NA,NA,5018
+U5019,extra muscle,SXM5558,BXM7,51,BXM7-51,NA,collected,N,NA,NA,5019
+U5020,extra muscle,SXM5559,BXM7,52,BXM7-52,NA,collected,N,NA,NA,5020
+U5021,extra muscle,SXM5560,BXM7,53,BXM7-53,NA,collected,N,NA,NA,5021
+U5022,extra muscle,SXM5561,BXM7,54,BXM7-54,NA,collected,N,NA,NA,5022
+U5023,extra muscle,SXM5562,BXM7,56,BXM7-56,NA,collected,N,NA,NA,5023
+U5024,extra muscle,SXM5563,BXM7,57,BXM7-57,NA,collected,N,NA,NA,5024
+U5025,extra muscle,SXM5564,BXM7,58,BXM7-58,NA,collected,N,NA,NA,5025
+U5026,extra muscle,SXM5565,BXM7,59,BXM7-59,NA,collected,N,NA,NA,5026
+U5027,extra muscle,SXM5566,BXM7,60,BXM7-60,NA,collected,N,NA,NA,5027
+U5028,extra muscle,SXM5567,BXM7,61,BXM7-61,NA,collected,N,NA,NA,5028
+U5029,extra muscle,SXM5568,BXM7,62,BXM7-62,NA,collected,N,NA,NA,5029
+U5030,extra muscle,SXM5569,BXM7,63,BXM7-63,NA,collected,N,NA,NA,5030
+U5031,extra muscle,SXM5570,BXM7,64,BXM7-64,NA,collected,N,NA,NA,5031
+U5032,extra muscle,SXM5571,BXM7,70,BXM7-70,NA,collected,N,NA,NA,5032
+U5033,extra muscle,SXM5572,BXM7,71,BXM7-71,NA,collected,N,NA,NA,5033
+U5034,extra muscle,SXM5573,BXM7,91,BXM7-91,NA,collected,N,NA,NA,5034
+U5035,extra muscle,SXM5574,BXM7,89,BXM7-89,NA,collected,N,NA,NA,5035
+U5036,extra muscle,SXM5575,BXM7,90,BXM7-90,NA,collected,N,NA,Changed from cell 89 (incorrect location) 2018-01-16 JG,5036
+U5037,extra muscle,SXM5576,BXM7,87,BXM7-87,NA,collected,N,NA,NA,5037
+U5038,extra muscle,SXM5577,BXM7,83,BXM7-83,NA,collected,N,NA,NA,5038
+U5039,extra muscle,SXM5578,BXM7,82,BXM7-82,NA,collected,N,NA,NA,5039
+U5040,extra muscle,SXM5579,BXM7,84,BXM7-84,NA,collected,N,NA,NA,5040
+U5041,extra muscle,SXM5580,BXM7,86,BXM7-86,NA,collected,N,NA,NA,5041
+U5042,extra muscle,SXM5581,BXM7,88,BXM7-88,NA,collected,N,NA,NA,5042
+U5043,extra muscle,SXM5582,BXM7,92,BXM7-92,NA,collected,N,NA,NA,5043
+U5045,extra muscle,SXM5584,BXM8,9,BXM8-9,NA,collected,N,NA,NA,5045
+U5046,extra muscle,SXM5585,BXM8,12,BXM8-12,NA,collected,N,NA,NA,5046
+U5047,extra muscle,SXM5586,BXM8,13,BXM8-13,NA,collected,N,NA,NA,5047
+U5048,extra muscle,SXM5587,BXM8,14,BXM8-14,NA,collected,N,NA,NA,5048
+U5049,extra muscle,SXM5588,BXM8,15,BXM8-15,NA,collected,N,NA,NA,5049
+U5050,extra muscle,SXM5589,BXM8,17,BXM8-17,NA,collected,N,NA,NA,5050
+U5051,extra muscle,SXM5590,BXM8,20,BXM8-20,NA,collected,N,NA,NA,5051
+U5052,extra muscle,SXM5591,BXM8,22,BXM8-22,NA,collected,N,NA,NA,5052
+U5053,extra muscle,SXM5592,BXM8,24,BXM8-24,NA,collected,N,NA,NA,5053
+U5054,extra muscle,SXM5593,BXM8,25,BXM8-25,NA,collected,N,NA,NA,5054
+U5055,extra muscle,SXM5594,BXM8,28,BXM8-28,NA,collected,N,NA,NA,5055
+U5056,extra muscle,SXM5595,BXM8,30,BXM8-30,NA,collected,N,NA,NA,5056
+U5057,extra muscle,SXM5596,BXM8,32,BXM8-32,NA,collected,N,NA,NA,5057
+U5058,extra muscle,SXM5597,BXM8,34,BXM8-34,NA,collected,N,NA,NA,5058
+U5059,extra muscle,SXM5598,BXM8,38,BXM8-38,NA,collected,N,NA,NA,5059
+U5060,extra muscle,SXM5599,BXM8,33,BXM8-33,NA,collected,N,NA,NA,5060
+U5061,extra muscle,SXM5600,BXM8,35,BXM8-35,NA,collected,N,NA,NA,5061
+U5062,extra muscle,SXM5601,BXM8,37,BXM8-37,NA,collected,N,NA,NA,5062
+U5063,extra muscle,SXM5602,BXM8,39,BXM8-39,NA,collected,N,NA,NA,5063
+U5064,extra muscle,SXM5603,BXM8,41,BXM8-41,NA,collected,N,NA,NA,5064
+U5065,extra muscle,SXM5604,BXM8,43,BXM8-43,NA,collected,N,NA,NA,5065
+U5066,extra muscle,SXM5605,BXM8,45,BXM8-45,NA,collected,N,NA,NA,5066
+U5067,extra muscle,SXM5606,BXM8,47,BXM8-47,NA,collected,N,NA,NA,5067
+U5068,extra muscle,SXM5607,BXM8,40,BXM8-40,NA,collected,N,NA,NA,5068
+U5069,extra muscle,SXM5608,BXM8,42,BXM8-42,NA,collected,N,NA,NA,5069
+U5070,extra muscle,SXM5609,BXM8,44,BXM8-44,NA,collected,N,NA,NA,5070

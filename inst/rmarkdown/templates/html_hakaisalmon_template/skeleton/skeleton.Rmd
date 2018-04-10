@@ -1,0 +1,17 @@
+---
+title: "Hakai Institute Juvenile Salmon Report"
+author: "Brett Johnson"
+date: '`r date()`'
+output:
+ html_document:
+   theme: cosmo
+   code_folding: show
+   toc: true
+   toc_float: true
+   number_sections: true
+---
+
+```{r}
+
+```
+

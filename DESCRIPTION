@@ -1,12 +1,13 @@
 Package: hakaisalmon
 Type: Package
-Title: Hakai Institute Juvenile Salmon Program Data and Tools
-Version: 0.1.0
+Title: Hakai Institute Juvenile Salmon Program data and functions
+Version: 0.1.0.9000
+Date: 2018-04-06
 Authors@R: person("Brett", "Johnson", email = "Brett.Johnson@hakai.org",
                   role = c("aut", "cre"))
 Description: This package contains the Hakai Institute Juvenile Salmon Program dataset,
     along with custom functions for summarizing program data. 
-License: None. Internal use only
+License: None. Internal use only. 
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
@@ -17,3 +18,5 @@ Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
+URL: https://github.com/HakaiInstitute/hakaisalmon
+BugReports: https://github.com/HakaiInstitute/hakaisalmon/issues

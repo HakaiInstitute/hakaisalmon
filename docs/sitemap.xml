@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://pkgdown.r-lib.org/reference/bycatch_mort.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/carcass_metadata.html</loc>
+  </url>
+  <url>
     <loc>http://pkgdown.r-lib.org/reference/dna_metadata.html</loc>
   </url>
   <url>
+    <loc>http://pkgdown.r-lib.org/reference/fa_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/finclip_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/fish_field_data.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/fish_lab_data.html</loc>
+  </url>
+  <url>
     <loc>http://pkgdown.r-lib.org/reference/html_report_template.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/iso_metadata.html</loc>
   </url>
   <url>
     <loc>http://pkgdown.r-lib.org/reference/mutate_cond.html</loc>
@@ -13,10 +34,52 @@
     <loc>http://pkgdown.r-lib.org/reference/onAttach.html</loc>
   </url>
   <url>
+    <loc>http://pkgdown.r-lib.org/reference/otolith_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/package_data.html</loc>
+  </url>
+  <url>
     <loc>http://pkgdown.r-lib.org/reference/pdf_report_template.html</loc>
   </url>
   <url>
+    <loc>http://pkgdown.r-lib.org/reference/rna_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/sample_container_inventory.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/scale_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/sealice_field.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/sealice_lab_motiles.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/sealice_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/seine_data.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/stock_id.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/stomach_metadata.html</loc>
+  </url>
+  <url>
     <loc>http://pkgdown.r-lib.org/reference/survey_data.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/xm_metadata.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/ysi.html</loc>
+  </url>
+  <url>
+    <loc>http://pkgdown.r-lib.org/reference/zoop_tows.html</loc>
   </url>
   <url>
     <loc>http://pkgdown.r-lib.org/articles/data_contributing_guidelines.html</loc>

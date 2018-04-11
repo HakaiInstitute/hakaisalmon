@@ -9,7 +9,7 @@
 survey_data
 }
 \description{
-A dataset containing variables collected from juvenile salmon program site surveys
+A dataset containing variables collected from Juvenile Salmon Program site surveys
 }
 \details{
 \describe{

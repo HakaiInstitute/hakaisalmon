@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Storage information for DNA samples — dna_metadata • hakaisalmon</title>
+<title>Enumeration of sea lice found on fish in the lab — sealice_lab_motiles • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,10 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Storage information for DNA samples — dna_metadata" />
+<meta property="og:title" content="Enumeration of sea lice found on fish in the lab — sealice_lab_motiles" />
 
-<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis." />
+<meta property="og:description" content="A dataset containing counts of motile sea lice (Caligus clemensi and Lepeophtheirus salmonis) found on lab-dissected fish collected by the Juvenile Salmon Program" />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -123,36 +122,39 @@ Juvenile Salmon Program, for use in genetic stock ID analysis." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Storage information for DNA samples</h1>
+    <h1>Enumeration of sea lice found on fish in the lab</h1>
     <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>dna_metadata.Rd</code></div>
+    <div class="hidden name"><code>sealice_lab_motiles.Rd</code></div>
     </div>
 
     
-    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
+    <p>A dataset containing counts of motile sea lice (<em>Caligus clemensi</em> and <em>Lepeophtheirus salmonis</em>) found on lab-dissected fish collected by the Juvenile Salmon Program</p>
     
 
-    <pre class="usage"><span class='no'>dna_metadata</span></pre>
+    <pre class="usage"><span class='no'>sealice_lab_motiles</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2580 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 5274 rows and 15 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
- <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
- <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
- <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
- <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
- <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
- <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
- <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish.</p></dd>
+ <dt>cm_lab</dt><dd><p>Lab enumeration of <em>C. clemensi</em> (Cal.) and <em>L. salmonis</em> (Lep.) sea lice, adult and pre-adult males</p></dd>
+ <dt>cpaf_lab</dt><dd><p>Lab enumeration of Cal. sea lice, pre-adult females</p></dd>
+ <dt>caf_lab</dt><dd><p>Lab enumeration of Cal. sea lice, adult females (non-gravid)</p></dd>
+ <dt>cgf_lab</dt><dd><p>Lab enumeration of gravid Cal. sea lice</p></dd>
+ <dt>lgf_lab</dt><dd><p>Lab enumeration of gravid Lep. sea lice</p></dd>
+ <dt>laf_lab</dt><dd><p>Lab enumeration of Lep. sea lice, adult females (non-gravid)</p></dd>
+ <dt>lpaf_lab</dt><dd><p>Lab enumeration of Lep. sea lice, pre-adult females (both first and second stages)</p></dd>
+ <dt>lpam_lab</dt><dd><p>Lab enumeration of Lep. sea lice, pre-adult males (both first and second stages)</p></dd>
+ <dt>lam_lab</dt><dd><p>Lab enumeration of Lep. sea lice, adult males</p></dd>
+ <dt>ucal_lab</dt><dd><p>Lab enumeration Cal. sea lice, unidentifiable sex/life stage</p></dd>
+ <dt>ulep_lab</dt><dd><p>Lab enumeration Lep. sea lice, unidentifiable sex/life stage</p></dd>
+ <dt>lab_count_no_id</dt><dd><p>The number of lice that were picked off a fish and put into a formalin sample. This count includes all life stages, species and sex of sea lice. Counting the number of lice like this occured in 2015.</p></dd>
+ <dt>lice_collection_protocol</dt><dd><p>The protocol that was followed to collect sealice from the fish</p></dd>
+ <dt>lice_id_protocol</dt><dd><p>The protocol that was followed for identifying sea lice in the lab.</p></dd>
     </dl>
     
 

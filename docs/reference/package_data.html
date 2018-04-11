@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Storage information for DNA samples — dna_metadata • hakaisalmon</title>
+<title>Inventory and other metadata associated with packages of fish caught from seines — package_data • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,10 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Storage information for DNA samples — dna_metadata" />
+<meta property="og:title" content="Inventory and other metadata associated with packages of fish caught from seines — package_data" />
 
-<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis." />
+<meta property="og:description" content="A dataset containing variables describing the contents and location of packages of fish caught in Juvenile Salmon Program surveys" />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -123,36 +122,32 @@ Juvenile Salmon Program, for use in genetic stock ID analysis." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Storage information for DNA samples</h1>
+    <h1>Inventory and other metadata associated with packages of fish caught from seines</h1>
     <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>dna_metadata.Rd</code></div>
+    <div class="hidden name"><code>package_data.Rd</code></div>
     </div>
 
     
-    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
+    <p>A dataset containing variables describing the contents and location of packages of fish caught in Juvenile Salmon Program surveys</p>
     
 
-    <pre class="usage"><span class='no'>dna_metadata</span></pre>
+    <pre class="usage"><span class='no'>package_data</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2580 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 552 rows and 13 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
- <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
- <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
- <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
- <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
- <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
- <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
- <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
+<dt>package_id</dt><dd><p>The alphanumeric string that uniquely identifies a package of fish</p></dd>
+<dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted</p></dd>
+<dt>pkg_species</dt><dd><p>The species of fish within a package.</p></dd>
+<dt>number_of_fish</dt><dd><p>Number of fish within a package</p></dd>
+<dt>field_liced_status</dt><dd><p>Whether fish received lice enumeration in the field prior to packaging, or no lice enumeration has been performed</p></dd>
+<dt>pkg_time_out</dt><dd><p>Time the first fish of the package was taken out of the net and euthanized</p></dd>
+<dt>pkg_time_dewar</dt><dd><p>Time the full package was placed in the dewar for preservation</p></dd>
+<dt>pkg_comments</dt><dd><p>Notes regarding the contents or nature of the package</p></dd>
     </dl>
     
 

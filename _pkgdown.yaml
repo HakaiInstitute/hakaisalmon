@@ -16,10 +16,21 @@ reference:
     desc:  Data sets included in the hakaisalmon package
     contents:
     - survey_data
+    - seine_data
+    - bycatch_mort
+    - package_data
+    - fish_field_data
+    - fish_lab_data
+    - sealice_field
+    - sealice_lab_motiles
+    - ysi
+    - zoop_tows
+    - stock_id
 
   - title: Sample Inventory Data
     desc: Data files that contain sample location, processing state, and other sample metadata
     contents:
+    - sample_container_inventory
     - ends_with("metadata")
 
   - title: Functions

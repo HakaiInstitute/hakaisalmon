@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Storage information for DNA samples — dna_metadata • hakaisalmon</title>
+<title>Biological measurements and metadata associated with fish caught in the field — fish_field_data • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,10 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Storage information for DNA samples — dna_metadata" />
+<meta property="og:title" content="Biological measurements and metadata associated with fish caught in the field — fish_field_data" />
 
-<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis." />
+<meta property="og:description" content="A dataset containing variables collected from field measurements of fish collected by the Juvenile Salmon Program" />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -123,36 +122,36 @@ Juvenile Salmon Program, for use in genetic stock ID analysis." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Storage information for DNA samples</h1>
+    <h1>Biological measurements and metadata associated with fish caught in the field</h1>
     <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>dna_metadata.Rd</code></div>
+    <div class="hidden name"><code>fish_field_data.Rd</code></div>
     </div>
 
     
-    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
+    <p>A dataset containing variables collected from field measurements of fish collected by the Juvenile Salmon Program</p>
     
 
-    <pre class="usage"><span class='no'>dna_metadata</span></pre>
+    <pre class="usage"><span class='no'>fish_field_data</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2580 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 12884 rows and 12 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
- <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
- <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
- <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
- <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
- <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
- <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
- <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Joining to fish_lab data by UFN will filter out fish that haven't been dissected, because un-dissected fish do no have a UFN. To retain un-dissected fish when joining to fish_lab_data use SEMSP ID.</p></dd>
+ <dt>semsp_id</dt><dd><p>A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
+ <dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted</p></dd>
+ <dt>species</dt><dd><p>The species of fish collected. SO = Sockeye, PI = Pink, CU = Chum, CO = Coho, HE = Herring, CK = Chinook</p></dd>
+ <dt>package_id</dt><dd><p>Unique identifier to identify the package (aka bundle) that a fish was grouped with in the field, and then subsequently stored with in the freezer until it was dissected</p></dd>
+ <dt>fish_time_out</dt><dd><p>Time that the fish was euthanized after being taken out of the seine. In conjunction with fis_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogenh</p></dd>
+ <dt>fish_dewar</dt><dd><p>Time that the fish was put into the liquid nitrogen dry shipper. In conjunction with fish_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogen</p></dd>
+ <dt>fork_length_field</dt><dd><p>The fork length of the fish measured while in the field using a 15 cm flexible ruler</p></dd>
+ <dt>height_field</dt><dd><p>The height of the fish measured perpendicular to the lateral line from the anterior insertion of the dorsal fin to the ventral side of the fish</p></dd>
+ <dt>weight_field</dt><dd><p>The weight of the fish measured in the field using a spring scale. Precision is +/- 1 g</p></dd>
+ <dt>analysis_planned</dt><dd><p>The type of analysis the fish is to undergo (or has underwent). "Field loused only" fish are not retained, and therefore have no SEMSP ID or package ID for inventory.</p></dd>
+ <dt>dissection_status</dt><dd><p>Whether or not the fish had been dissected at the time the data package was released</p></dd>
     </dl>
     
 

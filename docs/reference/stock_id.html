@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Storage information for DNA samples — dna_metadata • hakaisalmon</title>
+<title>Probably genetic stocks associated a fish — stock_id • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,10 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Storage information for DNA samples — dna_metadata" />
+<meta property="og:title" content="Probably genetic stocks associated a fish — stock_id" />
 
-<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis." />
+<meta property="og:description" content="A dataset containing the results of genetic stock ID analyses performed on DNA samples collected from fish caught by the Juvenile Salmon Program." />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -123,36 +122,42 @@ Juvenile Salmon Program, for use in genetic stock ID analysis." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Storage information for DNA samples</h1>
+    <h1>Probably genetic stocks associated a fish</h1>
     <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>dna_metadata.Rd</code></div>
+    <div class="hidden name"><code>stock_id.Rd</code></div>
     </div>
 
     
-    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
+    <p>A dataset containing the results of genetic stock ID analyses performed on DNA samples collected from fish caught by the Juvenile Salmon Program.</p>
     
 
-    <pre class="usage"><span class='no'>dna_metadata</span></pre>
+    <pre class="usage"><span class='no'>stock_id</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2580 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2496 rows and 21 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
- <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish</p></dd>
+ <dt>semsp_id</dt><dd><p>A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
  <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
- <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
- <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
- <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
- <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
- <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
- <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
+ <dt>stock_1</dt><dd><p>The genetic stock assigned with the highest probability</p></dd>
+ <dt>region_1</dt><dd><p>The region associated with Stock 1</p></dd>
+ <dt>prob_1</dt><dd><p>The probablilty the fish originates from Stock 1</p></dd>
+ <dt>stock_2</dt><dd><p>The genetic stock assigned with the second highest probability</p></dd>
+ <dt>region_2</dt><dd><p>The region associated with stock 2</p></dd>
+ <dt>prob_2</dt><dd><p>The probablilty the fish originates from stock 2</p></dd>
+ <dt>stock_3</dt><dd><p>The genetic stock assigned with the third highest probability</p></dd>
+ <dt>region_3</dt><dd><p>The region associated with stock 3</p></dd>
+ <dt>prob_3</dt><dd><p>The probablilty the fish originates from stock 3</p></dd>
+ <dt>stock_4</dt><dd><p>The genetic stock assigned with the fourth highest probability</p></dd>
+ <dt>region_4</dt><dd><p>The region associated with stock 4</p></dd>
+ <dt>prob_4</dt><dd><p>The probablilty the fish originates from stock 4</p></dd>
+ <dt>stock_5</dt><dd><p>The genetic stock assigned with the fifth highest probability</p></dd>
+ <dt>region_5</dt><dd><p>The region associated with stock 5</p></dd>
+ <dt>prob_5</dt><dd><p>The probablilty the fish originates from stock 5</p></dd>
     </dl>
     
 

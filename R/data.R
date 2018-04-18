@@ -189,8 +189,8 @@
 
 #' Storage information for otolith samples
 #'
-#' Metadata associated with otolithss obtained from fish caught by the
-#' Juvenile Salmon Program, for use in ageing and microchemistry.
+#' Metadata associated with otolithss obtained from fish caught by the Juvenile Salmon Program, for use in ageing and microchemistry.
+#'
 #'
 #' \describe{
 #'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}

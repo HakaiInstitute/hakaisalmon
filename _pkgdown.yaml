@@ -9,7 +9,7 @@ template:
     ganalytics: UA-117252448-1
 
 development:
-  mode: unreleased
+  mode: release
 
 reference:
   - title: Data Set

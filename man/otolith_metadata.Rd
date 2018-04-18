@@ -9,8 +9,7 @@
 otolith_metadata
 }
 \description{
-Metadata associated with otolithss obtained from fish caught by the
-Juvenile Salmon Program, for use in ageing and microchemistry.
+Metadata associated with otolithss obtained from fish caught by the Juvenile Salmon Program, for use in ageing and microchemistry.
 }
 \details{
 \describe{

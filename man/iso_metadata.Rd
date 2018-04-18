@@ -4,7 +4,7 @@
 \name{iso_metadata}
 \alias{iso_metadata}
 \title{Storage information for isotope samples}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4460 rows and 12 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5160 rows and 11 columns.}
 \usage{
 iso_metadata
 }

@@ -4,7 +4,7 @@
 \name{fa_metadata}
 \alias{fa_metadata}
 \title{Storage information for fatty acid samples}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4186 rows and 12 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4821 rows and 11 columns.}
 \usage{
 fa_metadata
 }

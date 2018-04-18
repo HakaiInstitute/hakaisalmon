@@ -4,7 +4,7 @@
 \name{otolith_metadata}
 \alias{otolith_metadata}
 \title{Storage information for otolith samples}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4425 rows and 12 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5069 rows and 11 columns.}
 \usage{
 otolith_metadata
 }

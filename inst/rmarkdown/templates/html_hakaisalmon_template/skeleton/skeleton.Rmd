@@ -11,7 +11,11 @@ output:
    number_sections: true
 ---
 
-```{r}
-
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, error = FALSE)
+library(hakaisalmon)
+library(tidyverse)
+library(lubridate)
+library(here)
 ```
 

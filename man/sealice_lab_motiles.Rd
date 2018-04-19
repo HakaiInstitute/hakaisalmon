@@ -13,7 +13,7 @@ A dataset containing counts of motile sea lice (\emph{Caligus clemensi} and \emp
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key to}: \code{\link{fish_lab_data}}.}
  \item{cm_lab}{Lab enumeration of \emph{C. clemensi} (Cal.) and \emph{L. salmonis} (Lep.) sea lice, adult and pre-adult males}
  \item{cpaf_lab}{Lab enumeration of Cal. sea lice, pre-adult females}
  \item{caf_lab}{Lab enumeration of Cal. sea lice, adult females (non-gravid)}
@@ -26,8 +26,20 @@ A dataset containing counts of motile sea lice (\emph{Caligus clemensi} and \emp
  \item{ucal_lab}{Lab enumeration Cal. sea lice, unidentifiable sex/life stage}
  \item{ulep_lab}{Lab enumeration Lep. sea lice, unidentifiable sex/life stage}
  \item{lab_count_no_id}{The number of lice that were picked off a fish and put into a formalin sample. This count includes all life stages, species and sex of sea lice. Counting the number of lice like this occured in 2015.}
- \item{lice_collection_protocol}{The protocol that was followed to collect sealice from the fish}
- \item{lice_id_protocol}{The protocol that was followed for identifying sea lice in the lab.}
+ \item{lice_collection_protocol}{The protocol that was followed to collect sealice from the fish. \strong{Categories:}
+  \itemize{
+   \item \samp{lab_motiles} = only motile sea lice were collected
+   \item \samp{labcount_2015} = all life stages, sexes, and species of sea lice were collected (only in 2015)
+   \item \samp{not_collected} = no sea lice were collected
+   }
+   }
+ \item{lice_id_protocol}{The protocol that was followed for identifying sea lice in the lab. \strong{Categories:}
+  \itemize{
+   \item \samp{lportner} = fine-scale identification of all sea lice and life stages that were obtained under
+   \item \samp{lice_collection_protocol = 'labcount_2015'}.
+   \item \samp{lab_motiles} = identification of only motile stages of sea lice
+   }
+   }
 
 }
 }

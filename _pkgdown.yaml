@@ -17,6 +17,7 @@ reference:
     contents:
     - survey_data
     - seine_data
+    - site_activity
     - bycatch_mort
     - package_data
     - fish_field_data

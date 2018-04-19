@@ -13,12 +13,13 @@ A dataset containing oceanographic variables collected from Juvenile Salmon Prog
 }
 \details{
 \describe{
- \item{survey_id}{A unique alphanumeric code assigned to every survey}
- \item{line_out_depth}{The depth at which the measurement was taken (in metres)}
- \item{temperature}{Temperature in degrees celcius}
- \item{salinity}{Salinity in parts per thousand}
- \item{ysi_gather_lat}{The geopgraphical latitude of measurement gathered by the electronic tablet}
- \item{ysi_gather_long}{The geopgraphical longitude of measurement gathered by the electronic tablet}
+ \item{survey_id}{A unique alphanumeric code assigned to every survey. \strong{Foreign key to}: \code{\link{survey_data}}.}
+ \item{line_out_depth}{The depth at which the measurement was taken. \strong{Units:} metres}
+ \item{temperature}{Temperature. \strong{Units:} degrees celcius}
+ \item{salinity}{Salinity. \strong{Units:} parts per thousand}
+ \item{ysi_gather_lat}{The geopgraphical latitude of measurement gathered by the electronic tablet. \strong{Units:} decimal degrees}
+ \item{ysi_gather_long}{The geopgraphical longitude of measurement gathered by the electronic tablet. \strong{Units:} decimal degrees}
+
 }
 }
 \keyword{datasets}

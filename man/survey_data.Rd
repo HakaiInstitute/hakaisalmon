@@ -13,29 +13,37 @@ A dataset containing variables collected from Juvenile Salmon Program site surve
 }
 \details{
 \describe{
-  \item{ufn}{Universal Fish Number. For 2015 and 2016 fish, assigned to each specimen in the order they were processed in the lab. For 2017 fish, ufn was assigned in the order they were processed in the field.}
-  \item{survey_id}{Primary key to: seine_data, ysi, ctd, zoop_tows. A unique survey ID assigned to every survey}
-  \item{survey_date}{yyy-mm-dd. Date upon which a survey was conducted}
-  \item{site_id}{unique identifier given for the geographic location of a survey}
-  \item{region}{DI = Discovery Islands, JS = Johnstone Strait}
-  \item{zone}{Ctegorization of the generalized migration route taken by outmigrating juvenile salmon (West, Central, or East for Discovery Islands; N or S for Johnstone Strait).}
+  \item{survey_id}{A unique alphanumeric code assigned to every survey. \strong{Primary key to}: \code{\link{seine_data}}, \code{\link{site_activity}}, \code{\link{ysi}}, \code{ctd_casts}, and \code{\link{zoop_tows}}.}
+  \item{survey_date}{Date upon which a survey was conducted. \strong{Format}: \samp{yyyy-mm-dd}}
+  \item{site_id}{A unique identifier given for the geographic location of a survey}
+  \item{region}{General geographic zone of a site. \samp{DI} = Discovery Islands, \samp{JS} = Johnstone Strait}
+  \item{zone}{Categorization of the generalized migration route taken by outmigrating juvenile salmon (\samp{West}, \samp{Central}, or \samp{East} for Discovery Islands; \samp{N} or \samp{S} for Johnstone Strait).}
   \item{site_name}{Chart name for the location of a survey site}
   \item{crew}{Full names of crew members}
-  \item{precip}{Precipitation. none, light, moderate, or heavy. Subjective categorical representation of the amount of precipitation}
-  \item{cloud_cover}{0, 25, 50, 75, or 100	Visual approximation of the amount of cloud cover overhead}
-  \item{sea_state}{0, 1, 2, 3, 4, or 5. 0 = Sea-surface smooth and mirror like. 1 = Scaly ripples, no foam crests. 2 = Small wavelets, crests glassy, no breaking. 3 = Large wavelets, crests begin to break, scattered whitecaps. 4 = small waves 1–4 ft. becoming longer, numerous whiteaps. 5 = Moderate waves 4–8 ft. taking longer form, many whitecaps, some spray.}
-  \item{wind_speed}{knots. 0, 0.1-5, 5-10, 10-15, 15-20, or 20-30. Estimated wind speed range observed on site}
-  \item{wind_direction}{N, S, E, W, NE, NW, SE, or SW. Approximation of which way the wind is coming from}
-  \item{tide_state}{high slack, low slack, flood, or ebb tide. Tidal state at the start of the survey}
-  \item{survey_time_start}{hh:mm:ss 24-hour time of commencing visual survey for site activity}
-  \item{survey_time_end}{hh:mm:ss 24-hour time of end of visual survey for site activity}
-  \item{ctd_cast_id}{This is the primary key to join survey data to CTD data. It is an automatically-generated concatenation of Site Code, Date, and drop number}
-  \item{zoop_sample_id}{Zooplankton Sample ID. The unique ID that identifies a zooplankton sample that is stored in a 250 mL PET jar}
-  \item{secchi}{Metres. Secchi depth reading in metres (rounded to nearest 0.1 m)}
-  \item{net_sets}{number of times the seine was deployed in a survey}
-  \item{set_type}{This is a category for how or who the survey was conducted. Standard surveys can be used for the purpose of CPUE calculations, other categories should not be}
-  \item{survey_comments}{field notes specific to survey conditions}
-  \item{sampling_week}{A calculated value. Julian day (j) + 4 days for historical categorization purposes, integer divide by 7. (j + 4 / 7)}
+  \item{precip}{Subjective categorical representation of the amount of precipitation. \strong{Categories}: \samp{none, light, moderate, heavy}}
+  \item{cloud_cover}{Visual approximation of the \emph{percent} of cloud cover overhead. \strong{Categories}: \samp{0, 25, 50, 75, 100}}
+  \item{sea_state}{\strong{Categories} describing surface conditions:
+   \itemize{
+    \item \samp{0} = Sea-surface smooth and mirror like.
+    \item \samp{1} = Scaly ripples, no foam crests.
+    \item \samp{2} = Small wavelets, crests glassy, no breaking.
+    \item \samp{3} = Large wavelets, crests begin to break, scattered whitecaps.
+    \item \samp{4} = small waves 1–4 ft. becoming longer, numerous whiteaps.
+    \item \samp{5} = Moderate waves 4–8 ft. taking longer form, many whitecaps, some spray.
+    }
+    }
+  \item{wind_speed}{Estimated wind speed range observed on site. \strong{Units}: knots. \strong{Categories}: \samp{0, 0.1-5, 5-10, 10-15, 15-20, 20-30.}}
+  \item{wind_direction}{Approximation of which way the wind is coming from. \strong{Categories}: \samp{N, S, E, W, NE, NW, SE, SW.}}
+  \item{tide_state}{Tidal state at the start of the survey. \strong{Categories}: \samp{high slack, low slack, flood, ebb tide.}}
+  \item{survey_time_start}{24-hour time of commencing visual survey for site activity. \strong{Format}: \samp{hh:mm:ss}}
+  \item{survey_time_end}{24-hour time of end of visual survey for site activity. \strong{Format}: \samp{hh:mm:ss}}
+  \item{ctd_cast_id}{An automatically-generated concatenation of \code{site_id}, \code{survey_date}, and drop number. \strong{Primary key} to join \code{\link{survey_data}} to CTD data.}
+  \item{zoop_sample_id}{The unique code that identifies a zooplankton sample that is stored in a 250 mL PET jar. \strong{Primary key} to join \code{\link{survey_data}} to \code{\link{zoop_tows}}.}
+  \item{secchi}{Secchi depth reading. \strong{Units}: metres (rounded to nearest 0.1 m)}
+  \item{net_sets}{The number of times the seine was deployed in a survey}
+  \item{set_type}{How (or for whom) the survey was conducted. \samp{Standard} surveys can be used for the purpose of CPUE calculations; other categories (\samp{non-standard} or \samp{DFO} should be excluded.}
+  \item{survey_comments}{Field notes specific to survey conditions}
+  \item{sampling_week}{A calculated value. Julian day (j) + 4 days for historical categorization purposes, integer divide by 7. \eqn{j + 4 / 7}}
 
 }
 }

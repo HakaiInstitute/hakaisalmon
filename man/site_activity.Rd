@@ -13,11 +13,11 @@ Before seining, a visual transect 1 nm in length was conducted to quantify the a
 }
 \details{
 \describe{
- \item{survey_id}{Primary key to survey_data. A unique alphanumeric code assigned to every survey}
+ \item{survey_id}{A unique alphanumeric code assigned to every survey. \strong{Foreign key} to \code{\link{survey_data}}.}
  \item{school_number}{A sequential number assigned to a discrete group of surface activity that we considered a school of fish}
- \item{school_sliders}{The number of individual surface events that "slid" out the water in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
- \item{school_poppers}{The number of individual surface events that "popped" out the water in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
- \item{school_dimpling}{The number of individual surface events that looked like simpling in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
+ \item{school_sliders}{The number of individual surface events that "slid" out the water in this school. \strong{Categories:} \samp{0, 1, 10, 100, 1000}}
+ \item{school_poppers}{The number of individual surface events that "popped" out the water in this school. \strong{Categories:} \samp{0, 1, 10, 100, 1000}}
+ \item{school_dimpling}{The number of individual surface events that looked like simpling in this school. \strong{Categories:} \samp{0, 1, 10, 100, 1000}}
 
 }
 }

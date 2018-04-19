@@ -13,17 +13,21 @@ A dataset containing variables collected from field measurements of fish collect
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish. Joining to fish_lab data by UFN will filter out fish that haven't been dissected, because un-dissected fish do no have a UFN. To retain un-dissected fish when joining to fish_lab_data use SEMSP ID.}
- \item{semsp_id}{A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish}
- \item{seine_id}{Unique ID assigned to each seine conducted}
- \item{species}{The species of fish collected. SO = Sockeye, PI = Pink, CU = Chum, CO = Coho, HE = Herring, CK = Chinook}
- \item{package_id}{Unique identifier to identify the package (aka bundle) that a fish was grouped with in the field, and then subsequently stored with in the freezer until it was dissected}
- \item{fish_time_out}{Time that the fish was euthanized after being taken out of the seine. In conjunction with fis_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogenh}
- \item{fish_dewar}{Time that the fish was put into the liquid nitrogen dry shipper. In conjunction with fish_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogen}
- \item{fork_length_field}{The fork length of the fish measured while in the field using a 15 cm flexible ruler}
- \item{height_field}{The height of the fish measured perpendicular to the lateral line from the anterior insertion of the dorsal fin to the ventral side of the fish}
- \item{weight_field}{The weight of the fish measured in the field using a spring scale. Precision is +/- 1 g}
- \item{analysis_planned}{The type of analysis the fish is to undergo (or has underwent). "Field loused only" fish are not retained, and therefore have no SEMSP ID or package ID for inventory.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Primary key to}: \code{\link{fish_lab_data}}, \code{\link{sealice_field}}, and \code{\link{sealice_lab_motiles}}.
+  \itemize{
+   \item Joining to \code{\link{fish_lab_data}} by \code{UFN} will filter out fish that haven't been dissected, because un-dissected fish that were caught in 2015 and 2016 do not have a UFN. To retain un-dissected fish when joining to \code{\link{fish_lab_data}} use \code{semsp_id}.
+   }
+   }
+ \item{semsp_id}{A unique ID for every fish retained that was a concatenation of \code{survey_date}, \code{site_id}, \code{species}, and order the fish was pulled out of the net. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish}
+ \item{seine_id}{A unique ID assigned to each seine conducted within a survey. \strong{Foreign key} to \code{\link{seine_data}}.}
+ \item{species}{The species of fish collected. \samp{SO} = Sockeye, \samp{PI} = Pink, \samp{CU} = Chum, \samp{CO} = Coho, \samp{HE} = Herring, \samp{CK} = Chinook}
+ \item{package_id}{An alphanumeric code used to identify the package (aka. "bundle") that a fish was grouped with in the field, and then subsequently stored with in the freezer until it was dissected. \strong{Foreign key} to \code{\link{package_data}}}
+ \item{fish_time_out}{Time that the fish was euthanized after being taken out of the seine. In conjunction with \code{fish_time_dewar} you can calculate the handling time of the fish before being flash frozen in liquid nitrogen. \strong{Format}: \samp{hh:mm:ss}}
+ \item{fish_dewar}{Time that the fish was put into the liquid nitrogen dry shipper. In conjunction with \code{fish_time_dewar} you can calculate the handling time of the fish before being flash frozen in liquid nitrogen. \strong{Format}: \samp{hh:mm:ss}}
+ \item{fork_length_field}{The fork length of the fish measured while in the field using a 15 cm flexible ruler. \strong{Units:} millimetres}
+ \item{height_field}{The height of the fish measured perpendicular to the lateral line from the anterior insertion of the dorsal fin to the ventral side of the fish. \strong{Units:} millimetres}
+ \item{weight_field}{The weight of the fish measured in the field using a spring scale. \strong{Units:} grams. Precision is +/- 1 g}
+ \item{analysis_planned}{The type of analysis the fish is to undergo (or has underwent). \samp{Field loused only} = fish are not retained, and therefore have no SEMSP ID or package ID for inventory.}
  \item{dissection_status}{Whether or not the fish had been dissected at the time the data package was released}
 
 }

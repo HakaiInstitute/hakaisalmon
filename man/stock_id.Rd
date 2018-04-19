@@ -3,7 +3,7 @@
 \docType{data}
 \name{stock_id}
 \alias{stock_id}
-\title{Probably genetic stocks associated a fish}
+\title{Probable genetic stocks associated a fish}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2496 rows and 21 columns.}
 \usage{
 stock_id
@@ -14,8 +14,8 @@ A dataset containing the results of genetic stock ID analyses performed on DNA s
 \details{
 \describe{
  \item{ufn}{The alphanumeric string that uniquely identifies a fish}
- \item{semsp_id}{A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish}
- \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.}
+ \item{semsp_id}{A unique ID for every fish retained that was a concatenation of \code{survey_date}, \code{site_id}, \code{species}, and order the fish was pulled out of the net. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish}
+ \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
  \item{stock_1}{The genetic stock assigned with the highest probability}
  \item{region_1}{The region associated with Stock 1}
  \item{prob_1}{The probablilty the fish originates from Stock 1}

@@ -13,16 +13,16 @@ Metadata associated with sea lice (\emph{Caligus clemensi} and \emph{Lepeophthei
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
  \item{sample_type}{The type of sample (or species of louse) being collected.}
- \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. The prefix "SSL" indicates a mix of both species and of all life stages are stored in one vial. "SLC" indicates the vial contains motile \emph{Caligus} lice only, and "SLL" indicates motile \emph{Lepeophtheirus} lice only.}
+ \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers. The prefix \samp{'SSL'} indicates a mix of both species and of all life stages are stored in one vial. \samp{'SLC'} indicates the vial contains motile \emph{Caligus} lice only, and \samp{'SLL'} indicates motile \emph{Lepeophtheirus} lice only.}
  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
  \item{container_cell}{The cell in which a vial is stored in the sample box}
- \item{sample_location}{A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
+ \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
  \item{sample_status}{Results status of the sample}
  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
- \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same sample_location value}
+ \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
 
 }

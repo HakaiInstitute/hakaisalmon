@@ -13,16 +13,16 @@ Metadata associated with scale samples obtained from fish caught by the Juvenile
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
  \item{sample_type}{The type of sample being collected.}
- \item{sample_id}{The sample_location value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
+ \item{sample_id}{The \code{sample_location} value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
  \item{container_id}{The string that uniquely identifies the book in which scales have been placed.}
  \item{container_cell}{The cell in which a scale sample has been placed in the scale book}
- \item{sample_location}{A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
+ \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
  \item{sample_status}{Results status of the sample}
  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
- \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same sample_location value}
+ \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
 
 }

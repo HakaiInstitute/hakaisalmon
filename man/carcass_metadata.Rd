@@ -13,12 +13,12 @@ Metadata associated with carcass and carcass samples obtained for fish caught by
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
  \item{sample_type}{The type of sample being collected.}
- \item{sample_id}{The sample_location value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
+ \item{sample_id}{The \code{sample_location} value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
  \item{container_id}{The string that uniquely identifies the bag in which carcasses have been placed.}
- \item{container_cell}{Carcasses in a bag are not tracked, so the value is "NA"}
- \item{sample_location}{A concatenation of container_id and container_cell. Functionally, it is the same as container_id due to cell locations not being tracked for carcasses.}
+ \item{container_cell}{Carcasses in a bag are not tracked, so the value is \samp{NA}}
+ \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}. Functionally, it is the same as container_id due to cell locations not being tracked for carcasses.}
  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
  \item{sample_status}{Results status of the sample}
  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}

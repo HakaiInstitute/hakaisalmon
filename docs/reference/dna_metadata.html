@@ -27,8 +27,7 @@
 <script src="../pkgdown.js"></script>
 <meta property="og:title" content="Storage information for DNA samples — dna_metadata" />
 
-<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis." />
+<meta property="og:description" content="Metadata associated with liver or muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in genetic stock ID analysis." />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -129,29 +128,28 @@ Juvenile Salmon Program, for use in genetic stock ID analysis." />
     </div>
 
     
-    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
+    <p>Metadata associated with liver or muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in genetic stock ID analysis.</p>
     
 
     <pre class="usage"><span class='no'>dna_metadata</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2580 rows and 12 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 2753 rows and 11 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Foreign key</strong> to <code><a href='fish_lab_data.html'>fish_lab_data</a></code>. <strong>Format:</strong> <samp>'U'</samp> followed by a sequence of numbers.</p></dd>
  <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
+ <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. <strong>Format</strong>: <samp>'S'</samp> followed by a sequence of letter and numbers.</p></dd>
  <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
  <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
+ <dt>sample_location</dt><dd><p>A concatenation of <code>container_id</code> and <code>container_cell</code>, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
  <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
  <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
  <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
+ <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same <code>sample_location</code> value</p></dd>
  <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
     </dl>
     

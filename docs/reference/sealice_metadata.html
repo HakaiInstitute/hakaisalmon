@@ -140,16 +140,16 @@
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Foreign key</strong> to <code><a href='fish_lab_data.html'>fish_lab_data</a></code>. <strong>Format:</strong> <samp>'U'</samp> followed by a sequence of numbers.</p></dd>
  <dt>sample_type</dt><dd><p>The type of sample (or species of louse) being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. The prefix "SSL" indicates a mix of both species and of all life stages are stored in one vial. "SLC" indicates the vial contains motile <em>Caligus</em> lice only, and "SLL" indicates motile <em>Lepeophtheirus</em> lice only.</p></dd>
+ <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. <strong>Format</strong>: <samp>'S'</samp> followed by a sequence of letter and numbers. The prefix <samp>'SSL'</samp> indicates a mix of both species and of all life stages are stored in one vial. <samp>'SLC'</samp> indicates the vial contains motile <em>Caligus</em> lice only, and <samp>'SLL'</samp> indicates motile <em>Lepeophtheirus</em> lice only.</p></dd>
  <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
  <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
+ <dt>sample_location</dt><dd><p>A concatenation of <code>container_id</code> and <code>container_cell</code>, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
  <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
  <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
  <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
+ <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same <code>sample_location</code> value</p></dd>
  <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
     </dl>
     

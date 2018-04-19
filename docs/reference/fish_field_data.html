@@ -140,17 +140,20 @@
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Joining to fish_lab data by UFN will filter out fish that haven't been dissected, because un-dissected fish do no have a UFN. To retain un-dissected fish when joining to fish_lab_data use SEMSP ID.</p></dd>
- <dt>semsp_id</dt><dd><p>A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
- <dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted</p></dd>
- <dt>species</dt><dd><p>The species of fish collected. SO = Sockeye, PI = Pink, CU = Chum, CO = Coho, HE = Herring, CK = Chinook</p></dd>
- <dt>package_id</dt><dd><p>Unique identifier to identify the package (aka bundle) that a fish was grouped with in the field, and then subsequently stored with in the freezer until it was dissected</p></dd>
- <dt>fish_time_out</dt><dd><p>Time that the fish was euthanized after being taken out of the seine. In conjunction with fis_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogenh</p></dd>
- <dt>fish_dewar</dt><dd><p>Time that the fish was put into the liquid nitrogen dry shipper. In conjunction with fish_time_dewar you an calculate the handling time of the fish before being flash frozen in liquid nitrogen</p></dd>
- <dt>fork_length_field</dt><dd><p>The fork length of the fish measured while in the field using a 15 cm flexible ruler</p></dd>
- <dt>height_field</dt><dd><p>The height of the fish measured perpendicular to the lateral line from the anterior insertion of the dorsal fin to the ventral side of the fish</p></dd>
- <dt>weight_field</dt><dd><p>The weight of the fish measured in the field using a spring scale. Precision is +/- 1 g</p></dd>
- <dt>analysis_planned</dt><dd><p>The type of analysis the fish is to undergo (or has underwent). "Field loused only" fish are not retained, and therefore have no SEMSP ID or package ID for inventory.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Primary key to</strong>: <code><a href='fish_lab_data.html'>fish_lab_data</a></code>, <code><a href='sealice_field.html'>sealice_field</a></code>, and <code><a href='sealice_lab_motiles.html'>sealice_lab_motiles</a></code>.
+  <ul>
+<li><p>Joining to <code><a href='fish_lab_data.html'>fish_lab_data</a></code> by <code>UFN</code> will filter out fish that haven't been dissected, because un-dissected fish that were caught in 2015 and 2016 do not have a UFN. To retain un-dissected fish when joining to <code><a href='fish_lab_data.html'>fish_lab_data</a></code> use <code>semsp_id</code>.</p></li>
+</ul></p></dd>
+ <dt>semsp_id</dt><dd><p>A unique ID for every fish retained that was a concatenation of <code>survey_date</code>, <code>site_id</code>, <code>species</code>, and order the fish was pulled out of the net. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
+ <dt>seine_id</dt><dd><p>A unique ID assigned to each seine conducted within a survey. <strong>Foreign key</strong> to <code><a href='seine_data.html'>seine_data</a></code>.</p></dd>
+ <dt>species</dt><dd><p>The species of fish collected. <samp>SO</samp> = Sockeye, <samp>PI</samp> = Pink, <samp>CU</samp> = Chum, <samp>CO</samp> = Coho, <samp>HE</samp> = Herring, <samp>CK</samp> = Chinook</p></dd>
+ <dt>package_id</dt><dd><p>An alphanumeric code used to identify the package (aka. "bundle") that a fish was grouped with in the field, and then subsequently stored with in the freezer until it was dissected. <strong>Foreign key</strong> to <code><a href='package_data.html'>package_data</a></code></p></dd>
+ <dt>fish_time_out</dt><dd><p>Time that the fish was euthanized after being taken out of the seine. In conjunction with <code>fish_time_dewar</code> you can calculate the handling time of the fish before being flash frozen in liquid nitrogen. <strong>Format</strong>: <samp>hh:mm:ss</samp></p></dd>
+ <dt>fish_dewar</dt><dd><p>Time that the fish was put into the liquid nitrogen dry shipper. In conjunction with <code>fish_time_dewar</code> you can calculate the handling time of the fish before being flash frozen in liquid nitrogen. <strong>Format</strong>: <samp>hh:mm:ss</samp></p></dd>
+ <dt>fork_length_field</dt><dd><p>The fork length of the fish measured while in the field using a 15 cm flexible ruler. <strong>Units:</strong> millimetres</p></dd>
+ <dt>height_field</dt><dd><p>The height of the fish measured perpendicular to the lateral line from the anterior insertion of the dorsal fin to the ventral side of the fish. <strong>Units:</strong> millimetres</p></dd>
+ <dt>weight_field</dt><dd><p>The weight of the fish measured in the field using a spring scale. <strong>Units:</strong> grams. Precision is +/- 1 g</p></dd>
+ <dt>analysis_planned</dt><dd><p>The type of analysis the fish is to undergo (or has underwent). <samp>Field loused only</samp> = fish are not retained, and therefore have no SEMSP ID or package ID for inventory.</p></dd>
  <dt>dissection_status</dt><dd><p>Whether or not the fish had been dissected at the time the data package was released</p></dd>
     </dl>
     

@@ -140,16 +140,16 @@
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Foreign key</strong> to <code><a href='fish_lab_data.html'>fish_lab_data</a></code>. <strong>Format:</strong> <samp>'U'</samp> followed by a sequence of numbers.</p></dd>
  <dt>sample_type</dt><dd><p>The type of sample being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The sample_location value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
+ <dt>sample_id</dt><dd><p>The <code>sample_location</code> value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
  <dt>container_id</dt><dd><p>The string that uniquely identifies the book in which scales have been placed.</p></dd>
  <dt>container_cell</dt><dd><p>The cell in which a scale sample has been placed in the scale book</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
+ <dt>sample_location</dt><dd><p>A concatenation of <code>container_id</code> and <code>container_cell</code>, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
  <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
  <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
  <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same sample_location value</p></dd>
+ <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same <code>sample_location</code> value</p></dd>
  <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
     </dl>
     

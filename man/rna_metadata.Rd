@@ -9,23 +9,20 @@
 rna_metadata
 }
 \description{
-Metadata associated with tissue samples obtained from fish caught by the
-Juvenile Salmon Program, for use in RNA:DNA ratio analysis and viral disease
-states. The following tissue types are collected: muscle, gill, brain, spleen,
-liver, heart, and kidney
+Metadata associated with tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in RNA:DNA ratio analysis and viral disease states. The following tissue types are collected: muscle, gill, brain, spleen, liver, heart, and kidney
 }
 \details{
 \describe{
- \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}
- \item{sample_type}{The type of sample being collected.}
- \item{sample_id}{The sample_location value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
+ \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
+ \item{sample_type}{The type of sample being collected. \strong{Categories:} \samp{RNA, fatty acid, isotope, muscle, DNA, stomach, otolith, scale, fin clip, carcass, sealice, sealice_cal, sealice_lep}}
+ \item{sample_id}{The \code{sample_location} value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
  \item{container_id}{The string that uniquely identifies the tray in which sets of sample vials are stored.}
  \item{container_cell}{The row (A-H) and column (1-12) in which a sample is stored in its container}
- \item{sample_location}{A concatenation of container_id and container_cell, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
+ \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
  \item{sample_status}{Results status of the sample}
  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
- \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same sample_location value}
+ \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
 
 }

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Probably genetic stocks associated a fish — stock_id • hakaisalmon</title>
+<title>Probable genetic stocks associated a fish — stock_id • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Probably genetic stocks associated a fish — stock_id" />
+<meta property="og:title" content="Probable genetic stocks associated a fish — stock_id" />
 
 <meta property="og:description" content="A dataset containing the results of genetic stock ID analyses performed on DNA samples collected from fish caught by the Juvenile Salmon Program." />
 
@@ -122,7 +122,7 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Probably genetic stocks associated a fish</h1>
+    <h1>Probable genetic stocks associated a fish</h1>
     <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
     <div class="hidden name"><code>stock_id.Rd</code></div>
     </div>
@@ -141,8 +141,8 @@
 
     <dl class='dl-horizontal'>
  <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish</p></dd>
- <dt>semsp_id</dt><dd><p>A concatenation of date, site, species, and order the fish was pulled out of the net was used to uniquely identify the fish. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected.</p></dd>
+ <dt>semsp_id</dt><dd><p>A unique ID for every fish retained that was a concatenation of <code>survey_date</code>, <code>site_id</code>, <code>species</code>, and order the fish was pulled out of the net. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
+ <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. <strong>Format</strong>: <samp>'S'</samp> followed by a sequence of letter and numbers.</p></dd>
  <dt>stock_1</dt><dd><p>The genetic stock assigned with the highest probability</p></dd>
  <dt>region_1</dt><dd><p>The region associated with Stock 1</p></dd>
  <dt>prob_1</dt><dd><p>The probablilty the fish originates from Stock 1</p></dd>

@@ -140,13 +140,13 @@
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
-<dt>package_id</dt><dd><p>The alphanumeric string that uniquely identifies a package of fish</p></dd>
-<dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted</p></dd>
-<dt>pkg_species</dt><dd><p>The species of fish within a package.</p></dd>
+<dt>package_id</dt><dd><p>The alphanumeric string that uniquely identifies a package of fish. <strong>Primary key</strong> to <code><a href='fish_field_data.html'>fish_field_data</a></code>.</p></dd>
+<dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted <strong>Foreign key</strong> to <code><a href='seine_data.html'>seine_data</a></code>.</p></dd>
+<dt>pkg_species</dt><dd><p>The species of fish within a package. <samp>SO</samp> = Sockeye, <samp>PI</samp> = Pink, <samp>CU</samp> = Chum, <samp>CO</samp> = Coho, <samp>HE</samp> = Herring, <samp>CK</samp> = Chinook</p></dd>
 <dt>number_of_fish</dt><dd><p>Number of fish within a package</p></dd>
-<dt>field_liced_status</dt><dd><p>Whether fish received lice enumeration in the field prior to packaging, or no lice enumeration has been performed</p></dd>
-<dt>pkg_time_out</dt><dd><p>Time the first fish of the package was taken out of the net and euthanized</p></dd>
-<dt>pkg_time_dewar</dt><dd><p>Time the full package was placed in the dewar for preservation</p></dd>
+<dt>field_liced_status</dt><dd><p><samp>Y</samp> = fish received lice enumeration in the field prior to packaging. <samp>N</samp> = lice enumeration had not been performed</p></dd>
+<dt>pkg_time_out</dt><dd><p>Time the first fish of the package was taken out of the net and euthanized. <strong>Format:</strong> <samp>hh:mm:ss</samp></p></dd>
+<dt>pkg_time_dewar</dt><dd><p>Time the full package was placed in the dewar for preservation. <strong>Format:</strong> <samp>hh:mm:ss</samp></p></dd>
 <dt>pkg_comments</dt><dd><p>Notes regarding the contents or nature of the package</p></dd>
     </dl>
     

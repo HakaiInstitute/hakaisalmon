@@ -13,13 +13,13 @@ A dataset containing variables describing the contents and location of packages 
 }
 \details{
 \describe{
-\item{package_id}{The alphanumeric string that uniquely identifies a package of fish}
-\item{seine_id}{Unique ID assigned to each seine conducted}
-\item{pkg_species}{The species of fish within a package.}
+\item{package_id}{The alphanumeric string that uniquely identifies a package of fish. \strong{Primary key} to \code{\link{fish_field_data}}.}
+\item{seine_id}{Unique ID assigned to each seine conducted \strong{Foreign key} to \code{\link{seine_data}}.}
+\item{pkg_species}{The species of fish within a package. \samp{SO} = Sockeye, \samp{PI} = Pink, \samp{CU} = Chum, \samp{CO} = Coho, \samp{HE} = Herring, \samp{CK} = Chinook}
 \item{number_of_fish}{Number of fish within a package}
-\item{field_liced_status}{Whether fish received lice enumeration in the field prior to packaging, or no lice enumeration has been performed}
-\item{pkg_time_out}{Time the first fish of the package was taken out of the net and euthanized}
-\item{pkg_time_dewar}{Time the full package was placed in the dewar for preservation}
+\item{field_liced_status}{\samp{Y} = fish received lice enumeration in the field prior to packaging. \samp{N} = lice enumeration had not been performed}
+\item{pkg_time_out}{Time the first fish of the package was taken out of the net and euthanized. \strong{Format:} \samp{hh:mm:ss}}
+\item{pkg_time_dewar}{Time the full package was placed in the dewar for preservation. \strong{Format:} \samp{hh:mm:ss}}
 \item{pkg_comments}{Notes regarding the contents or nature of the package}
 
 }

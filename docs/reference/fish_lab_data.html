@@ -135,7 +135,38 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 5276 rows and 17 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 5259 rows and 17 columns.</p>
+    
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <dl class='dl-horizontal'>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Primary key to</strong>: <code><a href='fish_field_data.html'>fish_field_data</a></code>, <code><a href='sealice_field.html'>sealice_field</a></code>, and <code><a href='sealice_lab_motiles.html'>sealice_lab_motiles</a></code>.</p></dd>
+ <dt>semsp_id</dt><dd><p>A unique ID for every fish retained that was a concatenation of <code>survey_date</code>, <code>site_id</code>, <code>species</code>, and order the fish was pulled out of the net. In 2017 this was method was abandonded, and instead we assigned seine IDs and UFNs to uniquely identify seines and fish</p></dd>
+ <dt>date_processed</dt><dd><p>The date the fish was processed (dissected) in the lab. Blank infers the fish has not be dissected yet. <strong>Format:</strong> <samp>yyyy-mm-dd</samp></p></dd>
+ <dt>cwt</dt><dd><p>Fish were scanned using a handheld CWT read. <samp>none</samp> = no tag detected. <samp>cwt</samp> = coded wire tag detected</p></dd>
+ <dt>adipose</dt><dd><p><samp>none</samp> = adipose is not clipped. <samp>AD</samp> = adipose fin was clipped</p></dd>
+ <dt>weight</dt><dd><p>weight of the fish measured in the lab using Pro Scout scales. <strong>Units:</strong> grams. 0.1 g precision</p></dd>
+ <dt>standard_length</dt><dd><p>The length of the fish measured from the tip of the snout to the caudal peduncle where scales give way to caudal fin rays. <strong>Units:</strong> millimetres</p></dd>
+ <dt>fork_length</dt><dd><p>The length of the fish meadured from the tip of the snout to the fork of the caudal fin. <strong>Units:</strong> millimetres</p></dd>
+ <dt>photo_number</dt><dd><p>Photos of abnormal looking fish were taken. The name of the photo file in the photo database. The file name is also the UFN of the fish.</p></dd>
+ <dt>comments_protocol</dt><dd><p>Comments related to deviations to standard dissection protocols</p></dd>
+ <dt>comments_fish_health_lab</dt><dd><p>Comments to describe any abnormal/unique observations about the <em>fish itself</em> (e.g. lesions, non-louse parasites, tissue discolouration, scale loss, etc.)</p></dd>
+ <dt>dissector</dt><dd><p>The initials of the technician who performed the dissection</p></dd>
+ <dt>dissection_protocol</dt><dd><p><strong>Categories</strong> used to describe the general lab dissection workflow performed on a fish:
+  <ul>
+<li><p><samp>Full work-up 1</samp> = procedure for 2015 &amp; 2016 samples (One RNA sample each taken from muscle, gill, brain, spleen, liver, heart, and head kidney; fatty acid, stable isotope, DNA (if no fin clips were taken in the field), stomach, otolith, and scales).</p></li>
+<li><p><samp>Full work-up 2</samp> = procedure for all samples effective Oct. 2017 (One RNA sample each taken from muscle, gill, brain, spleen, liver, heart, and head kidney; fatty acid, stable isotope, extra muscle stored at -80 degrees Celcius, DNA (if no fin clips were taken in the field), stomach, otolith, and scales).</p></li>
+<li><p><samp>Full work-up 3</samp> = procedure for fish subsampled for compound specific stable isotope analysis (by David Costalago, Feb. 2018). All samples taken as in full work-up 2, with the addition of a second isotope sample taken.</p></li>
+<li><p><samp>Work-up excluding cold samples</samp> = full work-up 1 without RNA, fatty acid, or stable isotope samples taken.</p></li>
+<li><p><samp>Irregular work-up</samp> = processing with at least one sample type not taken (e.g. no RNA, no DNA, etc.).</p></li>
+<li><p><samp>Lice enumeration only - in lab</samp> = fish was inspected for sea lice only and did not undergo dissection. Lengths and weight recorded.</p></li>
+<li><p><samp>-20 work up 1</samp> = procedure for dissecting fish that have been previously stored at -20 before dissection. No RNA samples, no fatty acid samples, no extra muscle sample, no sea-lice retention. Reduced sterilization between fish to scrubbing and ethanoling direct contact surfaces with 95<!-- % ethanol. Otherwise the same as Full work-up 2. --></p></li>
+</ul></p></dd>
+ <dt>fish_lab_qc_data</dt><dd><p>The initials of the technician who quality checked the data</p></dd>
+ <dt>fish_lab_qc_flag</dt><dd><p><samp>yes</samp> = one or more columns has an unresolvable error in data entry (not pertaining to the physical quality of the sample). <samp>no</samp> = no issues with data quality</p></dd>
+ <dt>fish_lab_flag_reason</dt><dd><p>Explains why the fish has been flagged</p></dd>
+ <dt>fish_lab_qc_log</dt><dd><p>Describes any action taken by QC to address and resolve flagged issues.</p></dd>
+</dl>
     
 
   </div>
@@ -144,6 +175,8 @@
     <ul class="nav nav-pills nav-stacked">
       
       <li><a href="#format">Format</a></li>
+
+      <li><a href="#details">Details</a></li>
           </ul>
 
   </div>

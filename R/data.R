@@ -189,8 +189,8 @@
 
 #' Storage information for otolith samples
 #'
-#' Metadata associated with otolithss obtained from fish caught by the
-#' Juvenile Salmon Program, for use in ageing and microchemistry.
+#' Metadata associated with otolithss obtained from fish caught by the Juvenile Salmon Program, for use in ageing and microchemistry.
+#'
 #'
 #' \describe{
 #'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. Its format is "U" followed by a sequence of numbers.}
@@ -540,3 +540,17 @@
 #'
 #' }
 "stock_id"
+
+#' Fish surface activty observed during survey transects
+#'
+#' Before seining, a visual transect 1 nm in length was conducted to quantify the abundance of fish surface activity
+#'
+#' \describe{
+#'  \item{survey_id}{Primary key to survey_data. A unique alphanumeric code assigned to every survey}
+#'  \item{school_number}{A sequential number assigned to a discrete group of surface activity that we considered a school of fish}
+#'  \item{school_sliders}{The number of individual surface events that "slid" out the water in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
+#'  \item{school_poppers}{The number of individual surface events that "popped" out the water in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
+#'  \item{school_dimpling}{The number of individual surface events that looked like simpling in this school. \strong{Categories:} 0, 1, 10, 100, 1000}
+#'
+#'  }
+"site_activity"

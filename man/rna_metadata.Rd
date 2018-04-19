@@ -4,7 +4,7 @@
 \name{rna_metadata}
 \alias{rna_metadata}
 \title{Storage information for RNA samples}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4173 rows and 12 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4808 rows and 11 columns.}
 \usage{
 rna_metadata
 }

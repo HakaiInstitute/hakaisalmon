@@ -9,7 +9,6 @@ U14,2015-05-20-J05-CU-8,2015-09-14,none,none,26.3,NA,139,NA,From thawed JS fish 
 U15,2015-05-20-J05-CU-5,2015-09-14,none,none,29.7,NA,147,NA,From thawed JS fish .Scale was broken so could not weigh,NA,LP,work-up excluding cold samples,KI,N,NA,NA
 U04,2015-05-20-J05-CU-9,2015-09-14,none,none,22.5,NA,132,NA,From thawed JS fish. Some ice still on fish when weighed,one otolith smaller than the other (broken?),DS,work-up excluding cold samples,CK,N,NA,NA
 U05,2015-05-20-J05-CU-3,2015-09-14,none,none,13.4,NA,114,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,N,NA,NA
-U06,2015-05-21-J06-CU-06,2015-09-14,none,none,16.3,NA,122,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
 U16,2015-05-21-J06-SO-9,2015-09-15,none,none,12.4,NA,110,NA,From thawed JS fish. 1 louse taken seems to be different species?,1 louse taken seems to be different species?,LP,work-up excluding cold samples,DS,N,NA,NA
 U21,2015-05-21-J06-SO-8,2015-09-15,none,none,8.5,NA,96,NA,From thawed JS fish,NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U22,2015-05-21-J06-CU-3,2015-09-15,none,none,20.6,NA,127,NA,From thawed JS fish. Forgot to weigh before stomach etc removed. otoliths may have been mixed,NA,KI,work-up excluding cold samples,CK,N,NA,NA
@@ -35,14 +34,12 @@ U26,2015-05-23-J10-SO-27,2015-09-17,none,none,13.7,NA,106,NA,From thawed JS fish
 U27,2015-05-23-J10-SO-24,2015-09-17,none,none,12.7,NA,108,NA,From thawed JS fish,NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U37,2015-05-23-J10-SO-18,2015-09-17,none,none,10.4,NA,95,NA,From thawed JS fish,Was missing most scales when it came out of the bag,KI,work-up excluding cold samples,DS,N,NA,NA
 U38,2015-05-23-J10-SO-30,2015-09-17,none,none,12.2,NA,108,NA,From thawed JS fish,NA,KI,work-up excluding cold samples,KI,N,NA,NA
-U44,2015-05-21-J06-CU-06,2015-09-17,none,none,12.7,NA,100,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,LP,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
 U45,2015-05-23-J10-SO-20,2015-09-17,none,none,14,NA,118,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,N,NA,NA
 U46,2015-05-23-J10-SO-29,2015-09-17,none,none,14.4,NA,110,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,N,NA,NA
 U19,2015-05-23-J10-SO-17,2015-09-18,none,none,9.8,NA,98,NA,From thawed JS fish,"Both lobes of the tail disconected from on removal from bag, 1 louse was too dry to remove from tray it was a cal chal b.",LP,work-up excluding cold samples,CK,N,NA,NA
 U28,2015-05-23-J10-SO-19,2015-09-18,none,none,11.4,NA,104,NA,"From thawed JS fish. 3 copes, 1 chal a 1 chal b not removed before dissection on pelvic region due to melting",NA,KI,work-up excluding cold samples,DS,N,NA,NA
 U29,2015-05-23-J10-SO-28,2015-09-18,none,none,11.5,NA,100,NA,From thawed JS fish,NA,KI,work-up excluding cold samples,CK,N,NA,NA
 U30,2015-05-23-J10-SO-23,2015-09-18,none,none,12.2,NA,106,NA,From thawed JS fish.,1 otolith,KI,work-up excluding cold samples,DS,N,NA,NA
-U39,2015-05-23-J10-SO-06,2015-09-18,none,none,9.8,NA,97,NA,From thawed JS fish. Fish had caudal lobes broken off so FL is estimate,NA,CK,work-up excluding cold samples,KI,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
 U40,2015-05-23-J10-SO-25,2015-09-18,none,none,13.7,NA,106,NA,From thawed JS fish. 1 cal cop not retained,NA,CK,work-up excluding cold samples,KI,N,NA,NA
 U47,2015-05-23-J10-SO-26,2015-09-18,none,none,13.4,NA,107,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,N,NA,NA
 U48,2015-05-23-J10-SO-22,2015-09-18,none,none,10.9,NA,103,NA,From thawed JS fish,"Big pred scar on left flank, missing scales",DS,work-up excluding cold samples,KI,N,NA,NA
@@ -73,7 +70,6 @@ U66,2015-05-22-J08-SO-2,2015-09-22,none,none,8.1,NA,107,NA,"From JS thawed fish,
 U74,2015-05-22-J08-SO-6,2015-09-22,none,none,8.3,NA,96,NA,"From JS thawed fish, experimental data set",NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U75,2015-05-22-J08-SO-1,2015-09-22,none,none,10,NA,96,NA,"From JS thawed fish, experimental data set",NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U59,2015-05-22-J08-SO-9,2015-09-23,none,none,7.1,NA,88,NA,"From JS thawed fish, experimental data set. One louse on dorsal fin damaged put into vial, likely chal b stage",NA,KI,work-up excluding cold samples,KI,N,NA,NA
-U67(1),2015-05-23-J03-SO-28,2015-09-23,none,none,13.3,NA,111,NA,From thawed JS fish; experimental data set,NA,KI,work-up excluding cold samples,KI,Y,Duplicate UFN.,"UFN not written on tag during this period, so cannot verify"
 U68,2015-05-22-J08-SO-5,2015-09-23,none,none,7.2,NA,93,NA,"From JS thawed fish, experimental data set",NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U69,2015-05-23-J03-SO-19,2015-09-23,none,none,11.2,NA,102,NA,"From JS thawed fish, experimental data set",NA,KI,work-up excluding cold samples,KI,N,NA,NA
 U70,2015-05-22-J08-SO-27,2015-09-23,none,none,13.9,NA,108,NA,"From JS thawed fish, experimental data set",NA,KI,work-up excluding cold samples,KI,N,NA,NA
@@ -162,7 +158,6 @@ U164,2015-05-23-J09-SO-16,2015-10-09,none,none,18.6,NA,130,NA,"From JS thawed fi
 U165,2015-05-23-J10-SO-14,2015-10-09,none,none,13,NA,109,NA,"From JS thawed fish, Dylan double checked for lice",NA,KI,work-up excluding cold samples,DS,N,NA,NA
 U166,2015-05-23-J10-SO-5,2015-10-09,none,none,14.1,NA,115,NA,"From JS thawed fish, Dylan double checked for lice",NA,KI,work-up excluding cold samples,DS,N,NA,NA
 U172,2015-05-22-J07-SO-29,2015-10-09,none,none,12.3,NA,110,NA,From JS thawed fish. Carolyn double checked for lice,Carolyn double checked for lice,DS,work-up excluding cold samples,KI,N,NA,NA
-U173,2015-05-23-J10-SO-06,2015-10-09,none,none,14,NA,106,NA,From thawed JS fish,NA,DS,work-up excluding cold samples,KI,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
 U174,2015-05-23-J10-SO-1,2015-10-09,none,none,12.2,NA,103,NA,"From JS thawed fish. Kristi double checked for lice, 1 cal chal b stuck to tray",NA,DS,work-up excluding cold samples,KI,N,NA,NA
 U181,2015-05-23-J09-SO-25,2015-10-09,none,none,13.1,NA,109,NA,From JS thawed fish,NA,CK,work-up excluding cold samples,LP,N,NA,NA
 U182,2015-05-23-J10-SO-10,2015-10-09,none,none,NA,NA,112,NA,"From JS thawed fish. Dylan double checked for lice, no weight taken",NA,CK,work-up excluding cold samples,LP,N,NA,NA
@@ -268,8 +263,6 @@ U272,2015-05-19-D08-SO-16,2015-10-26,none,none,6.9,NA,89,NA,RNA samples being se
 U273,2015-05-19-D08-SO-13,2015-10-26,none,none,9.4,NA,96,NA,RNA samples being sent to Miller lab for trial,NA,KI,full work-up 1,CK,N,NA,NA
 U274,2015-05-19-D08-SO-17,2015-10-26,none,none,9.6,NA,96,NA,RNA samples being sent to Miller lab for trial,NA,KI,full work-up 1,CK,N,NA,NA
 U281,2015-05-19-D08-SO-19,2015-10-26,none,none,8.9,NA,97,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,N,NA,NA
-U282,2015-05-19-D08-SO-18,2015-10-26,none,none,8.8,NA,99,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
-U283,2015-05-19-D08-SO-18,2015-10-26,none,none,NA,NA,96,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,Y,Duplicate SEMSP ID (not a transcription error).,"UFN not written on tag during this period, so cannot verify"
 U284,2015-05-19-D08-SO-20,2015-10-26,none,none,5.2,NA,76,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,N,NA,NA
 U285,2015-05-19-D08-SO-15,2015-10-26,none,none,9.2,NA,95,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,N,NA,NA
 U286,2015-05-19-D08-SO-14,2015-10-26,none,none,9.2,NA,94,NA,RNA samples being sent to Miller lab for trial,NA,CK,full work-up 1,CK,N,NA,NA
@@ -305,7 +298,6 @@ U311,2015-05-16-D07-SO-29,2015-10-28,none,none,12.7,NA,104,NA,NA,NA,DS,full work
 U312,2015-05-16-D07-SO-21,2015-10-28,none,none,12.9,NA,109,NA,NA,NA,DS,full work-up 1,CK,N,NA,NA
 U313,2015-05-16-D07-SO-30,2015-10-28,none,none,10.6,NA,99,NA,NA,NA,DS,full work-up 1,CK,N,NA,NA
 U315,2015-05-16-D06-SO-16,2015-10-28,none,none,18.4,NA,120,NA,NA,NA,DS,full work-up 1,CK,N,NA,NA
-U67(2),2015-05-16-D06-SO-20,2015-10-28,none,none,6.1,NA,83,NA,NA,NA,DS,full work-up 1,CK,Y,Duplicate UFN.,"UFN not written on tag during this period, so cannot verify"
 U298,2015-05-16-D06-SO-15,2015-10-29,none,none,11.7,NA,101,NA,NA,NA,CK,full work-up 1,LP,N,NA,NA
 U299,2015-05-24-D09-SO-26,2015-10-29,none,none,15.3,NA,119,NA,Louse numbers for this vial and for u300 were tallied on the wrong line on the data sheet so a mistake may have been made with tally (i realized and estimated what the numbers should have been),NA,CK,full work-up 1,LP,N,NA,NA
 U300,2015-05-24-D09-SO-30,2015-10-29,none,none,7.7,NA,89,NA,Louse numbers for this vial and for u299 were tallied on the wrong line on the data sheet so a mistake may have been made with tally (i realized and estimated what the numbers should have been),NA,CK,full work-up 1,LP,N,NA,NA
@@ -556,7 +548,6 @@ U581,2015-07-06-D11-SO-16,2015-11-20,none,none,NA,NA,125,NA,1 caligus chal a not
 U582,2015-07-06-D11-SO-19,2015-11-20,none,none,15.2,NA,110,NA,1 cracked otolith,NA,DS,full work-up 1,CK,N,NA,NA
 U583,2015-07-06-D11-SO-11,2015-11-20,none,none,19.1,NA,118,NA,NA,NA,DS,full work-up 1,CK,N,NA,NA
 U584,2015-06-23-J09-SO-20,2015-11-20,none,none,20.9,NA,123,NA,NA,NA,DS,full work-up 1,CK,N,NA,NA
-U585,2015-06-23-J09-SO-23,2015-11-20,none,none,20.4,NA,131,NA,NA,NA,DS,full work-up 1,CK,Y,Duplicate SEMSP ID (this is the incorrect one),NA
 U559,2015-06-23-J09-SO-21,2015-11-23,none,none,19.5,NA,120,NA,NA,"Slice mark on left flank about 2cm long, possibly from net",CK,full work-up 1,DS,N,NA,NA
 U560,2015-06-29-D11-SO-29,2015-11-23,none,none,24.8,NA,133,NA,"Tipped the lice vial, but appears all samples were retained in bottom of vial",NA,CK,full work-up 1,DS,N,NA,NA
 U568,2015-06-23-J09-SO-19,2015-11-23,none,none,22.9,NA,133,NA,NA,NA,KI,full work-up 1,DS,N,NA,NA
@@ -1679,7 +1670,6 @@ U1715,2016-06-22-D21-SO-24,2016-09-06,none,none,13.7,NA,112,NA,NA,NA,CVJ,full wo
 U1716,2016-06-22-D21-SO-25,2016-09-06,none,none,NA,NA,119,NA,Forgot to record weight,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U1717,2016-06-17-J01-SO-9,2016-09-06,none,none,18.2,NA,118,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U1718,2016-06-17-J01-SO-2,2016-09-07,none,none,11.9,NA,110,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
-U1719,2016-06-17-J10-SO-10,2016-09-07,none,none,13.8,NA,108,NA,NA,NA,CVJ,full work-up 1,BJ,Y,SEMSP ID doesn't exist in field data,Fixed duplicate SEMSP ID (2016-06-17-J01-SO-10)
 U1720,2016-06-17-J01-SO-4,2016-09-07,none,none,10.7,NA,94,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U1741,2016-06-17-J01-SO-3,2016-09-07,none,none,13.9,NA,105,NA,NA,NA,BJ,full work-up 1,CVJ,N,NA,NA
 U1742,2016-06-17-J01-SO-5,2016-09-07,none,none,15.5,NA,109,NA,NA,NA,BJ,full work-up 1,CVJ,N,NA,NA
@@ -1979,7 +1969,7 @@ U2071,2016-07-05-J07-SO-12,2016-10-11,none,none,22.9,NA,142,2071,NA,NA,BMM,full 
 U2072,2016-07-05-J07-SO-16,2016-10-11,none,none,24.1,NA,133,NA,NA,NA,BMM,full work-up 1,CVJ,N,NA,NA
 U2073,2016-06-02-J08-SO-1,2016-10-11,none,none,9.7,NA,98,NA,NA,NA,BMM,full work-up 1,CVJ,N,NA,NA
 U2074,2016-06-02-J08-SO-10,2016-10-11,none,none,8.8,NA,95,NA,NA,NA,BMM,full work-up 1,CVJ,N,NA,NA
-U2040,2016-06-17-J01-SO-10,2016-10-12,none,none,12.2,NA,108,NA,NA,NA,CVJ,full work-up 1,BJ,Y,The SEMSP ID on the tag could have been miswritten,NA
+U2040,2016-06-17-J01-SO-10,2016-10-12,none,none,12.2,NA,108,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U2051,2016-06-10-J01-SO-16,2016-10-12,none,none,10.4,NA,104,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U2052,2016-06-11-J05-SO-7,2016-10-12,none,none,10.6,NA,108,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
 U2053,2016-06-11-J05-SO-5,2016-10-12,none,none,11.8,NA,108,NA,NA,NA,CVJ,full work-up 1,BJ,N,NA,NA
@@ -2199,10 +2189,8 @@ U2311,2016-06-23-J10-SO-12,2016-10-21,none,none,8.2,NA,92,NA,NA,NA,BMM,lice enum
 U2312,2016-06-23-J10-SO-11,2016-10-21,none,none,10.6,NA,102,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
 U2313,2016-06-23-J10-SO-19,2016-10-21,none,none,10.7,NA,106,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
 U2314,2016-06-23-J10-SO-13,2016-10-21,none,none,14.1,NA,115,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
-U2315,2016-06-04-J06-SO-25,2016-10-21,none,none,7.5,NA,93,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,Y,Duplicate SEMSP ID (not a transcription error).,Cannot verify because fish was placed back in bundle in freezer (lice enumeration only)
 U2316,2016-06-04-J06-SO-30,2016-10-21,none,none,8.2,NA,96,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
 U2317,2016-06-04-J06-SO-21,2016-10-21,none,none,8.5,NA,97,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
-U2318,2016-06-04-J06-SO-25,2016-10-21,none,none,6.3,NA,89,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,Y,Duplicate SEMSP ID (not a transcription error).,Cannot verify because fish was placed back in bundle in freezer (lice enumeration only)
 U2319,2016-06-04-J06-SO-29,2016-10-21,none,none,9.1,NA,97,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
 U2320,2016-06-04-J06-SO-23,2016-10-21,none,none,7.1,NA,91,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
 U2321,2016-06-04-J06-SO-28,2016-10-21,none,none,8.6,NA,98,NA,NA,NA,BMM,lice enumeration only - in lab,CVJ,N,NA,NA
@@ -2580,7 +2568,6 @@ U2799,2015-07-01-J09-CU-4,2016-12-02,none,none,24,126,131,NA,Brain fell on chamo
 U2800,2015-06-18-D09-CU-9,2016-12-02,none,none,22,125,131,NA,NA,NA,JG,full work-up 1,BMM,N,NA,NA
 U2827,2015-05-16-D07-CU-4,2016-12-02,none,none,14.6,108,114,NA,NA,NA,CVJ,full work-up 1,CVJ,N,NA,NA
 U2828,2015-05-16-D07-CU-2,2016-12-02,none,none,17.9,118,122,NA,NA,Small spleen,CVJ,full work-up 1,CVJ,N,NA,NA
-U2829,2015-06-01-J02-CU-6,2016-12-02,none,none,16.5,117,122,NA,Heart fell onto bench.,NA,CVJ,full work-up 1,CVJ,Y,"Only 2 chum dissected out of package of 5, so not sure which # it would actually be",NA
 U2830,2015-05-16-D07-CU-5,2016-12-02,none,none,10.7,96,101,NA,Outside blade touched heart.,Small spleen,CVJ,full work-up 1,CVJ,N,NA,NA
 U2831,2015-05-21-D07-CU-7,2016-12-02,none,none,5.1,79,84,NA,NA,NA,CVJ,full work-up 1,CVJ,N,NA,NA
 U2904,2015-07-07-J09-CU-5,2016-12-02,none,none,26.5,135,141,NA,NA,NA,BMM,full work-up 1,CVJ,N,NA,NA
@@ -2840,12 +2827,8 @@ U3110,2015-06-29-D09-CU-8,2017-01-07,none,none,16,109,114,NA,NA,NA,JG,full work-
 U3111,2015-05-20-D09-CU-9,2017-01-07,none,none,5.4,77,82,NA,NA,NA,JG,full work-up 1,BJ,N,NA,NA
 U3112,2015-06-14-D09-CU-8,2017-01-07,none,none,21.4,124,130,NA,NA,NA,JG,full work-up 1,BJ,N,NA,NA
 U3113,2015-06-29-D09-CU-4,2017-01-07,none,none,14.6,110,NA,NA,NA,NA,JG,full work-up 1,BJ,N,NA,NA
-U3201,2015-06-11-D09-PI-7,2017-01-07,none,none,9.5,99,NA,NA,Only one oto found,NA,CVJ,full work-up 1,JG,Y,"Part of another seine? Field data says only 1 PI retained from this seine, but 10 from the previous one (seine data was thought to have been voided)",NA
-U3202,2015-06-11-D09-PI-8,2017-01-07,none,none,6.4,89,NA,NA,NA,NA,CVJ,full work-up 1,JG,Y,"Part of another seine? Field data says only 1 PI retained from this seine, but 10 from the previous one (seine data was thought to have been voided)",NA
-U3203,2015-06-11-D09-PI-9,2017-01-07,none,none,10.4,100,105,NA,NA,NA,CVJ,full work-up 1,JG,Y,"Part of another seine? Field data says only 1 PI retained from this seine, but 10 from the previous one (seine data was thought to have been voided)",NA
 U2534,2015-06-20-D09-CO-1,2017-01-08,none,none,41.6,149,157,NA,NA,Lesion on left side,BJ,full work-up 1,JG,N,NA,NA
 U2535,2015-06-20-D09-CO-2,2017-01-08,none,none,41.4,147,155,NA,NA,Nemtodes on intestine,BJ,full work-up 1,JG,N,NA,NA
-U2536,2015-06-11-D09-PI-6,2017-01-08,none,none,7.4,90,95,NA,Dropped brain on coolbox,NA,BJ,full work-up 1,JG,Y,"Part of another seine? Field data says only 1 PI retained from this seine, but 10 from the previous one (seine data was thought to have been voided)",NA
 U2537,2015-06-11-D09-PI-1,2017-01-08,none,none,11,99,103,NA,NA,NA,BJ,full work-up 1,JG,N,NA,NA
 U3114,2015-06-14-D09-CU-4,2017-01-08,none,none,24.7,129,135,NA,NA,NA,JG,full work-up 1,JG,N,NA,NA
 U3115,2015-05-28-D09-CU-10,2017-01-08,none,none,20.7,122,128,NA,NA,NA,JG,full work-up 1,JG,N,NA,NA
@@ -4704,7 +4687,7 @@ U10098,NA,2018-01-08,none,none,29,136,143,NA,NA,"lots of scales missing on both 
 U10100,NA,2018-01-08,none,none,23.4,125,132,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U10096,NA,2018-01-08,none,none,27.2,128,135,NA,NA,anisakis?,KDB,full work-up 2,JG,N,NA,NA
 U10097,NA,2018-01-09,none,none,30.6,135,142,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
-U10094,NA,2018-01-09,none,none,34,129,135,NA,NA,NA,KDB,full work-up 2,JG,Y,Condition factor falls outside of expected range,NA
+U10094,NA,2018-01-09,none,none,34,129,135,NA,NA,NA,KDB,full work-up 2,JG,N,Condition factor falls outside of expected range,NA
 U10093,NA,2018-01-09,none,none,14.1,107,113,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U10091,NA,2018-01-09,none,none,27.7,132,140,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U12816,NA,2018-01-10,none,none,19.4,122,129,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
@@ -4805,7 +4788,7 @@ U10106,NA,2018-01-23,none,none,23.7,144,150,NA,NA,NA,MF,full work-up 2,JG,N,NA,N
 U10109,NA,2018-01-23,none,none,22.8,142,NA,NA,NA,NA,MF,full work-up 2,JG,N,NA,NA
 U10104,NA,2018-01-23,none,none,22.4,141,147,NA,NA,NA,MF,full work-up 2,JG,N,NA,NA
 U10101,NA,2018-01-23,none,none,15.8,125,130,NA,NA,NA,MF,full work-up 2,JG,N,NA,NA
-U10102,NA,2018-01-23,none,none,13.9,123,127,NA,NA,"external parasite ""Rocinela propodialis""",MF,full work-up 2,JG,Y,Condition factor falls outside of expected range,NA
+U10102,NA,2018-01-23,none,none,13.9,123,127,NA,NA,"external parasite ""Rocinela propodialis""",MF,full work-up 2,JG,N,Condition factor falls outside of expected range,NA
 U10105,NA,2018-01-23,none,none,26.4,151,NA,NA,NA,NA,MF,full work-up 2,JG,N,NA,NA
 U12576,NA,2018-01-22,none,none,14,102,NA,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U12664,NA,2018-01-22,none,none,12.1,99,NA,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
@@ -4816,7 +4799,7 @@ U12668,NA,2018-01-23,none,none,15.3,113,NA,NA,NA,NA,KDB,full work-up 2,JG,N,NA,N
 U12662,NA,2018-01-23,none,none,13.5,105,111,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U12667,NA,2018-01-23,none,none,18.7,116,122,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U12670,NA,2018-01-23,none,none,18.5,120,126,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
-U10107,NA,2018-01-24,none,none,27.4,152,159,NA,NA,NA,MF,full work-up 2,JG,Y,Condition factor falls outside of expected range,NA
+U10107,NA,2018-01-24,none,none,27.4,152,159,NA,NA,NA,MF,full work-up 2,JG,N,Condition factor falls outside of expected range,NA
 U10108,NA,2018-01-24,none,none,17,125,130,NA,NA,NA,MF,full work-up 2,JG,N,NA,NA
 U12661,NA,2018-01-24,none,none,15.2,102,108,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
 U12666,NA,2018-01-24,none,none,19.6,114,122,NA,NA,NA,KDB,full work-up 2,JG,N,NA,NA
@@ -4932,10 +4915,10 @@ U10595,NA,2018-02-12,none,none,7,87,91,NA,NA,NA,JG,full work-up 3,MF,N,NA,NA
 U10752,NA,2018-02-12,none,none,10.5,102,NA,NA,NA,NA,JG,full work-up 3,MF,N,NA,NA
 U10751,NA,2018-02-12,none,none,8.9,97,101,NA,NA,NA,JG,full work-up 3,MF,N,NA,NA
 U11311,NA,2018-02-12,none,none,4.9,79,NA,NA,NA,NA,JG,full work-up 3,MF,N,NA,NA
-U10961,NA,2018-02-13,none,none,NA,103,108,NA,No weight taken,NA,CVJ,full work-up 2,MF,Y,No weight,NA
+U10961,NA,2018-02-13,none,none,NA,103,108,NA,No weight taken,NA,CVJ,full work-up 2,MF,N,NA,NA
 U10962,NA,2018-02-13,none,none,11.4,94,100,NA,Sea lice intermethod comparison,NA,CVJ,full work-up 2,MF,N,NA,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
 U10964,NA,2018-02-13,none,none,11.6,94,98,NA,Sea lice intermethod comparison,NA,CVJ,full work-up 2,MF,N,NA,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
-U10969,NA,2018-02-13,none,none,9.8,85,88,NA,Sea lice intermethod comparison,"Large lesion just posterior of the head, on dorsal side.",CVJ,full work-up 2,MF,Y,Condition factor falls outside of expected range,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
+U10969,NA,2018-02-13,none,none,9.8,85,88,NA,Sea lice intermethod comparison,"Large lesion just posterior of the head, on dorsal side.",CVJ,full work-up 2,MF,N,Condition factor falls outside of expected range,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
 U10970,NA,2018-02-13,none,none,10.5,89,94,NA,Sea lice intermethod comparison,NA,CVJ,full work-up 2,MF,N,NA,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
 U10409,NA,2018-02-13,none,none,8.1,87,92,NA,Sea lice intermethod comparison. Scales mixed with U12953,NA,JG,full work-up 2,MF,N,NA,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
 U10406,NA,2018-02-13,none,none,9.6,93,99,NA,Sea lice intermethod comparison,NA,JG,full work-up 2,MF,N,NA,Subtracted 15 from SL & FL due to incorrect place of measurement on fish board (2018-02-14 JG)
@@ -5001,7 +4984,7 @@ U10090,NA,2018-02-15,none,none,17.6,116,NA,NA,Sea lice intermethod comparison,NA
 U10087,NA,2018-02-15,none,none,22,120,126,NA,Sea lice intermethod comparison,NA,KDB,full work-up 2,CVJ,N,NA,NA
 U10081,NA,2018-02-15,none,none,32.1,133,NA,NA,Sea lice intermethod comparison,NA,KDB,full work-up 3,CVJ,N,NA,NA
 U10088,NA,2018-02-15,none,none,22.9,121,127,NA,Sea lice intermethod comparison,NA,KDB,full work-up 2,CVJ,N,NA,NA
-U10082,NA,2018-02-16,none,none,29.5,124,130,NA,Sea lice intermethod comparison,Spleen small,KDB,full work-up 3,CVJ,Y,Condition factor falls outside of expected range,NA
+U10082,NA,2018-02-16,none,none,29.5,124,130,NA,Sea lice intermethod comparison,Spleen small,KDB,full work-up 3,CVJ,N,Condition factor falls outside of expected range,NA
 U10563,NA,2018-02-16,none,none,10.4,91,NA,NA,Sea lice intermethod comparison,NA,KDB,full work-up 3,CVJ,N,NA,NA
 U10568,NA,2018-02-16,none,none,11,96,NA,NA,Sea lice intermethod comparison,anisakis,KDB,full work-up 2,CVJ,N,NA,NA
 U10561,NA,2018-02-16,none,none,12.9,96,NA,NA,Sea lice intermethod comparison,lesions behind dorsal fin,KDB,full work-up 3,CVJ,N,NA,NA
@@ -5039,7 +5022,7 @@ U10482,NA,2018-02-20,none,none,17,114,119,NA,NA,NA,CVJ,full work-up 2,MF,N,NA,NA
 U10483,NA,2018-02-20,none,none,13.9,109,114,NA,NA,NA,CVJ,full work-up 2,MF,N,NA,NA
 U10484,NA,2018-02-20,none,none,17.6,117,123,NA,NA,NA,CVJ,full work-up 2,MF,N,NA,NA
 U10602,NA,2018-02-21,none,none,10.1,96,102,NA,NA,NA,CVJ,full work-up 3,MF,N,NA,NA
-U10603,NA,2018-02-21,none,none,NA,110,115,NA,No weight taken,NA,CVJ,full work-up 3,MF,Y,No weight,NA
+U10603,NA,2018-02-21,none,none,NA,110,115,NA,No weight taken,NA,CVJ,full work-up 3,MF,N,NA,NA
 U10604,NA,2018-02-21,none,none,13.3,106,111,NA,NA,NA,CVJ,full work-up 3,MF,N,NA,NA
 U10605,NA,2018-02-21,none,none,13.6,112,117,NA,NA,NA,CVJ,full work-up 3,MF,N,NA,NA
 U10083,NA,2018-02-21,none,none,17.8,109,114,NA,"weight and two isotope samples taken for David by CVJ, rest of dissection by KDB",NA,CVJ,full work-up 3,MF,N,NA,NA
@@ -5163,7 +5146,7 @@ U10968,NA,2018-03-06,none,none,11.1,89,95,NA,NA,NA,KDB,full work-up 2,CVJ,N,NA,N
 U10965,NA,2018-03-06,none,none,14.4,103,NA,NA,NA,lots of scales missing,KDB,full work-up 2,CVJ,N,NA,NA
 U12644,NA,2018-03-06,none,none,17,120,NA,NA,NA,anisakis,KDB,full work-up 2,CVJ,N,NA,NA
 U10408,NA,2018-03-06,none,none,9.2,95,101,NA,NA,NA,KDB,full work-up 2,CVJ,N,NA,NA
-U10402,NA,2018-03-06,none,none,8.2,77,82,NA,spine broken for length,NA,KDB,full work-up 2,CVJ,Y,Condition factor falls outside of expected range,NA
+U10402,NA,2018-03-06,none,none,8.2,77,82,NA,spine broken for length,NA,KDB,full work-up 2,CVJ,N,Condition factor falls outside of expected range,NA
 U10401,NA,2018-03-06,none,none,10,99,NA,NA,NA,NA,KDB,full work-up 2,CVJ,N,NA,NA
 U10803,NA,2018-03-06,none,none,9.7,91,NA,NA,NA,NA,JG,full work-up 2,CVJ,N,NA,NA
 U10801,NA,2018-03-06,none,none,14,104,109,NA,NA,NA,JG,full work-up 2,CVJ,N,NA,NA
@@ -5264,14 +5247,14 @@ U12443,NA,2018-03-21,none,none,17.1,115,120,NA,NA,NA,JG,full work-up 2,NA,N,NA,N
 U10684,NA,2018-03-21,none,none,17.9,118,123,NA,NA,NA,JG,full work-up 2,NA,N,NA,NA
 U10681,NA,2018-03-21,none,none,19.5,121,126,NA,NA,NA,JG,full work-up 2,NA,N,NA,NA
 U10371,NA,2018-03-21,none,none,29.8,139,146,NA,NA,NA,JG,full work-up 2,NA,N,NA,NA
-U4762,2015-06-04-D08-SO-01,2018-03-22,none,none,14.2,105,110,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4763,2015-06-04-D08-SO-02,2018-03-22,none,none,10.7,98,103,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4764,2015-06-04-D08-SO-03,2018-03-22,none,none,11.6,100,106,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4765,2015-06-04-D08-SO-04,2018-03-22,none,none,14.8,107,113,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4766,2015-06-04-D08-SO-05,2018-03-22,none,none,9.6,92,97,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4767,2015-06-04-D08-SO-06,2018-03-22,none,none,10.9,99,105,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4768,2015-06-04-D08-SO-07,2018-03-22,none,none,11.9,103,107,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4769,2015-06-04-D08-SO-08,2018-03-22,none,none,12.2,106,111,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4770,2015-06-04-D08-SO-09,2018-03-22,none,none,13.6,108,113,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U4771,2015-06-04-D08-SO-10,2018-03-22,none,none,6,84,89,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
-U15326,NA,2018-03-26,none,none,9.9,98,NA,NA,NA,NA,LP,-20 work-up 1,NA,NA,NA,NA
+U4762,2015-06-04-D08-SO-01,2018-03-22,none,none,14.2,105,110,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4763,2015-06-04-D08-SO-02,2018-03-22,none,none,10.7,98,103,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4764,2015-06-04-D08-SO-03,2018-03-22,none,none,11.6,100,106,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4765,2015-06-04-D08-SO-04,2018-03-22,none,none,14.8,107,113,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4766,2015-06-04-D08-SO-05,2018-03-22,none,none,9.6,92,97,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4767,2015-06-04-D08-SO-06,2018-03-22,none,none,10.9,99,105,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4768,2015-06-04-D08-SO-07,2018-03-22,none,none,11.9,103,107,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4769,2015-06-04-D08-SO-08,2018-03-22,none,none,12.2,106,111,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4770,2015-06-04-D08-SO-09,2018-03-22,none,none,13.6,108,113,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U4771,2015-06-04-D08-SO-10,2018-03-22,none,none,6,84,89,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA
+U15326,NA,2018-03-26,none,none,9.9,98,NA,NA,NA,NA,LP,-20 work-up 1,NA,N,NA,NA

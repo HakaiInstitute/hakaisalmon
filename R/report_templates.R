@@ -5,7 +5,6 @@
 #' in the left side bar navigate down to `Templates` and select hakaisalmon .pdf report
 #'
 #' @format R Markdown file with associated .tex and .png files. Includes in the header: Hakai Instute logo, second level heading, default Times New Roman 12 pt font and some other LaTex code to make things look nice.
-#' @docType Report Template
 #' @name pdf_report_template
 NULL
 
@@ -18,6 +17,5 @@ NULL
 #'
 #'
 #' @format R Markdown file with associated preset yaml front matter that defines a nice standard aesthetic for .html reports. This includes floating TOC, cosmo theme, code folding, and numbered sections.
-#' @docType Report Template
 #' @name html_report_template
 NULL

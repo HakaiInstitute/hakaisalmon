@@ -1,4 +1,4 @@
-# hakaisalmon
+# hakaisalmon: Hakai Institute Juvenile Salmon Program data and functions
 
 ## Introduction 
 
@@ -39,11 +39,9 @@ The metadata associated with each variable from every data table in this package
 
 ## Citing Data
 
-This can be done by requesting a portion of the data from the hakaisalmon package receive a DOI, or by simply citing this R package.
+This can be done by citing the Hakai Institute GeoNetwork metadata catalog entry.
 
-You can cite this package like this:
-
-Hakai Institute. 2018. hakaisalmon: a Juvenile Salmon Progam R package. Version 0.1.1. http://www.github.com/HakaiInstitute/hakaisalmon/
+Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version (put data package/R package release version here, eg. 0.1.1).
 
 
 

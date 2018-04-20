@@ -16,7 +16,7 @@ If you would like to suggest improvements, features, or bug fixes to this packag
 
 ## Installation
 
-First , make sure you have a [free GitHUB account](https://github.com/join). If you are a Hakai employee, contact EIMS to be added to Hakai Institute GitHUB organization. Otherwise, you'll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request being added as an external colllaborator.
+First , make sure you have a [free GitHUB account](https://github.com/join). You'll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request this.
 
 Once you have access to the repository, go to https://github.com/settings/tokens. Check the `repo` box scroll down and hit generate token.
 
@@ -29,19 +29,31 @@ In the R-Studio console run the following two lines of code:
 
 ## Usage
 
-All program data is loaded into memory upon calling `library(hakaisalmon)`. You will not see datatables as objects in your environment but to demonstrate that the data is loaded into memory begin to type `survey` in your script and you should see several JSP data tables pop up in the tab completion window.
+All program data and functions are loaded into memory upon calling `library(hakaisalmon)`. You will not see the salmon program data frames as objects in the environment pane of R-Studio, but to demonstrate that the data is loaded into memory begin to type `survey` in your script and you should see several JSP data tables pop up in the tab completion window.
 
-All the tables from the program database are available. See the reference file for a comlplete list of data tables available. Some of the more common joins have already be completed for convenience. 
+All the tables from the program database are available and their variables are all documented in the reference tab of this website. Explore the Reference section to see what tables this package contains, and click on the table name to see descriptions of variable.
 
-The tables in this package follow a tidy relational database structure. If you wish to join other tables you can do so using the `dplyr::left_join function`. If this is something you have to do often, consider including your custom join in this package by [submitting an issue](https://github.com/HakaiInstitute/hakaisalmon/issues), or by submitting a pull request.
+Some of the more common joins of data tables have already be completed for convenience, for example `survey_seines_fish`. If you wish to join other tables you can do so using the `dplyr` join functions. If this is something you have to do often, consider including your custom join in this package by [submitting an issue](https://github.com/HakaiInstitute/hakaisalmon/issues), or by submitting a pull request.
 
-The metadata associated with each variable from every data table in this package can be found in the Reference section of this website.
+A typical analysis using data that is loaded into memory from the `hakaisalmon` package might start like this:
+
+```{r setup, message = FALSE}
+library(hakaisalmon)
+library(tidyverse)
+
+sockeye_2017_lengths <- survey_seines_fish %>% # survey_seines_fish is already laaded into memory :)
+  filter(lubridate::year(survey_date) == 2017, species == "SO") %>% 
+  select(survey_date, species, fork_length) %>% 
+  drop_na("fork_length")
+  
+print(sockeye_2017_lengths)
+```
 
 ## Citing Data
 
-This can be done by citing the Hakai Institute GeoNetwork metadata catalog entry.
+Please cite the Hakai Institute GeoNetwork metadata catalogue entry.
 
-Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version (put data package/R package release version here, eg. 0.1.1).
+Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version 0.1.1
 
 
 

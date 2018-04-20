@@ -13,7 +13,7 @@ A dataset species bycatch and accidental fish mortality attributed to seines con
 }
 \details{
 \describe{
- \item{seine_id}{A unique ID assigned to each seine conducted within a survey. \strong{Foreign key} to \code{\link{seine_data}}.}.
+ \item{seine_id}{A unique ID assigned to each seine conducted within a survey. \strong{Foreign key} to \code{\link{seine_data}}.}
  \item{bm_species}{First two letters of the first two words of the common name of the fish (example: \samp{TISC} = Tide-pool Sculpin)}
  \item{bm_status}{Whether the species was part of a seine bycatch or a mortality as a result of being held in the net}
  \item{bm_ageclass}{The approximate age of the fish. \samp{Y} = young-of-year, \samp{J} = juvenile, \samp{A} = adult}

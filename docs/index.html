@@ -113,7 +113,7 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>First , make sure you have a <a href="https://github.com/join">free GitHUB account</a>. If you are a Hakai employee, contact EIMS to be added to Hakai Institute GitHUB organization. Otherwise, you’ll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request being added as an external colllaborator.</p>
+<p>First , make sure you have a <a href="https://github.com/join">free GitHUB account</a>. You’ll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request this.</p>
 <p>Once you have access to the repository, go to <a href="https://github.com/settings/tokens" class="uri">https://github.com/settings/tokens</a>. Check the <code>repo</code> box scroll down and hit generate token.</p>
 <p>Copy the token.</p>
 <p>In the R-Studio console run the following two lines of code:</p>
@@ -122,16 +122,39 @@
 <div id="usage" class="section level2">
 <h2 class="hasAnchor">
 <a href="#usage" class="anchor"></a>Usage</h2>
-<p>All program data is loaded into memory upon calling <code>library(hakaisalmon)</code>. You will not see datatables as objects in your environment but to demonstrate that the data is loaded into memory begin to type <code>survey</code> in your script and you should see several JSP data tables pop up in the tab completion window.</p>
-<p>All the tables from the program database are available. See the reference file for a comlplete list of data tables available. Some of the more common joins have already be completed for convenience.</p>
-<p>The tables in this package follow a tidy relational database structure. If you wish to join other tables you can do so using the <code>dplyr::left_join function</code>. If this is something you have to do often, consider including your custom join in this package by <a href="https://github.com/HakaiInstitute/hakaisalmon/issues">submitting an issue</a>, or by submitting a pull request.</p>
-<p>The metadata associated with each variable from every data table in this package can be found in the Reference section of this website.</p>
+<p>All program data and functions are loaded into memory upon calling <code>library(hakaisalmon)</code>. You will not see the salmon program data frames as objects in the environment pane of R-Studio, but to demonstrate that the data is loaded into memory begin to type <code>survey</code> in your script and you should see several JSP data tables pop up in the tab completion window.</p>
+<p>All the tables from the program database are available and their variables are all documented in the reference tab of this website. Explore the Reference section to see what tables this package contains, and click on the table name to see descriptions of variable.</p>
+<p>Some of the more common joins of data tables have already be completed for convenience, for example <code>survey_seines_fish</code>. If you wish to join other tables you can do so using the <code>dplyr</code> join functions. If this is something you have to do often, consider including your custom join in this package by <a href="https://github.com/HakaiInstitute/hakaisalmon/issues">submitting an issue</a>, or by submitting a pull request.</p>
+<p>A typical analysis using data that is loaded into memory from the <code>hakaisalmon</code> package might start like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(hakaisalmon)
+<span class="kw">library</span>(tidyverse)
+
+sockeye_2017_lengths &lt;-<span class="st"> </span>survey_seines_fish <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># survey_seines_fish is already laaded into memory :)</span>
+<span class="st">  </span><span class="kw">filter</span>(lubridate<span class="op">::</span><span class="kw"><a href="http://lubridate.tidyverse.org/reference/year.html">year</a></span>(survey_date) <span class="op">==</span><span class="st"> </span><span class="dv">2017</span>, species <span class="op">==</span><span class="st"> "SO"</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(survey_date, species, fork_length) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">drop_na</span>(<span class="st">"fork_length"</span>)
+  
+<span class="kw">print</span>(sockeye_2017_lengths)</code></pre></div>
+<pre><code>## # A tibble: 381 x 3
+##    survey_date species fork_length
+##    &lt;date&gt;      &lt;chr&gt;         &lt;int&gt;
+##  1 2017-05-25  SO              130
+##  2 2017-05-25  SO              114
+##  3 2017-05-25  SO              143
+##  4 2017-05-25  SO              147
+##  5 2017-05-25  SO              126
+##  6 2017-05-25  SO              127
+##  7 2017-05-25  SO              112
+##  8 2017-05-25  SO              140
+##  9 2017-05-25  SO              150
+## 10 2017-05-25  SO              113
+## # ... with 371 more rows</code></pre>
 </div>
 <div id="citing-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#citing-data" class="anchor"></a>Citing Data</h2>
-<p>This can be done by citing the Hakai Institute GeoNetwork metadata catalog entry.</p>
-<p>Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. <a href="http://dx.doi.org/10.21966/1.566666" class="uri">http://dx.doi.org/10.21966/1.566666</a>. Version (put data package/R package release version here, eg. 0.1.1).</p>
+<p>Please cite the Hakai Institute GeoNetwork metadata catalogue entry.</p>
+<p>Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. <a href="http://dx.doi.org/10.21966/1.566666" class="uri">http://dx.doi.org/10.21966/1.566666</a>. Version 0.1.1</p>
 </div>
 </div>
   </div>

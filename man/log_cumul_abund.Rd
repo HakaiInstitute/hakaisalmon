@@ -2,7 +2,7 @@
 % Please edit documentation in R/log_cumul_abund.R
 \name{log_cumul_abund}
 \alias{log_cumul_abund}
-\title{Predict the cumulative proportion of catch using a logistic growth equation}
+\title{Predict the cumulative proportion of catch for the purposes of estimating annual migration timing using a logistic growth equation}
 \usage{
 log_cumul_abund(percent, date)
 }
@@ -15,7 +15,7 @@ log_cumul_abund(percent, date)
 A dataframe with a date column and predicted cumulative proportion of catch
 }
 \description{
-Predict the cumulative proportion of catch using a logistic growth equation
+Predict the cumulative proportion of catch for the purposes of estimating annual migration timing using a logistic growth equation
 }
 \examples{
 date <- 110:190

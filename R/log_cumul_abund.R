@@ -1,4 +1,4 @@
-#' Predict the cumulative proportion of catch using a logistic growth equation
+#' Predict the cumulative proportion of catch for the purposes of estimating annual migration timing using a logistic growth equation
 #'
 #' @param percent The cumuative proportion of catch between 0 and 100 percent
 #' @param date The julian date of capture

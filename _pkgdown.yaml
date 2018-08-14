@@ -39,7 +39,7 @@ reference:
     contents:
     - onAttach
     - mutate_cond
-    - log_cuml_abund
+    - log_cumul_abund
 
   - title: Report Templates
     desc: Standard report .Rmd templates

@@ -4,6 +4,10 @@
 
 * In `fish_field_data`, updated *analysis_planned* for fish in packages JP49 and JP50 to 'field loused only' due to fish no longer being available for SEMSP laboratory dissections.
 
+### Funtions
+
+* Created the function `log_cumul_abund` for the purposes of measuring migration timing. `log_cumul_abund` takes the cumulative proportion of catch data for each year (make this yourself first) and fits a logistic growth curve to these data and creates predicted values for each day.
+
 ## hakaisalmon 0.1.1
 
 ### Data updates

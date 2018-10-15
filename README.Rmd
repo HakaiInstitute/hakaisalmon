@@ -38,10 +38,12 @@ Some of the more common joins of data tables have already be completed for conve
 
 A typical analysis using data that is loaded into memory from the `hakaisalmon` package might start like this:
 
-```{r setup, message = FALSE}
+```{r setup, incLude = FALSE, results = 'hide', message= FALSE, warning = FALSE}
 library(hakaisalmon)
 library(tidyverse)
+```
 
+```{r, message = FALSE, warning = FALSE, error = FALSE}
 sockeye_2017_lengths <- survey_seines_fish %>% # survey_seines_fish is already loaded into memory :)
   filter(lubridate::year(survey_date) == 2017, species == "SO") %>% 
   select(survey_date, species, fork_length) %>% 

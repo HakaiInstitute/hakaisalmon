@@ -4,7 +4,7 @@
 \name{site_activity}
 \alias{site_activity}
 \title{Fish surface activty observed during survey transects}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 699 rows and 5 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1598 rows and 5 columns.}
 \usage{
 site_activity
 }

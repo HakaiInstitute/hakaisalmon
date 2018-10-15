@@ -4,7 +4,7 @@
 \name{ysi}
 \alias{ysi}
 \title{Temperature and salinity data}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 847 rows and 6 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 846 rows and 4 columns.}
 \usage{
 ysi
 }

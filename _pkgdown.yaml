@@ -2,7 +2,6 @@ url: http://pkgdown.r-lib.org
 
 authors:
   Brett Johnson:
-    href: http://www.brettjohnson.org
 
 template:
   params:
@@ -24,6 +23,7 @@ reference:
     - fish_lab_data
     - sealice_field
     - sealice_lab_motiles
+    - sealice_lab_finescale
     - ysi
     - zoop_tows
     - stock_id
@@ -32,7 +32,6 @@ reference:
     desc: Data files that contain sample location, processing state, and other sample metadata
     contents:
     - sample_container_inventory
-    - ends_with("metadata")
 
   - title: Functions
     desc: Custom functions for summarizing and analyzing
@@ -40,6 +39,7 @@ reference:
     - onAttach
     - mutate_cond
     - log_cumul_abund
+    - lump_fraser_sockeye_stocks
 
   - title: Report Templates
     desc: Standard report .Rmd templates

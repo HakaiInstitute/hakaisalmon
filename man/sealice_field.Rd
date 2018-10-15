@@ -4,7 +4,7 @@
 \name{sealice_field}
 \alias{sealice_field}
 \title{Enumeration of sea lice found on fish in the field}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 468 rows and 24 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1372 rows and 29 columns.}
 \usage{
 sealice_field
 }
@@ -36,7 +36,11 @@ A dataset containing counts of sea lice (\emph{Caligus clemensi} and \emph{Lepeo
  \item{mate_guarding}{Number of sea lice exhibiting mate guarding activity}
  \item{pinched_belly}{Number of occurences of a pinched belly on the fish}
  \item{comments_fish_health_field}{Description of locations of observed body abnormalities and deformities}
- \item{licing_protocol_field}{The protocol that was followed for identifying sea lice in the field.}
+ \item{licing_protocol_field}{The protocol that was followed for identifying sea lice in the field. \strong{Categories:}
+  \itemize{
+   \item \samp{salmoncoast_allstages} = fine-scale identification of all sea lice and life stages
+   \item \samp{salmoncoast_motiles} = identification of only motile stages of sea lice
+   }}
 
 }
 }

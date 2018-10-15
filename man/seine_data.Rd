@@ -4,7 +4,7 @@
 \name{seine_data}
 \alias{seine_data}
 \title{Time, location, and catch effort of sets}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 594 rows and 24 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 582 rows and 27 columns.}
 \usage{
 seine_data
 }

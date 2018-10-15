@@ -4,7 +4,7 @@
 \name{fish_lab_data}
 \alias{fish_lab_data}
 \title{Biological measurements and metadata associated with fish dissected in the lab}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5259 rows and 17 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5602 rows and 19 columns.}
 \usage{
 fish_lab_data
 }
@@ -40,6 +40,19 @@ A dataset containing variables collected from laboratory dissections of fish cau
  \item{fish_lab_qc_flag}{\samp{yes} = one or more columns has an unresolvable error in data entry (not pertaining to the physical quality of the sample). \samp{no} = no issues with data quality}
  \item{fish_lab_flag_reason}{Explains why the fish has been flagged}
  \item{fish_lab_qc_log}{Describes any action taken by QC to address and resolve flagged issues.}
+ \item{lice_collection_protocol}{The protocol that was followed to collect sealice from the fish. \strong{Categories:}
+  \itemize{
+   \item \samp{lab_motiles_cryo} = only motile sea lice were collected
+   \item \samp{lab_fine_2015} = all life stages, sexes, and species of sea lice were collected (only in 2015)
+   \item \samp{not_collected} = no sea lice were collected
+   }
+   }
+ \item{lice_id_protocol}{The protocol that was followed for identifying sea lice in the lab. \strong{Categories:}
+  \itemize{
+   \item \samp{lportner_fine} = fine-scale identification of all sea lice and life stages that were obtained under
+   \item \samp{lab_motiles} = identification of only motile stages of sea lice
+   }
+   }
 }
 }
 \keyword{datasets}

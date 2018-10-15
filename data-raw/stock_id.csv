@@ -340,7 +340,7 @@ U1340,2015-06-17-D08-SO-4,SDN1271,Portage_Cr,4,0.36,Chilko,3,0.33,L_Adams,4,0.25
 U1341,2015-06-19-J09-SO-12,SDN1272,Scotch,2,0.66,L_Adams,4,0.2,Seymour,2,0.14,Chilko_south,2,0,Eagle,2,0,N,NA,NA
 U1342,2015-06-19-J09-SO-8,SDN1273,Quesnel_Horsef,3,0.61,L_Horsefly,3,0.38,Wasko_Cr,3,0.01,U_Horsefly,3,0,McKinley,3,0,N,NA,NA
 U1343,2015-06-17-D08-SO-7,SDN1284,Chilko,3,0.98,Chilko_south,2,0.01,Quesnel_Decept,3,0,Roaring,3,0,McKinley,3,0,N,NA,NA
-U1344,2015-05-30-J07-SO-9,#N/A,Mitchell,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
+U1344,2015-05-30-J07-SO-9,#N/A,Mitchell,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
 U1345,2015-05-30-J07-SO-14,SDN1286,Chilko,3,0.74,U_Horsefly,3,0.25,Horsefly,3,0.01,Chilko_south,2,0,Mitchell,3,0,N,NA,NA
 U1346,2015-05-30-J07-SO-2,SDN1287,Mitchell,3,0.95,Chilko,3,0.04,U_Horsefly,3,0.01,Scotch,2,0,L_Adams,4,0,N,NA,NA
 U1347,2015-05-26-J03-SO-1,SDN1288,Middle,3,0.49,U_Horsefly,3,0.37,Stellako,3,0.06,Kuzkwa_Cr,3,0.03,Gluskie,1,0.01,N,NA,NA
@@ -355,7 +355,7 @@ U1355,2015-06-19-J09-SO-11,SDN1277,Scotch,2,0.72,Seymour,2,0.27,Eagle,2,0,Middle
 U1356,2015-06-19-J09-SO-2,SDN1278,Quesnel_Horsef,3,0.45,L_Horsefly,3,0.36,Wasko_Cr,3,0.16,Quesnel_Mitche,3,0.02,Blue_Lead_Ck,3,0.01,N,NA,NA
 U1357,2015-06-17-D08-SO-12,SDN1279,L_Adams,4,0.51,Portage_Cr,4,0.42,Chilko,3,0.06,Little,4,0.01,Middle,3,0,N,NA,NA
 U1358,2015-05-30-J07-SO-11,SDN1289,Chilko,3,0.99,Chilko_south,2,0.01,Chilko-North,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U1359,2015-05-30-J07-SO-12,#N/A,Chilko,3,1,Middle,3,0,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
+U1359,2015-05-30-J07-SO-12,#N/A,Chilko,3,1,Middle,3,0,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
 U136,2015-05-22-J07-SO-26,SDN149,Chilko,3,0.68,Chilko_south,2,0.32,Eagle_L,4,0,Chilko-North,3,0,Portage_Cr,4,0,N,NA,NA
 U1360,2015-05-30-J07-SO-8,SDN1291,Chilko,3,0.59,Thompson_N,2,0.15,Chilko_south,2,0.08,L_Adams,4,0.07,Middle,3,0.07,N,NA,NA
 U1361,2015-06-21-J06-SO-16,SDN1280,Seymour,2,0.29,Scotch,2,0.22,L_Adams,4,0.16,Little,4,0.1,Chilko_south,2,0.04,N,NA,NA
@@ -1435,16 +1435,16 @@ U295,2015-05-16-D07-SO-24,SDN296,Quesnel_Decept,3,0.8,Pinchi_Cr,3,0.09,Chilko,3,
 U296,2015-05-16-D06-SO-17,SDN297,Gates_Cr,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U297,2015-05-16-D06-SO-14,SDN298,Chilko,3,0.99,Chilko_south,2,0.01,Chilko-North,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
 U298,2015-05-16-D06-SO-15,SDN308,Chilko,3,0.91,Thompson_N,2,0.07,Chilko_south,2,0.01,Tachie,3,0,Pinchi_Cr,3,0,N,NA,NA
-U515,2015-05-23-D10-SO-24,SDN309,Chilko,3,0.98,Quesnel_Horsef,3,0.02,Little,4,0,Roaring,3,0,Horsefly,3,0,N,NA,NA
-U299,2015-05-24-D09-SO-26,SDN310,Weaver,4,0.89,Chilko,3,0.07,Wannock,18,0.01,Marble_Cr,18,0.01,Pitt,2,0.01,N,NA,NA
+U515,2015-05-23-D10-SO-24,SDN497,Chilko,3,0.98,Quesnel_Horsef,3,0.02,Little,4,0,Roaring,3,0,Horsefly,3,0,N,NA,NA
+U299,2015-05-24-D09-SO-26,SDN309,Weaver,4,0.89,Chilko,3,0.07,Wannock,18,0.01,Marble_Cr,18,0.01,Pitt,2,0.01,N,NA,NA
 U301,2015-05-16-D07-SO-27,SDN299,Pinchi_Cr,3,0.88,Tachie,3,0.09,Chilko,3,0.01,Narrows,1,0.01,Hudson_Bay,1,0,N,NA,NA
 U302,2015-05-16-D07-SO-23,SDN300,Weaver,4,1,Tachie,3,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U303,2015-05-16-D07-SO-28,SDN301,Chilko,3,0.99,Thompson_N,2,0.01,Chilko_south,2,0.01,Pinchi_Cr,3,0,NA,NA,NA,N,NA,NA
 U304,2015-05-16-D06-SO-19,SDN302,Quesnel_Decept,3,0.84,Weaver,4,0.06,Pinchi_Cr,3,0.05,Mitchell,3,0.02,Thompson_N,2,0.02,N,NA,NA
 U305,2015-05-16-D06-SO-18,SDN303,Weaver,4,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U306,2015-05-16-D06-SO-11,SDN311,Pinchi_Cr,3,0.91,Tachie,3,0.08,Middle,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U300,2015-05-24-D09-SO-30,SDN312,Chilko,3,1,Stellako,3,0,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U307,2015-05-24-D09-SO-27,SDN313,Quesnel_Horsef,3,0.98,U_Horsefly,3,0.01,L_Horsefly,3,0,Horsefly,3,0,Little,4,0,N,NA,NA
+U300,2015-05-24-D09-SO-30,SDN310,Chilko,3,1,Stellako,3,0,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,N,NA,NA
+U307,2015-05-24-D09-SO-27,SDN312,Quesnel_Horsef,3,0.98,U_Horsefly,3,0.01,L_Horsefly,3,0,Horsefly,3,0,Little,4,0,N,NA,NA
 U309,2015-05-26-D09-SO-6,SDN314,Gluskie,1,0.97,Middle,3,0.02,Blackwater,1,0.01,FiveMile,1,0,Stellako,3,0,N,NA,NA
 U31,2015-05-21-J06-SO-10,SDN15,Chilko,3,0.85,Thompson_N,2,0.06,Eagle_L,4,0.04,Portage_Cr,4,0.02,Seymour,2,0.01,N,NA,NA
 U310,2015-05-26-D09-SO-10,SDN315,Chilko,3,1,Quesnel_Mitche,3,0,Stellako,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
@@ -1454,9 +1454,9 @@ U313,2015-05-16-D07-SO-30,SDN306,Pinchi_Cr,3,0.54,Thompson_N,2,0.31,Quesnel_Dece
 U314,#N/A,#N/A,Chilko,3,0.98,Pinchi_Cr,3,0.01,Quesnel_Decept,3,0,Chilko_south,2,0,Chilko-North,3,0,Y,Awaiting confirmation of correct semsp_ID,NA
 U315,2015-05-16-D06-SO-16,SDN307,Pinchi_Cr,3,0.87,Quesnel_Decept,3,0.05,Chilko,3,0.04,Tachie,3,0.01,Hudson_Bay,1,0.01,N,NA,NA
 U316,2015-05-16-D06-SO-12,SDN316,Chilko,3,0.68,Thompson_N,2,0.13,Pinchi_Cr,3,0.12,Raft,2,0.03,Quesnel_Decept,3,0.02,N,NA,NA
-U308,2015-05-24-D09-SO-23,SDN317,Thompson_N,2,0.9,Chilko,3,0.05,Raft,2,0.04,Quesnel_Horsef,3,0.01,Stellako,3,0,N,NA,NA
-U317,2015-05-24-D09-SO-28,SDN318,Mitchell,3,0.93,Quesnel_Mitche,3,0.07,Blue_Lead_Ck,3,0,Quesnel_Decept,3,0,Roaring,3,0,N,NA,NA
-U318,2015-05-24-D09-SO-24,SDN319,Chilko,3,1,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
+U308,2015-05-24-D09-SO-23,SDN313,Thompson_N,2,0.9,Chilko,3,0.05,Raft,2,0.04,Quesnel_Horsef,3,0.01,Stellako,3,0,N,NA,NA
+U317,2015-05-24-D09-SO-28,SDN317,Mitchell,3,0.93,Quesnel_Mitche,3,0.07,Blue_Lead_Ck,3,0,Quesnel_Decept,3,0,Roaring,3,0,N,NA,NA
+U318,2015-05-24-D09-SO-24,SDN318,Chilko,3,1,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U320,2015-05-26-D09-SO-8,SDN320,Stellako,3,0.43,L_Adams,4,0.34,Middle,3,0.12,Seymour,2,0.06,Chilko,3,0.04,N,NA,NA
 U321,2015-05-16-D06-SO-13,SDN321,Pinchi_Cr,3,0.94,Tachie,3,0.06,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U322,2015-05-13-D02-SO-3,SDN407,Chilko,3,0.96,Thompson_N,2,0.02,Middle,3,0.01,Stellako,3,0,Eagle_L,4,0,N,NA,NA
@@ -1465,12 +1465,12 @@ U324,2015-05-13-D02-SO-6,SDN409,Blue_Lead_Ck,3,0.79,Quesnel_Mitche,3,0.11,Mitche
 U325,2015-05-30-D06-SO-22,SDN410,Horsefly,3,0.44,L_Adams,4,0.39,Chilko,3,0.1,Stellako,3,0.02,Kalum_lake,10,0.02,N,NA,NA
 U326,2015-05-30-D06-SO-28,SDN415,Middle,3,0.42,Gluskie,1,0.26,Porter_Cr,1,0.14,Blackwater,1,0.09,Stellako,3,0.03,N,NA,NA
 U327,2015-05-28-D09-SO-14,SDN427,Quesnel_Mitche,3,0.99,Mitchell,3,0.01,Blue_Lead_Ck,3,0,Chilko,3,0,Horsefly,3,0,N,NA,NA
-U319,2015-05-24-D09-SO-21,SDN453,Chilko,3,0.88,Thompson_N,2,0.11,Raft,2,0,Little,4,0,Quesnel_Horsef,3,0,N,NA,NA
+U319,2015-05-24-D09-SO-21,SDN319,Chilko,3,0.88,Thompson_N,2,0.11,Raft,2,0,Little,4,0,Quesnel_Horsef,3,0,N,NA,NA
 U329,2015-06-23-J02-SO-15,SDN571,Pinchi_Cr,3,0.94,Middle,3,0.06,Paula,1,0,Chilko,3,0,Stellako,3,0,N,NA,NA
 U330,2015-06-23-J02-SO-6,SDN572,L_Adams,4,0.33,Seymour,2,0.25,Pinchi_Cr,3,0.23,Chilko_south,2,0.09,Little,4,0.04,N,NA,NA
-U328,2015-05-24-D11-SO-15,SDN322,Quesnel_Horsef,3,0.95,Little,4,0.01,Chilko,3,0.01,U_Horsefly,3,0.01,Quesnel_Decept,3,0.01,N,NA,NA
-U331,2015-05-24-D09-SO-22,SDN323,Blackwater,1,0.36,Hudson_Bay,1,0.2,Kynock,1,0.16,Sandpoint,1,0.12,Felix,1,0.05,N,NA,NA
-U332,2015-05-24-D09-SO-25,SDN324,Chilko,3,0.29,Thompson_N,2,0.21,Little,4,0.18,Quesnel_Horsef,3,0.14,Eagle_L,4,0.04,N,NA,NA
+U328,2015-05-24-D11-SO-15,SDN453,Quesnel_Horsef,3,0.95,Little,4,0.01,Chilko,3,0.01,U_Horsefly,3,0.01,Quesnel_Decept,3,0.01,N,NA,NA
+U331,2015-05-24-D09-SO-22,SDN322,Blackwater,1,0.36,Hudson_Bay,1,0.2,Kynock,1,0.16,Sandpoint,1,0.12,Felix,1,0.05,N,NA,NA
+U332,2015-05-24-D09-SO-25,SDN323,Chilko,3,0.29,Thompson_N,2,0.21,Little,4,0.18,Quesnel_Horsef,3,0.14,Eagle_L,4,0.04,N,NA,NA
 U334,2015-05-26-D09-SO-9,SDN325,Chilko,3,1,Middle,3,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U335,2015-05-26-D09-SO-1,SDN327,L_Adams,4,0.37,Gluskie,1,0.2,Kynock,1,0.19,Dust,1,0.08,Porter_Cr,1,0.06,N,NA,NA
 U336,2015-05-26-D09-SO-5,SDN328,Stellako,3,0.99,L_Adams,4,0,Middle,3,0,Felix,1,0,Dust,1,0,N,NA,NA
@@ -1544,9 +1544,9 @@ U404,2015-05-28-D10-SO-12,SDN443,Quesnel_Mitche,3,1,Chilko,3,0,NA,NA,NA,NA,NA,NA
 U405,2015-05-28-D10-SO-15,SDN444,Quesnel_Mitche,3,1,Mitchell,3,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U406,2015-05-28-D10-SO-11,SDN445,Stellako,3,0.96,Middle,3,0.04,Kuzkwa_Cr,3,0,Kynock,1,0,NA,NA,NA,N,NA,NA
 U407,2015-05-28-D10-SO-17,SDN446,Chilko,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
-U333,2015-05-24-D09-SO-29,SDN454,Birkenhead,3,0.79,Pitt,2,0.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
-U408,2015-05-24-D11-SO-13,SDN455,Stellako,3,0.32,Blackwater,1,0.2,Kynock,1,0.11,Hudson_Bay,1,0.11,Sandpoint,1,0.1,N,NA,NA
-U409,2015-05-24-D11-SO-16,SDN456,Chilko,3,1,Raft,2,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
+U333,2015-05-24-D09-SO-29,SDN324,Birkenhead,3,0.79,Pitt,2,0.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
+U408,2015-05-24-D11-SO-13,SDN454,Stellako,3,0.32,Blackwater,1,0.2,Kynock,1,0.11,Hudson_Bay,1,0.11,Sandpoint,1,0.1,N,NA,NA
+U409,2015-05-24-D11-SO-16,SDN455,Chilko,3,1,Raft,2,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U411,2015-05-21-D03-SO-2,SDN393,Chilko,3,0.89,Weaver,4,0.07,Little,4,0.03,Portage_Cr,4,0,Quesnel_Horsef,3,0,N,NA,NA
 U412,2015-05-26-D10-SO-17,SDN394,Chilko,3,0.96,Middle,3,0.02,Horsefly,3,0.01,L_Adams,4,0.01,Kynock,1,0,N,NA,NA
 U413,2015-05-26-D10-SO-15,SDN395,Gluskie,1,0.56,Porter_Cr,1,0.2,Blackwater,1,0.13,Kynock,1,0.08,FiveMile,1,0.02,N,NA,NA
@@ -1925,19 +1925,19 @@ U4651,2016-05-22-J09-SO-2,JS00122,Chilko,3,0.99,Horsefly,3,0.01,U_Horsefly,3,0.0
 U4657,2016-06-01-D09-SO-3,DS00483,L_Shuswap,4,0.83,L_Adams,4,0.11,Chilko,3,0.04,Little,4,0.01,MiddleShuswap,4,0,N,NA,NA
 U4658,2016-06-01-D09-SO-6,DS00486,Horsefly,3,0.78,L_Adams,4,0.15,Little,4,0.04,Portage_Cr,4,0.01,McKinley,3,0.01,N,NA,NA
 U4659,2016-06-01-D09-SO-4,DS00484,L_Shuswap,4,0.91,L_Adams,4,0.06,Little,4,0.02,MiddleShuswap,4,0.01,Scotch,2,0,N,NA,NA
-U410,2015-05-24-D11-SO-19,SDN457,Quesnel_Horsef,3,0.4,Chilko,3,0.17,Little,4,0.16,Stellako,3,0.15,Thompson_N,2,0.04,N,NA,NA
+U410,2015-05-24-D11-SO-19,SDN456,Quesnel_Horsef,3,0.4,Chilko,3,0.17,Little,4,0.16,Stellako,3,0.15,Thompson_N,2,0.04,N,NA,NA
 U4660,2016-06-01-D22-SO-9,DS00609,L_Adams,4,0.5,Little,4,0.28,L_Shuswap,4,0.15,Scotch,2,0.05,Portage_Cr,4,0.01,N,NA,NA
 U4661,2016-06-01-D22-SO-10,DS00610,Chilko,3,0.97,L_Adams,4,0.02,Little,4,0,Horsefly,3,0,NA,NA,NA,N,NA,NA
 U4662,2016-06-01-D22-SO-1,DS00601,L_Shuswap,4,0.99,MiddleShuswap,4,0,L_Adams,4,0,Little,4,0,NA,NA,NA,N,NA,NA
-U466,2015-05-24-D11-SO-12,SDN458,Gates_Cr,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
+U466,2015-05-24-D11-SO-12,SDN457,Gates_Cr,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U4671,2016-06-07-D09-SO-23,DS00803,Little,4,0.62,L_Adams,4,0.34,L_Shuswap,4,0.03,McKinley,3,0,Eagle_L,4,0,N,NA,NA
 U4672,2016-06-07-D09-SO-24,DS00804,L_Shuswap,4,0.97,Scotch,2,0.02,MiddleShuswap,4,0,Seymour,2,0,Little,4,0,N,NA,NA
-U467,2015-05-24-D11-SO-14,SDN459,Blackwater,1,0.39,Hudson_Bay,1,0.2,Sandpoint,1,0.17,Kynock,1,0.16,Paula,1,0.03,N,NA,NA
+U467,2015-05-24-D11-SO-14,SDN458,Blackwater,1,0.39,Hudson_Bay,1,0.2,Sandpoint,1,0.17,Kynock,1,0.16,Paula,1,0.03,N,NA,NA
 U4687,2016-06-07-D09-SO-26,DS00806,L_Shuswap,4,0.86,L_Adams,4,0.06,Little,4,0.06,MiddleShuswap,4,0.01,Scotch,2,0,N,NA,NA
 U4688,2016-06-07-D09-SO-29,DS00809,L_Shuswap,4,0.86,L_Adams,4,0.12,Little,4,0.02,Eagle_L,4,0,MiddleShuswap,4,0,N,NA,NA
 U4689,2016-06-07-D09-SO-21,DS00801,Scotch,2,0.99,Seymour,2,0.01,Little,4,0,L_Shuswap,4,0,L_Adams,4,0,N,NA,NA
 U4690,2016-06-07-D09-SO-22,DS00802,Scotch,2,1,Seymour,2,0,Eagle,2,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U468,2015-05-24-D11-SO-11,SDN461,Stellako,3,0.99,Blackwater,1,0,Hudson_Bay,1,0,Tachie,3,0,Chilko,3,0,N,NA,NA
+U468,2015-05-24-D11-SO-11,SDN459,Stellako,3,0.99,Blackwater,1,0,Hudson_Bay,1,0,Tachie,3,0,Chilko,3,0,N,NA,NA
 U471,2015-06-17-D08-SO-2,SDN1298,Chilko,3,0.79,L_Adams,4,0.13,Chilko_south,2,0.06,Quesnel_Horsef,3,0.01,Quesnel_Decept,3,0,N,NA,NA
 U472,2015-06-17-D08-SO-5,SDN1299,Pitt,2,0.78,Portage_Cr,4,0.13,L_Adams,4,0.07,Seymour,2,0.01,Amback,18,0,N,NA,NA
 U473,2015-06-17-D08-SO-6,SDN1300,Chilko,3,0.99,Chilko_south,2,0.01,L_Adams,4,0,Seymour,2,0,Scotch,2,0,N,NA,NA
@@ -1949,18 +1949,18 @@ U478,2015-05-26-J09-SO-18,SDN1308,Chilko,3,0.97,Middle,3,0.01,L_Adams,4,0.01,Glu
 U479,2015-05-26-J09-SO-27,SDN1309,Middle,3,0.99,Chilko,3,0.01,Tachie,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
 U480,2015-05-26-J09-SO-22,SDN1310,Chilko,3,1,U_Horsefly,3,0,Chilko_south,2,0,NA,NA,NA,NA,NA,NA,N,NA,NA
 U481,2015-06-17-D08-SO-11,SDN462,Paula,1,0.38,Kuzkwa_Cr,3,0.12,Pinchi_Cr,3,0.1,Middle,3,0.08,Tachie,3,0.05,N,NA,NA
-U492,2015-05-24-D11-SO-5,SDN465,Horsefly,3,1,Quesnel_Horsef,3,0,U_Horsefly,3,0,L_Horsefly,3,0,NA,NA,NA,N,NA,NA
-U482,2015-05-25-D08-SO-30,SDN466,Middle,3,0.49,Stellako,3,0.26,Blackwater,1,0.08,Gluskie,1,0.06,Porter_Cr,1,0.06,N,NA,NA
-U483,2015-05-25-D08-SO-21,SDN467,Chilko,3,0.97,L_Adams,4,0.03,Kynock,1,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U484,2015-05-25-D08-SO-22,SDN468,Chilko,3,0.96,Stellako,3,0.03,Horsefly,3,0.01,L_Adams,4,0,Middle,3,0,N,NA,NA
-U485,2015-05-25-D08-SO-25,SDN469,Middle,3,0.43,Blackwater,1,0.17,Porter_Cr,1,0.14,Stellako,3,0.12,Kynock,1,0.06,N,NA,NA
+U492,2015-05-24-D11-SO-5,SDN464,Horsefly,3,1,Quesnel_Horsef,3,0,U_Horsefly,3,0,L_Horsefly,3,0,NA,NA,NA,N,NA,NA
+U482,2015-05-25-D08-SO-30,SDN465,Middle,3,0.49,Stellako,3,0.26,Blackwater,1,0.08,Gluskie,1,0.06,Porter_Cr,1,0.06,N,NA,NA
+U483,2015-05-25-D08-SO-21,SDN466,Chilko,3,0.97,L_Adams,4,0.03,Kynock,1,0,NA,NA,NA,NA,NA,NA,N,NA,NA
+U484,2015-05-25-D08-SO-22,SDN467,Chilko,3,0.96,Stellako,3,0.03,Horsefly,3,0.01,L_Adams,4,0,Middle,3,0,N,NA,NA
+U485,2015-05-25-D08-SO-25,SDN468,Middle,3,0.43,Blackwater,1,0.17,Porter_Cr,1,0.14,Stellako,3,0.12,Kynock,1,0.06,N,NA,NA
 U487,2015-06-01-D11-SO-18,SDN470,Tachie,3,0.62,Paula,1,0.28,Rossette,1,0.02,Sandpoint,1,0.02,Gluskie,1,0.02,N,NA,NA
 U488,2015-06-01-D11-SO-11,SDN471,L_Adams,4,0.67,Raft,2,0.14,Chilko,3,0.11,Thompson_N,2,0.04,Little,4,0.02,N,NA,NA
 U489,2015-06-01-D11-SO-13,SDN472,Mitchell,3,0.98,Quesnel_Mitche,3,0.02,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U490,2015-06-01-D11-SO-15,SDN485,Chilko,3,0.8,L_Adams,4,0.17,Little,4,0.04,Portage_Cr,4,0,Chilko-North,3,0,N,NA,NA
-U470,2015-05-24-D11-SO-20,SDN463,Chilko,3,0.9,Thompson_N,2,0.1,Chilko_south,2,0,Horsefly,3,0,NA,NA,NA,N,NA,NA
-U491,2015-05-24-D11-SO-18,SDN464,Thompson_N,2,0.94,Raft,2,0.03,Chilko,3,0.02,Quesnel_Horsef,3,0.01,Stellako,3,0,N,NA,NA
-U486,2015-05-25-D08-SO-26,SDN464,Chilko,3,0.61,Gluskie,1,0.21,L_Adams,4,0.1,Dust,1,0.07,Blackwater,1,0.01,N,NA,NA
+U470,2015-05-24-D11-SO-20,SDN461,Chilko,3,0.9,Thompson_N,2,0.1,Chilko_south,2,0,Horsefly,3,0,NA,NA,NA,N,NA,NA
+U491,2015-05-24-D11-SO-18,SDN463,Thompson_N,2,0.94,Raft,2,0.03,Chilko,3,0.02,Quesnel_Horsef,3,0.01,Stellako,3,0,N,NA,NA
+U486,2015-05-25-D08-SO-26,SDN469,Chilko,3,0.61,Gluskie,1,0.21,L_Adams,4,0.1,Dust,1,0.07,Blackwater,1,0.01,N,NA,NA
 U493,2015-05-25-D08-SO-29,SDN473,Middle,3,0.65,Blackwater,1,0.17,Porter_Cr,1,0.07,Stellako,3,0.04,Kynock,1,0.04,N,NA,NA
 U494,2015-05-25-D08-SO-23,SDN474,Gluskie,1,0.99,Forfar,1,0,L_Adams,4,0,Porter_Cr,1,0,Middle,3,0,N,NA,NA
 U495,2015-05-25-D08-SO-27,SDN475,Chilko,3,0.95,L_Adams,4,0.03,Middle,3,0.01,Stellako,3,0.01,Kynock,1,0,N,NA,NA
@@ -1981,7 +1981,7 @@ U510,2015-05-17-D02-SO-2,SDN504,Middle,3,0.65,Chilko,3,0.33,Stellako,3,0.01,Tach
 U511,2015-06-01-D11-SO-16,SDN493,Scotch,2,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U512,2015-06-01-D11-SO-17,SDN494,Chilko,3,0.97,Chilko-North,3,0.03,Tachie,3,0.01,L_Adams,4,0,NA,NA,NA,N,NA,NA
 U513,2015-05-23-D10-SO-29,SDN495,Chilko,3,1,Sandpoint,1,0,Weaver,4,0,NA,NA,NA,NA,NA,NA,N,NA,NA
-U514,2015-05-23-D10-SO-26,SDN497,Chilko,3,0.79,Quesnel_Horsef,3,0.08,Stellako,3,0.06,Thompson_N,2,0.03,Weaver,4,0.02,N,NA,NA
+U514,2015-05-23-D10-SO-26,SDN496,Chilko,3,0.79,Quesnel_Horsef,3,0.08,Stellako,3,0.06,Thompson_N,2,0.03,Weaver,4,0.02,N,NA,NA
 U516,2015-05-18-D03-SO-19,SDN498,Chilko,3,1,Stellako,3,0,Horsefly,3,0,NA,NA,NA,NA,NA,NA,N,NA,NA
 U517,2015-05-18-D03-SO-17,SDN505,Chilko,3,1,Chilko_south,2,0,Thompson_N,2,0,NA,NA,NA,NA,NA,NA,N,NA,NA
 U518,2015-05-18-D03-SO-13,SDN506,Birkenhead,3,1,Blackwater,1,0,Hudson_Bay,1,0,NA,NA,NA,NA,NA,NA,N,NA,NA
@@ -2108,7 +2108,7 @@ U638,2015-06-29-D09-SO-7,SDN603,Quesnel_Mitche,3,1,Mitchell,3,0,NA,NA,NA,NA,NA,N
 U639,2015-06-29-D09-SO-6,SDN604,Quesnel_Mitche,3,1,Mitchell,3,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U640,2015-07-01-J09-SO-8,SDN605,Nimpkish,7,0.96,Woss_Lake,7,0.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U641,2015-07-01-J09-SO-14,SDN614,Nimpkish,7,0.62,Woss_Lake,7,0.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
-U643,2015-06-24-J05-SO-25,SDN615,Pitt,2,0.29,Thoms_Lake,20,0.22,Seymour,2,0.21,Scotch,2,0.07,Pinchi_Cr,3,0.06,N,NA,NA
+U643,2015-06-24-J05-SO-25,SDN616,Pitt,2,0.29,Thoms_Lake,20,0.22,Seymour,2,0.21,Scotch,2,0.07,Pinchi_Cr,3,0.06,N,NA,NA
 U642,2015-07-01-J09-SO-7,SDN615,Woss_Lake,7,1,Nimpkish,7,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U644,2015-06-24-J05-SO-20,SDN617,Chilko,3,0.54,L_Adams,4,0.36,L_Shuswap,4,0.05,Eagle_L,4,0.01,MiddleShuswap,4,0.01,N,NA,NA
 U645,2015-06-24-J05-SO-27,SDN618,Seymour,2,0.9,Eagle,2,0.09,Scotch,2,0.01,NA,NA,NA,NA,NA,NA,N,NA,NA
@@ -2183,7 +2183,7 @@ U711,2015-06-24-J08-SO-4,SDN675,Birkenhead,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 U712,2015-06-24-J06-SO-5,SDN683,L_Adams,4,0.82,Quesnel_Horsef,3,0.08,Little,4,0.04,Eagle_L,4,0.03,Chilko_south,2,0.02,N,NA,NA
 U713,2015-06-19-J10-SO-13,SDN684,Scotch,2,0.88,Seymour,2,0.07,L_Adams,4,0.03,Little,4,0.02,Thompson_N,2,0,N,NA,NA
 U714,2015-06-19-J10-SO-11,SDN685,Chilliw_lake,2,0.85,Chilko_south,2,0.07,Birkenhead,3,0.05,DollyVarden_Cr,3,0.02,Pitt,2,0.01,N,NA,NA
-U715,2015-06-27-J10-SO-7,#N/A,Nimpkish,7,0.94,Vernon,7,0.06,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
+U715,2015-06-27-J10-SO-7,#N/A,Nimpkish,7,0.94,Vernon,7,0.06,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
 U716,2015-06-27-J10-SO-5,SDN697,Nimpkish,7,0.99,Vernon,7,0.01,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U717,2015-06-27-J10-SO-2,SDN698,Nimpkish,7,0.97,Vernon,7,0.03,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U718,2015-06-27-J10-SO-9,SDN699,Nimpkish,7,0.96,Vernon,7,0.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
@@ -2197,7 +2197,7 @@ U725,2015-06-19-J10-SO-7,SDN690,L_Adams,4,0.93,Portage_Cr,4,0.03,Little,4,0.02,T
 U726,2015-06-19-J10-SO-4,SDN691,L_Adams,4,0.81,L_Horsefly,3,0.08,Chilko,3,0.03,Portage_Cr,4,0.02,Quesnel_Horsef,3,0.02,N,NA,NA
 U727,2015-06-19-J10-SO-17,SDN692,L_Adams,4,0.79,Little,4,0.17,Scotch,2,0.01,Portage_Cr,4,0.01,MiddleShuswap,4,0,N,NA,NA
 U728,2015-06-19-J10-SO-9,SDN693,L_Adams,4,0.52,Little,4,0.41,MiddleShuswap,4,0.03,Wasko_Cr,3,0.02,Portage_Cr,4,0.01,N,NA,NA
-U729,2015-06-27-J10-SO-10,#N/A,Nimpkish,7,0.95,Vernon,7,0.05,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
+U729,2015-06-27-J10-SO-10,#N/A,Nimpkish,7,0.95,Vernon,7,0.05,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
 U730,2015-06-27-J10-SO-3,SDN703,Nimpkish,7,0.99,Vernon,7,0.01,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,NA,NA
 U731,2015-06-19-J10-SO-6,SDN694,L_Adams,4,0.9,Little,4,0.04,Eagle_L,4,0.01,Chilko,3,0.01,Wasko_Cr,3,0.01,N,NA,NA
 U732,2015-06-19-J10-SO-1,SDN695,Chilko,3,0.78,Chilko_south,2,0.2,L_Adams,4,0.01,Little,4,0.01,Chilko-North,3,0,N,NA,NA
@@ -2381,7 +2381,7 @@ U909,2015-06-09-D07-SO-30,SDN860,Chilko,3,0.97,M_Horsefly,3,0.02,McKinley,3,0.01
 U910,2015-06-09-D07-SO-29,SDN861,Seymour,2,0.94,Scotch,2,0.05,L_Adams,4,0,Eagle,2,0,NA,NA,NA,N,NA,NA
 U911,2015-06-18-D09-SO-29,SDN848,L_Adams,4,0.61,Portage_Cr,4,0.35,Chilko,3,0.02,Eagle_L,4,0.02,Quesnel_Horsef,3,0,N,NA,NA
 U912,2015-06-22-D09-SO-22,SDN862,Tachie,3,0.38,Birkenhead,3,0.15,Forfar,1,0.15,Sinta,1,0.05,Sandpoint,1,0.03,N,NA,NA
-U913,2015-06-22-D09-SO-3,SDN863,Seymour,2,0.94,Scotch,2,0.06,L_Adams,4,0,Eagle,2,0,NA,NA,NA,N,NA,NA
+U913,2015-06-22-D09-SO-30,SDN863,Seymour,2,0.94,Scotch,2,0.06,L_Adams,4,0,Eagle,2,0,NA,NA,NA,N,NA,NA
 U914,2015-06-09-D07-SO-28,SDN864,L_Adams,4,0.54,Seymour,2,0.18,Little,4,0.11,Birkenhead,3,0.07,Kalum,10,0.06,N,NA,NA
 U915,2015-06-09-D07-SO-23,SDN865,Seymour,2,0.91,L_Adams,4,0.05,Scotch,2,0.04,Little,4,0,NA,NA,NA,N,NA,NA
 U916,2015-06-06-J07-SO-10,SDN871,L_Adams,4,0.82,Seymour,2,0.11,Little,4,0.06,Scotch,2,0,Portage_Cr,4,0,N,NA,NA
@@ -2405,8 +2405,8 @@ U933,2015-06-06-J07-SO-5,SDN879,L_Adams,4,0.93,Little,4,0.07,Sinta,1,0,Eagle_L,4
 U934,2015-06-06-J07-SO-3,SDN880,Chilko,3,0.99,Chilko-North,3,0.01,Little,4,0,L_Adams,4,0,Thompson_N,2,0,N,NA,NA
 U935,2015-06-06-J07-SO-9,SDN881,Chilko,3,0.64,Middle,3,0.32,Sinta,1,0.01,Blackwater,1,0.01,Quesnel_Horsef,3,0.01,N,NA,NA
 U936,2015-05-30-J05-SO-6,SDN882,Chilko,3,0.83,Porter_Cr,1,0.06,Gluskie,1,0.02,Chilko_south,2,0.02,Sandpoint,1,0.02,N,NA,NA
-U937,2015-05-30-J05-SO-9,#N/A,Birkenhead,3,0.66,Weaver,4,0.33,Middle,3,0.01,Chilko,3,0,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
-U938,2015-05-30-J05-SO-12,#N/A,Chilko,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,Awaiting confirmation of correct semsp_ID,NA
+U937,2015-05-30-J05-SO-9,#N/A,Birkenhead,3,0.66,Weaver,4,0.33,Middle,3,0.01,Chilko,3,0,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
+U938,2015-05-30-J05-SO-12,#N/A,Chilko,3,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Awaiting confirmation of correct semsp_ID,NA
 U939,2015-06-07-J05-SO-15,SDN897,Quesnel_Horsef,3,0.55,L_Adams,4,0.22,Horsefly,3,0.11,M_Horsefly,3,0.05,Little,4,0.02,N,NA,NA
 U940,2015-06-01-J01-SO-24,SDN904,Middle,3,0.97,Canoe_Cr,15,0.01,Birkenhead,3,0,Narrows,1,0,Chilko,3,0,N,NA,NA
 U941,2015-06-01-J01-SO-21,SDN898,Chilko,3,0.99,L_Adams,4,0.01,Chilko-North,3,0.01,McKinley,3,0,NA,NA,NA,N,NA,NA
@@ -2494,4 +2494,4 @@ NA,2016-06-17-J02-SO-7,JS01147,Horsefly,3,0.98,MiddleShuswap,4,0.01,Chilko,3,0.0
 NA,2016-06-17-J02-SO-8,JS01148,Horsefly,3,0.98,L_Adams,4,0.02,L_Horsefly,3,0,McKinley,3,0,MiddleShuswap,4,0,N,NA,NA
 NA,2016-06-17-J02-SO-9,JS01149,Horsefly,3,0.89,L_Adams,4,0.09,Chilko,3,0.01,Scotch,2,0.01,MiddleShuswap,4,0,N,NA,NA
 NA,2016-06-17-J02-SO-10,JS01150,Chilko,3,0.44,Horsefly,3,0.28,Hudson_Bay,1,0.05,Sandpoint,1,0.05,Rossette,1,0.03,N,NA,NA
-NA,2016-06-23-J03-SO-14,JS01364,Little,4,0.44,Chilko,3,0.38,MiddleShuswap,4,0.07,L_Shuswap,4,0.05,Horsefly,3,0.03,N,NA,NA
+U2104,2016-06-23-J03-SO-14,JS01364,Little,4,0.44,Chilko,3,0.38,MiddleShuswap,4,0.07,L_Shuswap,4,0.05,Horsefly,3,0.03,N,NA,NA

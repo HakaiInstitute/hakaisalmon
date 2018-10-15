@@ -1,7 +1,7 @@
 Package: hakaisalmon
 Type: Package
 Title: Hakai Institute Juvenile Salmon Program data and functions
-Version: 0.1.2
+Version: 0.2.0
 Date: 2018-04-06
 Authors@R: c(
     person("Brett", "Johnson", email = "Brett.Johnson@hakai.org",
@@ -17,7 +17,8 @@ LazyData: true
 RoxygenNote: 6.0.1.9000
 Imports:
     tidyverse (>= 1.2.1),
-    lubridate (>= 1.7.1)
+    lubridate (>= 1.7.1),
+    car (>= 3.0)
 Suggests: knitr,
     rmarkdown,
     testthat

@@ -69,7 +69,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.2</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -124,12 +124,42 @@
       <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
-    <div id="hakaisalmon-0-1-2" class="section level2">
+    <div id="hakaisalmon-0-2-0" class="section level2">
 <h2 class="hasAnchor">
-<a href="#hakaisalmon-0-1-2" class="anchor"></a>hakaisalmon 0.1.2</h2>
+<a href="#hakaisalmon-0-2-0" class="anchor"></a>hakaisalmon 0.2.0</h2>
 <div id="data-updates" class="section level3">
 <h3 class="hasAnchor">
 <a href="#data-updates" class="anchor"></a>Data updates</h3>
+<ul>
+<li>Included 2017 fish dissections and 2018 field collection data</li>
+<li>Sean Godwin and Lauren Portner contributed sea lice taxonomy data that includes very detailed species, life stages, and sex data. This new table is called <code>sealice_lab_finescale</code>.</li>
+</ul>
+</div>
+<div id="structural-updates" class="section level3">
+<h3 class="hasAnchor">
+<a href="#structural-updates" class="anchor"></a>Structural updates</h3>
+<ul>
+<li>A number of updates were made to sea licing protocol categories, with the addition of <em>lab_finescale</em> and others.</li>
+<li>In <code>zoop_tows</code>, the <em>volume</em> column was renamed to <em>corrected_volume</em> to reflect that the volume has been corrected for flowmeter calibrations.</li>
+<li>Most of the inventory information was removed from this package because it becomes out of date so fast. The only remainining inventory information is the <code>sample_container_inventory</code>.</li>
+<li>
+<em>seine_id</em> format was changed to be more consistent. Therefore, a small number of seine_ids have changed.</li>
+</ul>
+</div>
+<div id="functions" class="section level3">
+<h3 class="hasAnchor">
+<a href="#functions" class="anchor"></a>Functions</h3>
+<ul>
+<li>A new function <em>lump_fraser_sockeye_stocks</em> was added, which lumps together the sockeye stock ID categories that the Molecular Genetics Lab at the Pacific Biological Station in Nanaimo uses. The stocks are lumped based on regions in the Fraser River Watershed, and are the categories often used by Chrys Neville to summarize juvenile salmon cohorts.</li>
+</ul>
+</div>
+</div>
+    <div id="hakaisalmon-0-1-2" class="section level2">
+<h2 class="hasAnchor">
+<a href="#hakaisalmon-0-1-2" class="anchor"></a>hakaisalmon 0.1.2</h2>
+<div id="data-updates-1" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-updates-1" class="anchor"></a>Data updates</h3>
 <ul>
 <li>In <code>fish_field_data</code>, updated <em>analysis_planned</em> for fish in packages JP49 and JP50 to ‘field loused only’ due to fish no longer being available for SEMSP laboratory dissections.</li>
 </ul>
@@ -145,9 +175,9 @@
     <div id="hakaisalmon-0-1-1" class="section level2">
 <h2 class="hasAnchor">
 <a href="#hakaisalmon-0-1-1" class="anchor"></a>hakaisalmon 0.1.1</h2>
-<div id="data-updates-1" class="section level3">
+<div id="data-updates-2" class="section level3">
 <h3 class="hasAnchor">
-<a href="#data-updates-1" class="anchor"></a>Data updates</h3>
+<a href="#data-updates-2" class="anchor"></a>Data updates</h3>
 <ul>
 <li>Added new table <code>survey_activity</code> that quantifies visual observations of fish-related surface activity for 2017 surveys.</li>
 <li>Updated <em>dissection_protocol</em> in <code>fish_lab_data</code> from ‘lice enumeration only’ to ‘irregular work-up’ for U2256-U2260</li>
@@ -184,6 +214,7 @@
     <div id="tocnav">
       <h2>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
+        <li><a href="#hakaisalmon-0-2-0">0.2.0</a></li>
         <li><a href="#hakaisalmon-0-1-2">0.1.2</a></li>
         <li><a href="#hakaisalmon-0-1-1">0.1.1</a></li>
         <li><a href="#hakaisalmon-0-1-0">0.1.0</a></li>

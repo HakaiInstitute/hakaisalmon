@@ -1,4 +1,4 @@
-survey_id,sample_id,tow_lat,tow_long,tow_start_time,tow_end_time,tow_duration,flow_meter,flowmeter_in,flowmeter_out,revolutions,volume,modelled_volume,quality_level,quality_log
+survey_id,sample_id,tow_lat,tow_long,tow_start_time,tow_end_time,tow_duration,flow_meter,flowmeter_in,flowmeter_out,revolutions,corrected_volume,modelled_volume,quality_level,quality_log
 DE105,QPK1009,50.11842,-125.07512,2015-05-15T14:54:00Z,2015-05-15T14:57:01Z,00:03:01,B27226,12088,13062,974,NA,12.48509,Technician,NA
 DE107,QPK1012,50.16412,-125.1602,2015-05-16T14:51:00Z,2015-05-16T14:54:07Z,00:03:07,B27226,15871,16652,781,NA,12.06665,Technician,NA
 DE109,QPK1014,50.11405,-125.0787,2015-05-18T09:25:00Z,2015-05-18T09:28:03Z,00:03:03,B27226,20411,21135,724,NA,12.46305,Technician,NA

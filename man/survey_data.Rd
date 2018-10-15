@@ -4,7 +4,7 @@
 \name{survey_data}
 \alias{survey_data}
 \title{Site, date, and other metadata associated with a survey}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 542 rows and 22 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 616 rows and 23 columns.}
 \usage{
 survey_data
 }

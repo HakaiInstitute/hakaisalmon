@@ -4,7 +4,7 @@
 \name{bycatch_mort}
 \alias{bycatch_mort}
 \title{Species bycatch and mortalities from sets}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 157 rows and 5 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 187 rows and 5 columns.}
 \usage{
 bycatch_mort
 }
@@ -15,7 +15,7 @@ A dataset species bycatch and accidental fish mortality attributed to seines con
 \describe{
  \item{seine_id}{A unique ID assigned to each seine conducted within a survey. \strong{Foreign key} to \code{\link{seine_data}}.}
  \item{bm_species}{First two letters of the first two words of the common name of the fish (example: \samp{TISC} = Tide-pool Sculpin)}
- \item{bm_status}{Whether the species was part of a seine bycatch or a mortality as a result of being held in the net}
+ \item{bm_status}{Whether the species was part of a seine bycatch or a mortality as a result of being held in the net. \strong{B} = Bycatch, strong{M} = Mort}
  \item{bm_ageclass}{The approximate age of the fish. \samp{Y} = young-of-year, \samp{J} = juvenile, \samp{A} = adult}
  \item{bm_count}{The number of individuals of the species that was either \samp{bycatch} or \samp{mort}ality}
 

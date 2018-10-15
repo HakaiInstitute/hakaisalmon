@@ -1,3 +1,18 @@
+## hakaisalmon 0.2.0
+
+### Data updates
+* Included 2017 fish dissections and 2018 field collection data
+* Sean Godwin and Lauren Portner contributed sea lice taxonomy data that includes very detailed species, life stages, and sex data. This new table is called `sealice_lab_finescale`.
+
+### Structural updates
+* A number of updates were made to sea licing protocol categories, with the addition of *lab_finescale* and others.
+* In `zoop_tows`, the *volume* column was renamed to *corrected_volume* to reflect that the volume has been corrected for flowmeter calibrations.
+* Most of the inventory information was removed from this package because it becomes out of date so fast. The only remainining inventory information is the `sample_container_inventory`.
+* *seine_id* format was changed to be more consistent. Therefore, a small number of seine_ids have changed.
+
+### Functions
+* A new function *lump_fraser_sockeye_stocks* was added, which lumps together the sockeye stock ID categories that the Molecular Genetics Lab at the Pacific Biological Station in Nanaimo uses. The stocks are lumped based on regions in the Fraser River Watershed, and are the categories often used by Chrys Neville to summarize juvenile salmon cohorts.
+
 ## hakaisalmon 0.1.2
 
 ### Data updates

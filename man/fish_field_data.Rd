@@ -4,7 +4,7 @@
 \name{fish_field_data}
 \alias{fish_field_data}
 \title{Biological measurements and metadata associated with fish caught in the field}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 12884 rows and 12 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 14090 rows and 14 columns.}
 \usage{
 fish_field_data
 }

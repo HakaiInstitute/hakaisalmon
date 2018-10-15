@@ -103,7 +103,7 @@
 #' \describe{
 #'  \item{seine_id}{A unique ID assigned to each seine conducted within a survey. \strong{Foreign key} to \code{\link{seine_data}}.}
 #'  \item{bm_species}{First two letters of the first two words of the common name of the fish (example: \samp{TISC} = Tide-pool Sculpin)}
-#'  \item{bm_status}{Whether the species was part of a seine bycatch or a mortality as a result of being held in the net}
+#'  \item{bm_status}{Whether the species was part of a seine bycatch or a mortality as a result of being held in the net. \strong{B} = Bycatch, strong{M} = Mort}
 #'  \item{bm_ageclass}{The approximate age of the fish. \samp{Y} = young-of-year, \samp{J} = juvenile, \samp{A} = adult}
 #'  \item{bm_count}{The number of individuals of the species that was either \samp{bycatch} or \samp{mort}ality}
 #'
@@ -169,6 +169,19 @@
 #'  \item{fish_lab_qc_flag}{\samp{yes} = one or more columns has an unresolvable error in data entry (not pertaining to the physical quality of the sample). \samp{no} = no issues with data quality}
 #'  \item{fish_lab_flag_reason}{Explains why the fish has been flagged}
 #'  \item{fish_lab_qc_log}{Describes any action taken by QC to address and resolve flagged issues.}
+#'  \item{lice_collection_protocol}{The protocol that was followed to collect sealice from the fish. \strong{Categories:}
+#'   \itemize{
+#'    \item \samp{lab_motiles_cryo} = only motile sea lice were collected
+#'    \item \samp{lab_fine_2015} = all life stages, sexes, and species of sea lice were collected (only in 2015)
+#'    \item \samp{not_collected} = no sea lice were collected
+#'    }
+#'    }
+#'  \item{lice_id_protocol}{The protocol that was followed for identifying sea lice in the lab. \strong{Categories:}
+#'   \itemize{
+#'    \item \samp{lportner_fine} = fine-scale identification of all sea lice and life stages that were obtained under
+#'    \item \samp{lab_motiles} = identification of only motile stages of sea lice
+#'    }
+#'    }
 #' }
 "fish_lab_data"
 
@@ -201,10 +214,52 @@
 #'  \item{mate_guarding}{Number of sea lice exhibiting mate guarding activity}
 #'  \item{pinched_belly}{Number of occurences of a pinched belly on the fish}
 #'  \item{comments_fish_health_field}{Description of locations of observed body abnormalities and deformities}
-#'  \item{licing_protocol_field}{The protocol that was followed for identifying sea lice in the field.}
+#'  \item{licing_protocol_field}{The protocol that was followed for identifying sea lice in the field. \strong{Categories:}
+#'   \itemize{
+#'    \item \samp{salmoncoast_allstages} = fine-scale identification of all sea lice and life stages
+#'    \item \samp{salmoncoast_motiles} = identification of only motile stages of sea lice
+#'    }}
 #'
 #' }
 "sealice_field"
+
+#' Identification of sea lice collected from fish in the lab in 2015 from lice collection protocol *lab_fine_2015*
+#'
+#' A dataset containing detailed sea lice taxonomic identification
+#' \describe{
+#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key to}: \code{\link{fish_lab_data}}.}
+#'  \item{date_liced}{The date the lice were identified.}
+#'  \item{lab_count_fine_no_id}{The number of lice collected that the dissecting technician recorded when the lice were originally collected}
+#'  \item{lab_count_fine_total}{The total number of lice that the louse identifier counted in the sample vial}
+#'  \item{lep_cop}{\emph{Lepeophtheirus salmonis} copepodite.}
+#'  \item{lep_cunifer_cop}{\emph{Lepeophtheirus cunifer} copepodite.}
+#'  \item{lep_chal_a}{\emph{Lepeophtheirus salmonis} chalimus A.}
+#'  \item{lep_chal_b}{\emph{Lepeophtheirus salmonis} chalimus B.}
+#'  \item{lep_pa_m_1}{\emph{Lepeophtheirus salmonis} pre-adult male stage 1.}
+#'  \item{lep_pa_m_2}{\emph{Lepeophtheirus salmonis} pre-adult male stage 2.}
+#'  \item{lep_pa_f_1}{\emph{Lepeophtheirus salmonis} pre-adult female stage 1.}
+#'  \item{lep_pa_f_2}{\emph{Lepeophtheirus salmonis} pre-adult female stage 2.}
+#'  \item{lep_pa_unid}{\emph{Lepeophtheirus salmonis} pre-adult unidentified stage of sex.}
+#'  \item{lep_a_m}{\emph{Lepeophtheirus salmonis} adult male.}
+#'  \item{lep_a_f}{\emph{Lepeophtheirus salmonis} adult female.}
+#'  \item{lep_grav_f}{\emph{Lepeophtheirus salmonis} gravid female.}
+#'  \item{cal_cop}{\emph{Caligus clemensi} copepodite.}
+#'  \item{cal_chal_a_1}{\emph{Caligus clemensi} chalimus A stage 1.}
+#'  \item{cal_chal_a_2}{\emph{Caligus clemensi} chalimus A stage 2.}
+#'  \item{cal_chal_b_3}{\emph{Caligus clemensi} chalimus B stage 3.}
+#'  \item{cal_chal_b_4_f}{\emph{Caligus clemensi} chalimus B stage 4 female.}
+#'  \item{cal_chal_b_4_m}{\emph{Caligus clemensi} chalimus B stage 4 male.}
+#'  \item{cal_chal_4_unid}{\emph{Caligus clemensi} chalimus B stage 4 unidentified sex.}
+#'  \item{cal_chal_a_unid}{\emph{Caligus clemensi} chalimus A unidentified sex.}
+#'  \item{cal_chal_b_unid}{\emph{Caligus clemensi} chalimus B unidentified sex.}
+#'  \item{cal_pa_m}{\emph{Caligus clemensi} pre-adult male.}
+#'  \item{cal_pa_f}{\emph{Caligus clemensi} pre-adult female.}
+#'  \item{cal_grav_f}{\emph{Caligus clemensi} gravid female.}
+#'  \item{cal_mot_unid}{Motile \emph{Caligus clemensi}.}
+#'  \item{unid_louse}{Unidentified louse}
+#'  \item{sealice_comments}{Comments pertaining to sealice ID}
+#'  }
+"sealice_lab_finescale"
 
 
 #' Enumeration of sea lice found on fish in the lab
@@ -225,21 +280,6 @@
 #'  \item{ucal_lab}{Lab enumeration Cal. sea lice, unidentifiable sex/life stage}
 #'  \item{ulep_lab}{Lab enumeration Lep. sea lice, unidentifiable sex/life stage}
 #'  \item{lab_count_no_id}{The number of lice that were picked off a fish and put into a formalin sample. This count includes all life stages, species and sex of sea lice. Counting the number of lice like this occured in 2015.}
-#'  \item{lice_collection_protocol}{The protocol that was followed to collect sealice from the fish. \strong{Categories:}
-#'   \itemize{
-#'    \item \samp{lab_motiles} = only motile sea lice were collected
-#'    \item \samp{labcount_2015} = all life stages, sexes, and species of sea lice were collected (only in 2015)
-#'    \item \samp{not_collected} = no sea lice were collected
-#'    }
-#'    }
-#'  \item{lice_id_protocol}{The protocol that was followed for identifying sea lice in the lab. \strong{Categories:}
-#'   \itemize{
-#'    \item \samp{lportner} = fine-scale identification of all sea lice and life stages that were obtained under
-#'    \item \samp{lice_collection_protocol = 'labcount_2015'}.
-#'    \item \samp{lab_motiles} = identification of only motile stages of sea lice
-#'    }
-#'    }
-#'
 #' }
 "sealice_lab_motiles"
 
@@ -377,205 +417,3 @@
 #'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
 #'
 #' }
-"rna_metadata"
-
-#' Storage information for fatty acid samples
-#'
-#' Metadata associated with muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in fatty acid analysis.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"fa_metadata"
-
-#' Storage information for isotope samples
-#'
-#' Metadata associated with muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in stable isotope analysis.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"iso_metadata"
-
-#' Storage information for additional muscle tissue samples
-#'
-#' Metadata associated with muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, to be kept as backup tissue stored in -80C.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"xm_metadata"
-
-#' Storage information for DNA samples
-#'
-#' Metadata associated with liver or muscle tissue samples obtained from fish caught by the Juvenile Salmon Program, for use in genetic stock ID analysis.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"dna_metadata"
-
-#' Storage information for stomach samples
-#'
-#' Metadata associated with stomach samples obtained from fish caught by the Juvenile Salmon Program, for use in gut content analysis.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the tray in which sets of sample vials are stored.}
-#'  \item{container_cell}{Vials within a stomach tray are not tracked, so values are \samp{NA}}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}. Functionally, it is the same as container_id due to cell locations not being tracked for stomach samples.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged.}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"stomach_metadata"
-
-#' Storage information for otolith samples
-#'
-#' Metadata associated with otolithss obtained from fish caught by the Juvenile Salmon Program, for use in ageing and microchemistry.
-#'
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"otolith_metadata"
-
-#' Storage information for sea louse samples
-#'
-#' Metadata associated with sea lice (\emph{Caligus clemensi} and \emph{Lepeophtheirus salmonis}) obtained from fish caught by the Juvenile Salmon Program, for use in identification and microbiome studies.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample (or species of louse) being collected.}
-#'  \item{sample_id}{The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. \strong{Format}: \samp{'S'} followed by a sequence of letter and numbers. The prefix \samp{'SSL'} indicates a mix of both species and of all life stages are stored in one vial. \samp{'SLC'} indicates the vial contains motile \emph{Caligus} lice only, and \samp{'SLL'} indicates motile \emph{Lepeophtheirus} lice only.}
-#'  \item{container_id}{The string that uniquely identifies the box in which sets of sample vials are stored.}
-#'  \item{container_cell}{The cell in which a vial is stored in the sample box}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"sealice_metadata"
-
-#' Storage information for scale samples
-#'
-#' Metadata associated with scale samples obtained from fish caught by the Juvenile Salmon Program.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The \code{sample_location} value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
-#'  \item{container_id}{The string that uniquely identifies the book in which scales have been placed.}
-#'  \item{container_cell}{The cell in which a scale sample has been placed in the scale book}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged. For example, two samples sharing the same \code{sample_location} value}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"scale_metadata"
-
-#' Storage information for fish carcass samples
-#'
-#' Metadata associated with carcass and carcass samples obtained for fish caught by the Juvenile Salmon Program.
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The \code{sample_location} value (detailed below). This enables results to be linked back to the sample and fish from which it was collected.}
-#'  \item{container_id}{The string that uniquely identifies the bag in which carcasses have been placed.}
-#'  \item{container_cell}{Carcasses in a bag are not tracked, so the value is \samp{NA}}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}. Functionally, it is the same as container_id due to cell locations not being tracked for carcasses.}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged.}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"carcass_metadata"
-
-#' Storage information for fin clip samples
-#'
-#' Metadata associated with fin clip samples obtained from fish caught by the Juvenile Salmon Program, for use in genetic stock ID analysis
-#'
-#' \describe{
-#'  \item{ufn}{The alphanumeric string that uniquely identifies a fish. \strong{Foreign key} to \code{\link{fish_lab_data}}. \strong{Format:} \samp{'U'} followed by a sequence of numbers.}
-#'  \item{sample_type}{The type of sample being collected.}
-#'  \item{sample_id}{The ID of the cell in which the fin clip is placed. This enables results to be linked back to the sample and fish from which it was collected.}
-#'  \item{container_id}{The string that uniquely identifies the Whatman sheet in which fin clips have been placed.}
-#'  \item{container_cell}{Not applicable}
-#'  \item{sample_location}{A concatenation of \code{container_id} and \code{container_cell}. Functionally, it is the same as container_id}
-#'  \item{comments_sample}{Comments regarding notable characteristics/properties of the particular sample}
-#'  \item{sample_status}{Results status of the sample}
-#'  \item{sample_qc_flag}{Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)}
-#'  \item{sample_flag_reason}{Describes why the sample has been flagged.}
-#'  \item{sample_qc_log}{Log of changes to any sample metadata during qa/qc}
-#'
-#' }
-"finclip_metadata"

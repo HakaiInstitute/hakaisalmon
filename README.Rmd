@@ -56,7 +56,7 @@ print(sockeye_2017_lengths)
 
 Please cite the Hakai Institute GeoNetwork metadata catalogue entry.
 
-Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version 0.1.1
+Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version X.X.X
 
 
 

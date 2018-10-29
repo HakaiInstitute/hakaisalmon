@@ -4,7 +4,7 @@
 \name{package_data}
 \alias{package_data}
 \title{Inventory and other metadata associated with packages of fish caught from seines}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 710 rows and 14 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 711 rows and 14 columns.}
 \usage{
 package_data
 }

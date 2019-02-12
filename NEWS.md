@@ -1,3 +1,9 @@
+## hakaisalmon current
+
+### Functions
+* Added a custom colour palette for using with ggplot2. This palette can be used in R by adding `+ scale_fill_hakai` or `+ scale_colour_hakai` to your ggplots. Currently the palette has eight colours that are based on photos from the [Hakai Website](https://www.hakai.org).
+* Added a function to view the hakai colour palette: `display_hakai_colours`
+
 ## hakaisalmon 0.2.0
 
 ### Data updates

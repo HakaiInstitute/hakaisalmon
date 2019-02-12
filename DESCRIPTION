@@ -14,7 +14,7 @@ Description: This package contains the Hakai Institute Juvenile Salmon Program d
 License: None. Internal use only. 
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.1
 Imports:
     tidyverse (>= 1.2.1),
     lubridate (>= 1.7.1),

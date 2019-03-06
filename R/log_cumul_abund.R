@@ -20,8 +20,8 @@ log_cumul_abund <- function(percent, date){
   phi3 <- coefs[2]
   wilson <- nls(percent ~ phi1 / (1 + exp(-(phi2 + phi3 * date))),
                 start = list(phi1 = 100, phi2 = phi2, phi3 = phi3), trace = TRUE)
-  min <- min(date, na.rm = T) - 7
-  max <- max(date, na.rm = T) + 7
+  min <- min(date, na.rm = T)
+  max <- max(date, na.rm = T)
   phi1 <- 100
   phi2 <- coef(wilson)[2]
   phi3 <- coef(wilson)[3]

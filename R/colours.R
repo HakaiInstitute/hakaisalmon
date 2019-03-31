@@ -10,11 +10,12 @@ scale_fill_hakai <- function(theme="hakai", hakai_key = list(
   hakai = c("#aa1f25",
             "#78B7C5",
             "#346257",
-            "#EBCC2A",
+            "#6699c5",
             "#a58457",
             "#94911c",
-            "#6699c5",
-            "#c7e64b")
+            "#c7e64b",
+            "#EBCC2A"
+            )
 
 )) {
 
@@ -35,11 +36,11 @@ scale_colour_hakai <- function(theme="hakai",
                                    "#aa1f25",
                                    "#78B7C5",
                                    "#346257",
-                                   "#EBCC2A",
+                                   "#6699c5",
                                    "#a58457",
                                    "#94911c",
-                                   "#6699c5",
-                                   "#c7e64b"
+                                   "#c7e64b",
+                                   "#EBCC2A"
                                  )
 
 )) {
@@ -66,14 +67,13 @@ hcolours <- function(palette = c("hakai",
 
 
   hakai <- c('hakai_red'   = "#aa1f25",
-             'sky_blue'    = "#78B7C5",
-             'chum_green'  = "#346257",
-             'sun_yellow'  = "#EBCC2A",
-             'arid_tan'    = "#a58457",
-             'nereo_green' = "#94911c",
-             'sea_blue'    = "#6699c5",
-             'marna_fluoro'= "#c7e64b"
-  )
+             'sky_blue'    =                                    "#78B7C5",
+             'chum_green'  =                                    "#346257",
+             'sea_blue'    =                                    "#6699c5",
+             'arid_tan'    =                                    "#a58457",
+             'nereo_green' =                                    "#94911c",
+             'sun_yellow'  =                                    "#c7e64b",
+             'marna_fluoro'=                                    "#EBCC2A"  )
 
   pal2 <- c('blue_yonder'    = "#3E71A8",
             ## 'mustard'        = "#FEF735",

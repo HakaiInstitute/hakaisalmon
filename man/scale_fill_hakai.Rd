@@ -5,8 +5,8 @@
 \title{Hakai scale fill for ggplot2}
 \usage{
 scale_fill_hakai(theme = "hakai", hakai_key = list(hakai = c("#aa1f25",
-  "#78B7C5", "#346257", "#EBCC2A", "#a58457", "#94911c", "#6699c5",
-  "#c7e64b")))
+  "#78B7C5", "#346257", "#6699c5", "#a58457", "#94911c", "#c7e64b",
+  "#EBCC2A")))
 }
 \description{
 hakai scale fill

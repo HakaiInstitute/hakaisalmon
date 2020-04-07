@@ -4,7 +4,7 @@
 \alias{onAttach}
 \title{On attach message}
 \usage{
-onAttach(libname, pkgname)
+onAttach()
 }
 \description{
 On attach message

@@ -15,7 +15,3 @@ A vector of lumped fraser stocks
 \description{
 Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville
 }
-\examples{
-lumped_stocks <- df \%>\%
-  mutate(lumped = lump_fraser_sockeye_stocks(stock_1))
-}

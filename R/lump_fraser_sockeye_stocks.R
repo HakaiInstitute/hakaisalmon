@@ -6,11 +6,8 @@
 #' A vector of lumped fraser stocks
 #' @export
 #'
-#' @examples
-#' lumped_stocks <- df %>%
-#'   mutate(lumped = lump_fraser_sockeye_stocks(stock_1))
 lump_fraser_sockeye_stocks <- function(stock_1) {
-  as.factor(stock_1) %>%
+  as.factor(stock_1)
     forcats::fct_collapse(stock_1,
                           Early_Stuart = c("DRIFTWOOD", "NARROWS", "DUST", "BIVOUAC", "ROSSETTE",
                                            "SINTA", "PORTER_CR", "FORFAR", "BLACKWATER", "GLUSKIE",

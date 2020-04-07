@@ -17,10 +17,3 @@ A dataframe with a date column and predicted cumulative proportion of catch
 \description{
 Predict the cumulative proportion of catch for the purposes of estimating annual migration timing using a logistic growth equation
 }
-\examples{
-date <- 110:190
-n <- rnorm(81, mean = 100, sd = 20)
-df <- dplyr::tibble(date, percent)
-df <- df \%>\% mutate(percent == cumsum(n / sum(n) * 100))
-log_cumul_abund(df$date, df$percent)
-}

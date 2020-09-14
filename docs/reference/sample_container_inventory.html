@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -135,7 +135,29 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1361 rows and 15 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1466 rows and 17 columns.</p>
+    
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <dl class='dl-horizontal'>
+ <dt>container_id</dt><dd><p>The string that uniquely identifies the box, book, tray, etc. in which a sample is stored. <strong>Format:</strong> <samp>B</samp> followed by the two (or three)-character sample type code, and then a number to uniquely identify the box within its sample type (e.g. <samp>"BFA12"</samp>).
+  <ul>
+<li><p>In some instances, a species code may precede the number (where boxes were only unique on a species-level, e.g. <samp>"BFASO1"</samp>).</p></li>
+<li><p>The only exception is for fin clips, which are stored on Whatman sheets. For samples from 2015-2017, Whatman sheets had the <code>container_id</code> format <samp>'DW'</samp> or <samp>'JW'</samp> followed by a number, where <samp>'D'</samp> identifies samples collected in the Discovery Islands, and <samp>'J'</samp> denotes Johnstone Strait.</p></li>
+</ul></p></dd>
+ <dt>container_type</dt><dd><p>The type of samples being stored in the container</p></dd>
+ <dt>storage_medium</dt><dd><p>The medium in which a tissue sample is being preserved. <strong>Categories</strong>: <samp>frozen -80, frozen -20, formalin, dry, whatman sheet, 95 percent non-denatured ethanol</samp></p></dd>
+ <dt>current_location</dt><dd><p>Physical location or building in which the sample container exists, e.g. <samp>"Quadra Prep Lab"</samp> or <samp>"UBC"</samp></p></dd>
+ <dt>storage_unit</dt><dd><p>Identity of the freezer or dry shelving unit in which a sample container is being stored</p></dd>
+ <dt>storage_tier_1</dt><dd><p>The first organizational tier of storage for the sample container, e.g. samp"Shelf 1" or <samp>"Group Box 1"</samp></p></dd>
+ <dt>storage_tier_2</dt><dd><p>The second organizational tier of storage for the sample container, within the first organizational tier, e.g. <samp>"Tray 1"</samp></p></dd>
+ <dt>shipping_container</dt><dd><p>Number of a box containing a group of sample containers to be shipped from Hakai</p></dd>
+ <dt>date_shipped</dt><dd><p>Date when a shipment of samples was sent out from Hakai. <strong>Format:</strong> <samp>yyyy-mm-dd</samp></p></dd>
+ <dt>shipped_to</dt><dd><p>Destination of the shipping container</p></dd>
+ <dt>date_received</dt><dd><p>Date when a shipment of samples was received. <strong>Format:</strong> <samp>yyyy-mm-dd</samp></p></dd>
+ <dt>expecting_return</dt><dd><p>Whether or not it is expected that shipped samples are to be returned to Hakai</p></dd>
+ <dt>date_returned</dt><dd><p>Date when processed samples have been returned to Hakai for storage. <strong>Format:</strong> <samp>yyyy-mm-dd</samp></p></dd>
+    </dl>
     
 
   </div>
@@ -144,6 +166,8 @@
     <ul class="nav nav-pills nav-stacked">
       
       <li><a href="#format">Format</a></li>
+
+      <li><a href="#details">Details</a></li>
           </ul>
 
   </div>
@@ -151,7 +175,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

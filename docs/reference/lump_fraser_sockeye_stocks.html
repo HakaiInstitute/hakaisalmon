@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Storage information for sea louse samples — sealice_metadata • hakaisalmon</title>
+<title>Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville — lump_fraser_sockeye_stocks • hakaisalmon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -25,9 +25,9 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-<meta property="og:title" content="Storage information for sea louse samples — sealice_metadata" />
+<meta property="og:title" content="Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville — lump_fraser_sockeye_stocks" />
 
-<meta property="og:description" content="Metadata associated with sea lice (Caligus clemensi and Lepeophtheirus salmonis) obtained from fish caught by the Juvenile Salmon Program, for use in identification and microbiome studies." />
+<meta property="og:description" content="Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville" />
 
 <meta property="og:image" content="http://pkgdown.r-lib.org/logo.png" />
 <meta name="twitter:card" content="summary" />
@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.2</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -122,54 +122,51 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Storage information for sea louse samples</h1>
-    <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>sealice_metadata.Rd</code></div>
+    <h1>Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville</h1>
+    <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/R/lump_fraser_sockeye_stocks.R'><code>R/lump_fraser_sockeye_stocks.R</code></a></small>
+    <div class="hidden name"><code>lump_fraser_sockeye_stocks.Rd</code></div>
     </div>
 
     
-    <p>Metadata associated with sea lice (<em>Caligus clemensi</em> and <em>Lepeophtheirus salmonis</em>) obtained from fish caught by the Juvenile Salmon Program, for use in identification and microbiome studies.</p>
+    <p>Lump Fraser River sockeye stocks produced by CBayes at PBS, based on regions according to Chrys Neville</p>
     
 
-    <pre class="usage"><span class='no'>sealice_metadata</span></pre>
-        
-    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
-
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1692 rows and 12 columns.</p>
+    <pre class="usage"><span class='fu'>lump_fraser_sockeye_stocks</span>(<span class='no'>stock_1</span>)</pre>
     
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>stock_1</th>
+      <td><p>The column containing the stock category you want to collapse</p></td>
+    </tr>
+    </table>
+    
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <dl class='dl-horizontal'>
- <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Foreign key</strong> to <code><a href='fish_lab_data.html'>fish_lab_data</a></code>. <strong>Format:</strong> <samp>'U'</samp> followed by a sequence of numbers.</p></dd>
- <dt>sample_type</dt><dd><p>The type of sample (or species of louse) being collected.</p></dd>
- <dt>sample_id</dt><dd><p>The alphanumeric string that uniquely identifies a sample. This enables results to be linked back to the sample and fish from which it was collected. <strong>Format</strong>: <samp>'S'</samp> followed by a sequence of letter and numbers. The prefix <samp>'SSL'</samp> indicates a mix of both species and of all life stages are stored in one vial. <samp>'SLC'</samp> indicates the vial contains motile <em>Caligus</em> lice only, and <samp>'SLL'</samp> indicates motile <em>Lepeophtheirus</em> lice only.</p></dd>
- <dt>container_id</dt><dd><p>The string that uniquely identifies the box in which sets of sample vials are stored.</p></dd>
- <dt>container_cell</dt><dd><p>The cell in which a vial is stored in the sample box</p></dd>
- <dt>sample_location</dt><dd><p>A concatenation of <code>container_id</code> and <code>container_cell</code>, which forms a unique location code for the purposes of identifying potential duplicate entries during qa/qc.</p></dd>
- <dt>comments_sample</dt><dd><p>Comments regarding notable characteristics/properties of the particular sample</p></dd>
- <dt>sample_status</dt><dd><p>Results status of the sample</p></dd>
- <dt>sample_qc_flag</dt><dd><p>Indicates whether there is a qc error for the sample's metadata (not quality of the actual sample)</p></dd>
- <dt>sample_flag_reason</dt><dd><p>Describes why the sample has been flagged. For example, two samples sharing the same <code>sample_location</code> value</p></dd>
- <dt>sample_qc_log</dt><dd><p>Log of changes to any sample metadata during qa/qc</p></dd>
-    </dl>
+    <p>A vector of lumped fraser stocks</p>
     
 
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='no'>lumped_stocks</span> <span class='kw'>&lt;-</span> <span class='no'>df</span> <span class='kw'>%&gt;%</span>
+  <span class='fu'>mutate</span>(<span class='kw'>lumped</span> <span class='kw'>=</span> <span class='fu'>lump_fraser_sockeye_stocks</span>(<span class='no'>stock_1</span>))</div><div class='output co'>#&gt; <span class='error'>Error in mutate(., lumped = lump_fraser_sockeye_stocks(stock_1)): could not find function "mutate"</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
+      <li><a href="#arguments">Arguments</a></li>
       
-      <li><a href="#format">Format</a></li>
-
-      <li><a href="#details">Details</a></li>
-          </ul>
+      <li><a href="#value">Value</a></li>
+      
+      <li><a href="#examples">Examples</a></li>
+    </ul>
 
   </div>
 </div>
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

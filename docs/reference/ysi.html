@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -135,18 +135,18 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 847 rows and 6 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 846 rows and 4 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>survey_id</dt><dd><p>A unique alphanumeric code assigned to every survey</p></dd>
- <dt>line_out_depth</dt><dd><p>The depth at which the measurement was taken (in metres)</p></dd>
- <dt>temperature</dt><dd><p>Temperature in degrees celcius</p></dd>
- <dt>salinity</dt><dd><p>Salinity in parts per thousand</p></dd>
- <dt>ysi_gather_lat</dt><dd><p>The geopgraphical latitude of measurement gathered by the electronic tablet</p></dd>
- <dt>ysi_gather_long</dt><dd><p>The geopgraphical longitude of measurement gathered by the electronic tablet</p></dd>
-</dl>
+ <dt>survey_id</dt><dd><p>A unique alphanumeric code assigned to every survey. <strong>Foreign key to</strong>: <code><a href='survey_data.html'>survey_data</a></code>.</p></dd>
+ <dt>line_out_depth</dt><dd><p>The depth at which the measurement was taken. <strong>Units:</strong> metres</p></dd>
+ <dt>temperature</dt><dd><p>Temperature. <strong>Units:</strong> degrees celcius</p></dd>
+ <dt>salinity</dt><dd><p>Salinity. <strong>Units:</strong> parts per thousand</p></dd>
+ <dt>ysi_gather_lat</dt><dd><p>The geopgraphical latitude of measurement gathered by the electronic tablet. <strong>Units:</strong> decimal degrees</p></dd>
+ <dt>ysi_gather_long</dt><dd><p>The geopgraphical longitude of measurement gathered by the electronic tablet. <strong>Units:</strong> decimal degrees</p></dd>
+    </dl>
     
 
   </div>
@@ -164,7 +164,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

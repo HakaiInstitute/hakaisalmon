@@ -18,13 +18,14 @@ If you would like to suggest improvements, features, or bug fixes to this packag
 
 First , make sure you have a [free GitHUB account](https://github.com/join). You'll need to be added as an external collaborator to the private hakaisalmon package repository once you have a GitHUB account. Contact the package maintainer to request this.
 
-Once you have access to the repository, go to https://github.com/settings/tokens. Check the `repo` box scroll down and hit generate token.
+Once you have access to the repository, go to https://github.com/settings/tokens. Check the `repo` box, and scroll down and hit generate token.
 
 Copy the token.
 
 In the R-Studio console run the following two lines of code:
 
 `install.packages("devtools")`
+
 `devtools::install_github("HakaiInstitute/hakaisalmon", auth_token = "PASTE YOUR TOKEN HERE")`
 
 ## Usage
@@ -37,11 +38,13 @@ Some of the more common joins of data tables have already be completed for conve
 
 A typical analysis using data that is loaded into memory from the `hakaisalmon` package might start like this:
 
-```{r setup, message = FALSE}
+```{r setup, incLude = FALSE, results = 'hide', message= FALSE, warning = FALSE}
 library(hakaisalmon)
 library(tidyverse)
+```
 
-sockeye_2017_lengths <- survey_seines_fish %>% # survey_seines_fish is already laaded into memory :)
+```{r, message = FALSE, warning = FALSE, error = FALSE}
+sockeye_2017_lengths <- survey_seines_fish %>% # survey_seines_fish is already loaded into memory :)
   filter(lubridate::year(survey_date) == 2017, species == "SO") %>% 
   select(survey_date, species, fork_length) %>% 
   drop_na("fork_length")
@@ -53,7 +56,7 @@ print(sockeye_2017_lengths)
 
 Please cite the Hakai Institute GeoNetwork metadata catalogue entry.
 
-Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version 0.1.1
+Hunt, B.P.V., B.T. Johnson, J.C.L. Gan, C.V. Janusson. 2018. The Hakai Institute Juvenile Salmon Program. http://dx.doi.org/10.21966/1.566666. Version X.X.X
 
 
 

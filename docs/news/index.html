@@ -69,7 +69,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -124,12 +124,60 @@
       <small>Source: <a href='https://github.com/HakaiInstitute/hakaisalmon/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
-    <div id="hakaisalmon-0-1-1" class="section level2">
+    <div id="hakaisalmon-0-2-0" class="section level2">
 <h2 class="hasAnchor">
-<a href="#hakaisalmon-0-1-1" class="anchor"></a>hakaisalmon 0.1.1</h2>
+<a href="#hakaisalmon-0-2-0" class="anchor"></a>hakaisalmon 0.2.0</h2>
 <div id="data-updates" class="section level3">
 <h3 class="hasAnchor">
 <a href="#data-updates" class="anchor"></a>Data updates</h3>
+<ul>
+<li>Included 2017 fish dissections and 2018 field collection data</li>
+<li>Sean Godwin and Lauren Portner contributed sea lice taxonomy data that includes very detailed species, life stages, and sex data. This new table is called <code>sealice_lab_finescale</code>.</li>
+</ul>
+</div>
+<div id="structural-updates" class="section level3">
+<h3 class="hasAnchor">
+<a href="#structural-updates" class="anchor"></a>Structural updates</h3>
+<ul>
+<li>A number of updates were made to sea licing protocol categories, with the addition of <em>lab_finescale</em> and others.</li>
+<li>In <code>zoop_tows</code>, the <em>volume</em> column was renamed to <em>corrected_volume</em> to reflect that the volume has been corrected for flowmeter calibrations.</li>
+<li>Most of the inventory information was removed from this package because it becomes out of date so fast. The only remainining inventory information is the <code>sample_container_inventory</code>.</li>
+<li>
+<em>seine_id</em> format was changed to be more consistent. Therefore, a small number of seine_ids have changed.</li>
+</ul>
+</div>
+<div id="functions" class="section level3">
+<h3 class="hasAnchor">
+<a href="#functions" class="anchor"></a>Functions</h3>
+<ul>
+<li>A new function <em>lump_fraser_sockeye_stocks</em> was added, which lumps together the sockeye stock ID categories that the Molecular Genetics Lab at the Pacific Biological Station in Nanaimo uses. The stocks are lumped based on regions in the Fraser River Watershed, and are the categories often used by Chrys Neville to summarize juvenile salmon cohorts.</li>
+</ul>
+</div>
+</div>
+    <div id="hakaisalmon-0-1-2" class="section level2">
+<h2 class="hasAnchor">
+<a href="#hakaisalmon-0-1-2" class="anchor"></a>hakaisalmon 0.1.2</h2>
+<div id="data-updates-1" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-updates-1" class="anchor"></a>Data updates</h3>
+<ul>
+<li>In <code>fish_field_data</code>, updated <em>analysis_planned</em> for fish in packages JP49 and JP50 to ‘field loused only’ due to fish no longer being available for SEMSP laboratory dissections.</li>
+</ul>
+</div>
+<div id="funtions" class="section level3">
+<h3 class="hasAnchor">
+<a href="#funtions" class="anchor"></a>Funtions</h3>
+<ul>
+<li>Created the function <code>log_cumul_abund</code> for the purposes of measuring migration timing. <code>log_cumul_abund</code> takes the cumulative proportion of catch data for each year (make this yourself first) and fits a logistic growth curve to these data and creates predicted values for each day.</li>
+</ul>
+</div>
+</div>
+    <div id="hakaisalmon-0-1-1" class="section level2">
+<h2 class="hasAnchor">
+<a href="#hakaisalmon-0-1-1" class="anchor"></a>hakaisalmon 0.1.1</h2>
+<div id="data-updates-2" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-updates-2" class="anchor"></a>Data updates</h3>
 <ul>
 <li>Added new table <code>survey_activity</code> that quantifies visual observations of fish-related surface activity for 2017 surveys.</li>
 <li>Updated <em>dissection_protocol</em> in <code>fish_lab_data</code> from ‘lice enumeration only’ to ‘irregular work-up’ for U2256-U2260</li>
@@ -139,7 +187,7 @@
 <li>Updated <em>dissection_status</em> of 2015 &amp; 2016-caught sockeye to be current as of 2017-12-08 (completed dissections of of the core site subsamples for 2015/16) in <code>fish_field_data</code>
 </li>
 <li>Added to <code>package_data</code>: packages of undissected 2015 non-core PI, CU, CO, and HE that were inventoried in -80 Freezer 1, shelf 2, on 2018-02-05/06</li>
-<li>Changed 2-character UFNs to have leading “0” before the number, e.g. “U1” -&gt; “U01” in in <code>fish_field_data</code>, <code>fish_lab_data</code>, <code>stock_id</code>, and <code>sealice_lab_motiles</code> (and in sample ID inventory)</li>
+<li>Changed 2-character UFNs to have leading ‘0’ before the number, e.g. ‘U1’ -&gt; ‘U01’ in in <code>fish_field_data</code>, <code>fish_lab_data</code>, <code>stock_id</code>, and <code>sealice_lab_motiles</code> (and in sample ID inventory)</li>
 <li>Updated rows in <code>stock_id</code> with proper <em>sample_id</em> and <em>UFN</em> associations (no change to results)</li>
 <li>Updated <code>sealice_lab_motiles</code> with counts for UFNs processed by Lauren Portner in winter 2018</li>
 <li>Assigned missing <em>ctd_cast_id</em> to surveys DE340, DE341, and DE329 in <code>survey_data</code>
@@ -166,6 +214,8 @@
     <div id="tocnav">
       <h2>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
+        <li><a href="#hakaisalmon-0-2-0">0.2.0</a></li>
+        <li><a href="#hakaisalmon-0-1-2">0.1.2</a></li>
         <li><a href="#hakaisalmon-0-1-1">0.1.1</a></li>
         <li><a href="#hakaisalmon-0-1-0">0.1.0</a></li>
       </ul>
@@ -176,7 +226,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -135,34 +135,40 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 594 rows and 24 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 582 rows and 27 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
- <dt>seine_id</dt><dd><p>Unique ID assigned to each seine conducted</p></dd>
- <dt>survey_id</dt><dd><p>A unique survey ID assigned to every survey. A survey ID may be associated with multiple seines.</p></dd>
- <dt>set_number</dt><dd><p>The order in which the seine was deployed in a survey. "NA" if no sets were performed</p></dd>
- <dt>set_type</dt><dd><p>whether the set was conducted upon an observed school of fish or in a random area where surface activity wasn't targetted. "NA" means we conducted a visual survey for surface activity but did not detect any fish.</p></dd>
- <dt>time_searching</dt><dd><p>Only recorded in 2015/2016: length of time visually searching for fish before setting the net.</p></dd>
- <dt>set_time</dt><dd><p>Bunt time, i.e., when the trailing sternward end of the seine is tied onto the boat and a school of fish has been concentrated within the seine</p></dd>
- <dt>lat</dt><dd><p>Location of fish capture</p></dd>
- <dt>long</dt><dd><p>Location of fish capture</p></dd>
+ <dt>seine_id</dt><dd><p>A unique ID assigned to each seine conducted within a survey. <strong>Primary key to</strong>: <code><a href='fish_field_data.html'>fish_field_data</a></code>, <code><a href='bycatch_mort.html'>bycatch_mort</a></code>.</p></dd>
+ <dt>survey_id</dt><dd><p>A unique alphanumeric code assigned to every survey. A survey ID may be associated with multiple seines. <strong>Foreign key</strong> to <code><a href='survey_data.html'>survey_data</a></code>.</p></dd>
+ <dt>set_number</dt><dd><p>The order in which the seine(s) was/were deployed in a survey</p></dd>
+ <dt>set_type</dt><dd><p>Denotes whether the set was conducted upon an observed school of fish or in a random area where surface activity wasn't targetted. <samp>NA</samp> means we conducted a visual survey for surface activity but did not set upon any fish.</p></dd>
+ <dt>time_searching</dt><dd><p>Length of time visually searching for fish before setting the net (only recorded in 2015/2016). <strong>Units:</strong> minutes</p></dd>
+ <dt>set_time</dt><dd><p>Bunt time, i.e., when the trailing sternward end of the seine is tied onto the boat and a school of fish has been concentrated within the seine. <strong>Format:</strong> hh:mm:ss</p></dd>
+ <dt>lat</dt><dd><p>Location of fish capture. <strong>Format:</strong> decimal degrees</p></dd>
+ <dt>long</dt><dd><p>Location of fish capture. <strong>Format:</strong> decimal degrees</p></dd>
  <dt>so_taken</dt><dd><p>Number of sockeye salmon retained in a seine.</p></dd>
  <dt>so_total</dt><dd><p>Total number of sockeye caught in a seine.</p></dd>
  <dt>pi_taken</dt><dd><p>Number of pink salmon retained in a seine.</p></dd>
- <dt>pi_total</dt><dd><p>Total number of pink salmon caught in a seine. "NA" = individuals of this species were not enumerated</p></dd>
+ <dt>pi_total</dt><dd><p>Total number of pink salmon caught in a seine. <samp>NA</samp> = individuals of this species were not enumerated</p></dd>
  <dt>cu_taken</dt><dd><p>Number of chum salmon retained in a seine.</p></dd>
- <dt>cu_total</dt><dd><p>Total number of chum salmon caught in a seine. "NA" = individuals of this species were not enumerated</p></dd>
+ <dt>cu_total</dt><dd><p>Total number of chum salmon caught in a seine. <samp>NA</samp> = individuals of this species were not enumerated</p></dd>
  <dt>co_taken</dt><dd><p>Number of coho salmon retained in a seine.</p></dd>
- <dt>co_total</dt><dd><p>Total number of coho salmon caught in a seine. "NA" = individuals of this species were not enumerated</p></dd>
+ <dt>co_total</dt><dd><p>Total number of coho salmon caught in a seine. <samp>NA</samp> = individuals of this species were not enumerated</p></dd>
  <dt>he_taken</dt><dd><p>Number of herring retained in a seine.</p></dd>
- <dt>he_total</dt><dd><p>Total number of herring caught in a seine. "NA" = individuals of this species were not enumerated</p></dd>
+ <dt>he_total</dt><dd><p>Total number of herring caught in a seine. <samp>NA</samp> = individuals of this species were not enumerated</p></dd>
  <dt>ck_taken</dt><dd><p>Number of chinook salmon  retained in a seine.</p></dd>
- <dt>ck_total</dt><dd><p>Total number of chinook salmon  caught in a seine. "NA" = individuals of this species were not enumerated</p></dd>
- <dt>preservation_status</dt><dd><p>"0" = one or more samples from this seine were improperly preserved in the dewar (dewar likely thawed, warming up the samples and degrading their quality). "1" = all samples were properly preserved.</p></dd>
- <dt>fish_retained</dt><dd><p>"Yes" = at least 1 fish had been retained from the seine. "No" = no fish retained (seine either failed to capture fish, or no fish were taken from a seine)</p></dd>
- <dt>collection_protocol</dt><dd><p>"SEMSP" refers to standard Hakai field protocol. "DFO" refers to collection aboard the Nordic Queen purse seiner. "SJUBC" refers to Sam James UBC for diel feeding study fish collection. "GM" refers to Gideon Mordecai for fish that were targeted for collection because they appeared sick.</p></dd>
+ <dt>ck_total</dt><dd><p>Total number of chinook salmon  caught in a seine. <samp>NA</samp> = individuals of this species were not enumerated</p></dd>
+ <dt>preservation_status</dt><dd><p><samp>0</samp> = one or more samples from this seine were improperly preserved in the dewar (dewar likely thawed, warming up the samples and degrading their quality). <samp>1</samp> = all samples were properly preserved.</p></dd>
+ <dt>fish_retained</dt><dd><p><samp>yes</samp> = at least 1 fish had been retained from the seine. <samp>no</samp> = no fish retained (seine either failed to capture fish, or no fish were taken from a seine)</p></dd>
+ <dt>collection_protocol</dt><dd><p>The decision-making guidelines that dictate how fish were sampled in the field. <strong>Categories:</strong>
+  <ul>
+<li><p><samp>SEMSP</samp> = standard Hakai field protocol.
+   <samp>DFO</samp> = collection aboard the Nordic Queen purse seiner.
+   <samp>SJUBC</samp> = Sam James UBC for diel feeding study fish collection.
+   <samp>GM</samp> = Gideon Mordecai for fish that were targeted for collection because they appeared sick.</p></li>
+</ul></p></dd>
  <dt>seine_comments</dt><dd><p>Comments related to the seine</p></dd>
     </dl>
     
@@ -182,7 +188,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

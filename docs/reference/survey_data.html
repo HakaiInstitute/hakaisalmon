@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -135,34 +135,41 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 542 rows and 22 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 616 rows and 23 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
-  <dt>ufn</dt><dd><p>Universal Fish Number. For 2015 and 2016 fish, assigned to each specimen in the order they were processed in the lab. For 2017 fish, ufn was assigned in the order they were processed in the field.</p></dd>
-  <dt>survey_id</dt><dd><p>Primary key to: seine_data, ysi, ctd, zoop_tows. A unique survey ID assigned to every survey</p></dd>
-  <dt>survey_date</dt><dd><p>yyy-mm-dd. Date upon which a survey was conducted</p></dd>
-  <dt>site_id</dt><dd><p>unique identifier given for the geographic location of a survey</p></dd>
-  <dt>region</dt><dd><p>DI = Discovery Islands, JS = Johnstone Strait</p></dd>
-  <dt>zone</dt><dd><p>Ctegorization of the generalized migration route taken by outmigrating juvenile salmon (West, Central, or East for Discovery Islands; N or S for Johnstone Strait).</p></dd>
+  <dt>survey_id</dt><dd><p>A unique alphanumeric code assigned to every survey. <strong>Primary key to</strong>: <code><a href='seine_data.html'>seine_data</a></code>, <code><a href='site_activity.html'>site_activity</a></code>, <code><a href='ysi.html'>ysi</a></code>, <code>ctd_casts</code>, and <code><a href='zoop_tows.html'>zoop_tows</a></code>.</p></dd>
+  <dt>survey_date</dt><dd><p>Date upon which a survey was conducted. <strong>Format</strong>: <samp>yyyy-mm-dd</samp></p></dd>
+  <dt>site_id</dt><dd><p>A unique identifier given for the geographic location of a survey</p></dd>
+  <dt>region</dt><dd><p>General geographic zone of a site. <samp>DI</samp> = Discovery Islands, <samp>JS</samp> = Johnstone Strait</p></dd>
+  <dt>zone</dt><dd><p>Categorization of the generalized migration route taken by outmigrating juvenile salmon (<samp>West</samp>, <samp>Central</samp>, or <samp>East</samp> for Discovery Islands; <samp>N</samp> or <samp>S</samp> for Johnstone Strait).</p></dd>
   <dt>site_name</dt><dd><p>Chart name for the location of a survey site</p></dd>
   <dt>crew</dt><dd><p>Full names of crew members</p></dd>
-  <dt>precip</dt><dd><p>Precipitation. none, light, moderate, or heavy. Subjective categorical representation of the amount of precipitation</p></dd>
-  <dt>cloud_cover</dt><dd><p>0, 25, 50, 75, or 100	Visual approximation of the amount of cloud cover overhead</p></dd>
-  <dt>sea_state</dt><dd><p>0, 1, 2, 3, 4, or 5. 0 = Sea-surface smooth and mirror like. 1 = Scaly ripples, no foam crests. 2 = Small wavelets, crests glassy, no breaking. 3 = Large wavelets, crests begin to break, scattered whitecaps. 4 = small waves 1–4 ft. becoming longer, numerous whiteaps. 5 = Moderate waves 4–8 ft. taking longer form, many whitecaps, some spray.</p></dd>
-  <dt>wind_speed</dt><dd><p>knots. 0, 0.1-5, 5-10, 10-15, 15-20, or 20-30. Estimated wind speed range observed on site</p></dd>
-  <dt>wind_direction</dt><dd><p>N, S, E, W, NE, NW, SE, or SW. Approximation of which way the wind is coming from</p></dd>
-  <dt>tide_state</dt><dd><p>high slack, low slack, flood, or ebb tide. Tidal state at the start of the survey</p></dd>
-  <dt>survey_time_start</dt><dd><p>hh:mm:ss 24-hour time of commencing visual survey for site activity</p></dd>
-  <dt>survey_time_end</dt><dd><p>hh:mm:ss 24-hour time of end of visual survey for site activity</p></dd>
-  <dt>ctd_cast_id</dt><dd><p>This is the primary key to join survey data to CTD data. It is an automatically-generated concatenation of Site Code, Date, and drop number</p></dd>
-  <dt>zoop_sample_id</dt><dd><p>Zooplankton Sample ID. The unique ID that identifies a zooplankton sample that is stored in a 250 mL PET jar</p></dd>
-  <dt>secchi</dt><dd><p>Metres. Secchi depth reading in metres (rounded to nearest 0.1 m)</p></dd>
-  <dt>net_sets</dt><dd><p>number of times the seine was deployed in a survey</p></dd>
-  <dt>set_type</dt><dd><p>This is a category for how or who the survey was conducted. Standard surveys can be used for the purpose of CPUE calculations, other categories should not be</p></dd>
-  <dt>survey_comments</dt><dd><p>field notes specific to survey conditions</p></dd>
-  <dt>sampling_week</dt><dd><p>A calculated value. Julian day (j) + 4 days for historical categorization purposes, integer divide by 7. (j + 4 / 7)</p></dd>
+  <dt>precip</dt><dd><p>Subjective categorical representation of the amount of precipitation. <strong>Categories</strong>: <samp>none, light, moderate, heavy</samp></p></dd>
+  <dt>cloud_cover</dt><dd><p>Visual approximation of the <em>percent</em> of cloud cover overhead. <strong>Categories</strong>: <samp>0, 25, 50, 75, 100</samp></p></dd>
+  <dt>sea_state</dt><dd><p><strong>Categories</strong> describing surface conditions:
+   <ul>
+<li><p><samp>0</samp> = Sea-surface smooth and mirror like.</p></li>
+<li><p><samp>1</samp> = Scaly ripples, no foam crests.</p></li>
+<li><p><samp>2</samp> = Small wavelets, crests glassy, no breaking.</p></li>
+<li><p><samp>3</samp> = Large wavelets, crests begin to break, scattered whitecaps.</p></li>
+<li><p><samp>4</samp> = small waves 1–4 ft. becoming longer, numerous whiteaps.</p></li>
+<li><p><samp>5</samp> = Moderate waves 4–8 ft. taking longer form, many whitecaps, some spray.</p></li>
+</ul></p></dd>
+  <dt>wind_speed</dt><dd><p>Estimated wind speed range observed on site. <strong>Units</strong>: knots. <strong>Categories</strong>: <samp>0, 0.1-5, 5-10, 10-15, 15-20, 20-30.</samp></p></dd>
+  <dt>wind_direction</dt><dd><p>Approximation of which way the wind is coming from. <strong>Categories</strong>: <samp>N, S, E, W, NE, NW, SE, SW.</samp></p></dd>
+  <dt>tide_state</dt><dd><p>Tidal state at the start of the survey. <strong>Categories</strong>: <samp>high slack, low slack, flood, ebb tide.</samp></p></dd>
+  <dt>survey_time_start</dt><dd><p>24-hour time of commencing visual survey for site activity. <strong>Format</strong>: <samp>hh:mm:ss</samp></p></dd>
+  <dt>survey_time_end</dt><dd><p>24-hour time of end of visual survey for site activity. <strong>Format</strong>: <samp>hh:mm:ss</samp></p></dd>
+  <dt>ctd_cast_id</dt><dd><p>An automatically-generated concatenation of <code>site_id</code>, <code>survey_date</code>, and drop number. <strong>Primary key</strong> to join <code>survey_data</code> to CTD data.</p></dd>
+  <dt>zoop_sample_id</dt><dd><p>The unique code that identifies a zooplankton sample that is stored in a 250 mL PET jar. <strong>Primary key</strong> to join <code>survey_data</code> to <code><a href='zoop_tows.html'>zoop_tows</a></code>.</p></dd>
+  <dt>secchi</dt><dd><p>Secchi depth reading. <strong>Units</strong>: metres (rounded to nearest 0.1 m)</p></dd>
+  <dt>net_sets</dt><dd><p>The number of times the seine was deployed in a survey</p></dd>
+  <dt>set_type</dt><dd><p>How (or for whom) the survey was conducted. <samp>Standard</samp> surveys can be used for the purpose of CPUE calculations; other categories (<samp>non-standard</samp> or <samp>DFO</samp> should be excluded.</p></dd>
+  <dt>survey_comments</dt><dd><p>Field notes specific to survey conditions</p></dd>
+  <dt>sampling_week</dt><dd><p>A calculated value. Julian day (j) + 4 days for historical categorization purposes, integer divide by 7. \(j + 4 / 7\)</p></dd>
     </dl>
     
 
@@ -181,7 +188,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">

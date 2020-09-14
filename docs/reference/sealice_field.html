@@ -71,7 +71,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">hakaisalmon</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.1.1</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released package">0.2.0</span>
       </span>
     </div>
 
@@ -135,35 +135,39 @@
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 468 rows and 24 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1372 rows and 29 columns.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <dl class='dl-horizontal'>
-<dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish.</p></dd>
-<dt>cal_cope_field</dt><dd><p>Field enumeration of <em>C. clemensi</em> (Cal.) sea lice, copepodid life stage</p></dd>
-<dt>lep_cope_field</dt><dd><p>Field enumeration of <em>L. salmonis</em> (Lep.) sea lice, copepodid life stage</p></dd>
-<dt>chal_a_field</dt><dd><p>Field enumeration of combined Cal. and Lep. sea lice, chalimus A life stage</p></dd>
-<dt>chal_b_field</dt><dd><p>Field enumeration of combined Cal. and Lep. sea lice, chalimus B life stage</p></dd>
-<dt>cal_mot_field</dt><dd><p>Field enumeration of motile Cal. sea lice, combined pre-adult and adult life stages and both sexes (non-gravid females only)</p></dd>
-<dt>cgf_field</dt><dd><p>Field enumeration of gravid Cal. sea lice</p></dd>
-<dt>lpam_field</dt><dd><p>Field enumeration of Lep. sea lice, pre-adult males</p></dd>
-<dt>lpaf_field</dt><dd><p>Field enumeration of Lep. sea lice, pre-adult females</p></dd>
-<dt>lam_field</dt><dd><p>Field enumeration of Lep. sea lice, adult males</p></dd>
-<dt>laf_field</dt><dd><p>Field enumeration of Lep. sea lice, adult females (non-gravid)</p></dd>
-<dt>lgf_field</dt><dd><p>Field enumeration of gravid Lep. female sea lice</p></dd>
-<dt>unid_cope_field</dt><dd><p>Field enumeration of unidentifiable Cal. or Lep. sea lice, copepodid life stage</p></dd>
-<dt>unid_chal_field</dt><dd><p>Field enumeration of unidentifiable Cal. or Lep. sea lice, chalimus A and B life stages</p></dd>
-<dt>chal_scar</dt><dd><p>Number of sea louse chalimus scars on fish body</p></dd>
-<dt>mot_scar</dt><dd><p>Number of motile sea louse scars on fish body</p></dd>
-<dt>pred_scar</dt><dd><p>Number of predator scars on fish body</p></dd>
-<dt>hemorrhaging</dt><dd><p>Number of hemorrhaging areas on fish body</p></dd>
-<dt>eroded_gill_plate</dt><dd><p>Number of eroded gill plates</p></dd>
-<dt>grazed_gill_plate</dt><dd><p>Number of grazed gill plates</p></dd>
-<dt>mate_guarding</dt><dd><p>Number of sea lice exhibiting mate guarding activity</p></dd>
-<dt>pinched_belly</dt><dd><p>Number of occurences of a pinched belly on a fish</p></dd>
-<dt>comments_fish_health_field</dt><dd><p>Description of locations of observed body abnormalities and deformities</p></dd>
-<dt>licing_protocol_field</dt><dd><p>The protocol that was followed for identifying sea lice in the field.</p></dd>
+ <dt>ufn</dt><dd><p>The alphanumeric string that uniquely identifies a fish. <strong>Foreign key to</strong>: <code><a href='fish_field_data.html'>fish_field_data</a></code>.</p></dd>
+ <dt>cal_cope_field</dt><dd><p>Field enumeration of <em>C. clemensi</em> (Cal.) sea lice, copepodid life stage</p></dd>
+ <dt>lep_cope_field</dt><dd><p>Field enumeration of <em>L. salmonis</em> (Lep.) sea lice, copepodid life stage</p></dd>
+ <dt>chal_a_field</dt><dd><p>Field enumeration of combined Cal. and Lep. sea lice, chalimus A life stage</p></dd>
+ <dt>chal_b_field</dt><dd><p>Field enumeration of combined Cal. and Lep. sea lice, chalimus B life stage</p></dd>
+ <dt>cal_mot_field</dt><dd><p>Field enumeration of motile Cal. sea lice, combined pre-adult and adult life stages and both sexes (non-gravid females only)</p></dd>
+ <dt>cgf_field</dt><dd><p>Field enumeration of gravid Cal. sea lice</p></dd>
+ <dt>lpam_field</dt><dd><p>Field enumeration of Lep. sea lice, pre-adult males</p></dd>
+ <dt>lpaf_field</dt><dd><p>Field enumeration of Lep. sea lice, pre-adult females</p></dd>
+ <dt>lam_field</dt><dd><p>Field enumeration of Lep. sea lice, adult males</p></dd>
+ <dt>laf_field</dt><dd><p>Field enumeration of Lep. sea lice, adult females (non-gravid)</p></dd>
+ <dt>lgf_field</dt><dd><p>Field enumeration of gravid Lep. female sea lice</p></dd>
+ <dt>unid_cope_field</dt><dd><p>Field enumeration of unidentifiable Cal. or Lep. sea lice, copepodid life stage</p></dd>
+ <dt>unid_chal_field</dt><dd><p>Field enumeration of unidentifiable Cal. or Lep. sea lice, chalimus A and B life stages</p></dd>
+ <dt>chal_scar</dt><dd><p>Number of sea louse chalimus scars on the fish's body</p></dd>
+ <dt>mot_scar</dt><dd><p>Number of motile sea louse scars on the fish's body</p></dd>
+ <dt>pred_scar</dt><dd><p>Number of predator scars on the fish's body</p></dd>
+ <dt>hemorrhaging</dt><dd><p>Number of hemorrhaging areas on the fish's body</p></dd>
+ <dt>eroded_gill_plate</dt><dd><p>Number of eroded gill plates</p></dd>
+ <dt>grazed_gill_plate</dt><dd><p>Number of grazed gill plates</p></dd>
+ <dt>mate_guarding</dt><dd><p>Number of sea lice exhibiting mate guarding activity</p></dd>
+ <dt>pinched_belly</dt><dd><p>Number of occurences of a pinched belly on the fish</p></dd>
+ <dt>comments_fish_health_field</dt><dd><p>Description of locations of observed body abnormalities and deformities</p></dd>
+ <dt>licing_protocol_field</dt><dd><p>The protocol that was followed for identifying sea lice in the field. <strong>Categories:</strong>
+  <ul>
+<li><p><samp>salmoncoast_allstages</samp> = fine-scale identification of all sea lice and life stages</p></li>
+<li><p><samp>salmoncoast_motiles</samp> = identification of only motile stages of sea lice</p></li>
+</ul></p></dd>
     </dl>
     
 
@@ -182,7 +186,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://www.brettjohnson.org'>Brett Johnson</a>.</p>
+  <p>Developed by Brett Johnson.</p>
 </div>
 
 <div class="pkgdown">
